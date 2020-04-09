@@ -2,9 +2,9 @@
 This repository is for the Environmental Data Analytics final project in data visualization and analysis at Duke University in Spring 2020.
 
 ## Summary
-This project is to analyze the migration patterns of coal counties in central Appalachia from the years 2000 to 2017. The main question I seek to address is "where have all the miners gone?" 
+This project is to analyze the migration patterns of residents of coal counties in central Appalachia from the years 2000 to 2017. Two "coal counties"" serve as a case study for migration in central Appalachia: Harlan County, Kentucky and Dickenson County, Virginia. Harlan County serves as a "Boom Bust" county, meaning the county experienced a coal boom in 2000 and a coal bust in 2010. Dickenson, on the other hand, is a "Bust Bust" county, where the county experience a coal bust in 2000 and did not recover by 2010. 
 
-I am using two counties as case studies for mine closure, Harlan County, Kentucky and Dickenson County, Virginia.
+An important portion of understanding migration in Appalachia is investigating the mine closures within the coal counties. As such, this project creates and analyzes a visualization of mine closures in Harlan and Dickenson counties between the years 2000 and 2011. The data analysis of the number of mine closures as well as the location of the closures could be indicative of migration within the central Appalachian region.
 
 <describe the purpose of this repository, the information it contains, and any relevant analysis goals. What, why, where, when, how?>
 
@@ -13,11 +13,11 @@ Hannah Smith
 Duke University 
 Nicholas School of the Environment
 hannah.g.smith@duke.edu
-Student
+Master's Student
 
 ## Keywords
 
-<add relevant keywords here>
+coal mining, Appalachia, mine closures
 
 ## Database Information
 
