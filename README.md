@@ -81,10 +81,15 @@ Files are named according to the following naming convention: `databasename_data
 ## Scripts and code
 
 library(tidyverse)
+
 library(viridis)
+
 library(rvest)
+
 library(ggrepel)
+
 library(shiny)
+
 library(shinythemes)
 
 ## Quality assurance/quality control
