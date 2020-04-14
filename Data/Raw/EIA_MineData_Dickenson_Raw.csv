@@ -1,0 +1,195 @@
+﻿year,mine.name,mine.state,countystr,mine.basin,mine.status,mine.type,company.type,operation.type,operating.company,operating.company.address,union.code,production.stons,average.employees,labor.hours,ARC
+2011,No 9,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Mine only,Bristol Coal Corp,"P.O. Box 1426, Grundy, VA 24614",,"46,022",16,"33,424",1
+2011,Lmm,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Mine only,Estep Coal Co Inc,"P.O. Box 1025, Grundy, VA 24614",,"62,373",17,"49,365",1
+2011,No 8,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Mine only,Capital Coal Corporation,"P.O. Box 1426, Grundy, VA 24614",,"39,055",13,"27,400",1
+2011,No 10,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Mine only,Four O Mining Corporation,"P.O. Box 148, Vansant, VA 24656",,"50,962",14,"26,811",1
+2011,Deep Mine 41,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Mine only,Paramont Coal Company Virginia,"5703 Crutchfield Drive, Norton, VA 24273",,"261,189",94,"209,456",1
+2011,Deep Mine 37,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Mine only,Paramont Coal Company Virginia,"5703 Crutchfield Drive, Norton, VA 24273",,"63,793",48,"94,753",1
+2011,Mc Clure River  Plant,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Preparation Plant,"DickensonRussell Coal Co., Ll","5703 Crutchfield Dr, Norton, VA 24273",United Mine Workers of America,0,37,"79,314",1
+2011,Cherokee Mine,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,DickensonRussell Coal Co Llc,"5703 Crutchfield Dr, Norton, VA 24273",United Mine Workers of America,"244,378",101,"202,051",1
+2011,Roaring Fork No 4,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,DickensonRussell Coal Co Llc,"7546 Gravel Lick Road, Cleveland, VA 24225",,"170,641",36,"80,526",1
+2011,Wakenva Prep Plant,Virginia,Dickenson,Appalachia Central,"Active, men working, not producing",Underground,Indepedent Producer Operator,Preparation Plant,"Coal Technology International,","P.O. Box 191, Abingdon, VA 24212",,0,7,"16,826",1
+2011,Nora Preparation Plant,Virginia,Dickenson,Appalachia Central,"Active, men working, not producing",Underground,Operating Subsidiary,Preparation Plant,"Wellmore Coal Company, Llc","P.O. Box 458, Big Rock, VA 24603",,0,4,"4,721",1
+2010,No 9,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Mine only,Bristol Coal Corp,"P.O. Box 1426, Grundy, VA 24614",,"60,320",16,"33,101",1
+2010,Lmm,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Mine only,Estep Coal Co Inc,"P.O. Box 1025, Grundy, VA 24614",,"74,542",17,"44,573",1
+2010,No 8,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Mine only,Capital Coal Corporation,"P.O. Box 1426, Grundy, VA 24614",,"30,305",11,"18,865",1
+2010,No 10,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Mine only,Four O Mining Corporation,"P.O. Box 148, Vansant, VA 24656",,"21,482",9,"11,501",1
+2010,Mc Clure River  Plant,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Preparation Plant,"DickensonRussell Coal Co., Ll","5703 Crutchfield Dr, Norton, VA 24273",United Mine Workers of America,0,41,"77,130",1
+2010,Cherokee Mine,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,DickensonRussell Coal Co Llc,"5703 Crutchfield Dr, Norton, VA 24273",United Mine Workers of America,"250,020",96,"191,543",1
+2010,Roaring Fork No 4,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,DickensonRussell Coal Co Llc,"7546 Gravel Lick Road, Cleveland, VA 24225",,"193,453",44,"86,264",1
+2010,Deep Mine 41,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,Paramont Coal Company Virginia,"5703 Crutchfield Drive, Norton, VA 24273",,"41,906",32,"78,049",1
+2010,Deep Mine 37,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,Paramont Coal Company Virginia,"5703 Crutchfield Drive, Norton, VA 24273",,"128,209",55,"120,026",1
+2010,Nora Preparation Plant,Virginia,Dickenson,Appalachia Central,"Active, men working, not producing",Underground,Operating Subsidiary,Preparation Plant,"Wellmore Coal Company, Llc","P.O. Box 458, Big Rock, VA 24603",,0,4,"7,208",1
+2010,#2,Virginia,Dickenson,Appalachia Central,Permanently abandoned,Underground,Indepedent Producer Operator,Mine only,Calvary Coal Corp,"P.O. Box 249, Stanville, KY 41659",,"16,410",14,"13,801",1
+2010,Dismal Fk. Upper Banner Mine,Virginia,Dickenson,Appalachia Central,Permanently abandoned,Underground,Indepedent Producer Operator,Mine only,The Banner Company,"P.O. Box 453, Vansant, VA 24656",,"2,927",10,"1,689",1
+2009,#2,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Mine only,Calvary Coal Corp,"P.O. Box 249, Stanville, KY 41659",,"12,291",13,"14,522",1
+2009,No 9,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Mine only,Bristol Coal Corp,"P.O. Box 1426, Grundy, VA 24614",,"77,290",19,"38,467",1
+2009,Lmm,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Mine only,Estep Coal Co Inc,"P.O. Box 1025, Grundy, VA 24614",,"72,556",16,"43,881",1
+2009,No 8,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Mine only,Capital Coal Corporation,"P.O. Box 1426, Grundy, VA 24614",,"32,389",8,"16,815",1
+2009,Mc Clure River  Plant,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Preparation Plant,"DickensonRussell Coal Co., Ll","5703 Crutchfield Dr, Norton, VA 24273",United Mine Workers of America,0,40,"69,105",1
+2009,Cherokee Mine,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,DickensonRussell Coal Co Llc,"5703 Crutchfield Dr, Norton, VA 24273",United Mine Workers of America,"302,897",100,"189,972",1
+2009,Roaring Fork No 4,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,DickensonRussell Coal Co Llc,"7546 Gravel Lick Road, Cleveland, VA 24225",,"362,092",65,"129,330",1
+2009,Deep Mine 37,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,Paramont Coal Company Virginia,"5703 Crutchfield Drive, Norton, VA 24273",,"54,160",23,"45,969",1
+2009,West Dante,Virginia,Dickenson,Appalachia Central,"Active, men working, not producing",Underground,Contractor,Mine only,The Banner Company,"P.O. Box 458, Big Rock, VA 24603",,"69,843",14,"29,401",1
+2009,No 11,Virginia,Dickenson,Appalachia Central,"Active, men working, not producing",Underground,Indepedent Producer Operator,Mine only,Apple Jacks Coal Company Inc,"P.O. Box 453, Vansant, VA 24656",,"21,181",14,"7,508",1
+2009,Nora Preparation Plant,Virginia,Dickenson,Appalachia Central,"Active, men working, not producing",Underground,Operating Subsidiary,Preparation Plant,"Wellmore Coal Company, Llc","P.O. Box 458, Big Rock, VA 24603",,0,9,"20,398",1
+2009,No 2,Virginia,Dickenson,Appalachia Central,Permanently abandoned,Underground,Operating Subsidiary,Mine only,Black Dog Coal Corporation,"5703 Crutchfield Dr, Norton, VA 24273",,"162,357",40,"85,174",1
+2008,Mine No. 9,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,C. S. & S. Coal Corporation,"P.O. Box 1247, Wise, VA 24293",,"119,416",18,"40,075",1
+2008,Mine #1,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Mine only,New Birth Mining Llc,"P.O. Box 3655, Pikeville, KY 41502",,"6,126",14,"7,134",1
+2008,No 11,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Mine only,Apple Jacks Coal Company Inc,"P.O. Box 584, N. Tazewell, VA 24630",,"16,751",7,"7,277",1
+2008,No. 9,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Mine only,Bristol Coal Corp.,"P.O. Box 1426, Grundy, VA 24614",,"98,799",21,"44,221",1
+2008,Lmm,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Mine only,Estep Coal Co Inc,"P.O. Box 1025, Grundy, VA 24614",,"84,170",16,"45,233",1
+2008,No 8,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Mine only,Capital Coal Corporation,"P.O. Box 1426, Grundy, VA 24614",,"2,636",6,"2,099",1
+2008,No 2,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,Black Dog Coal Corporation,"5703 Crutchfield Dr, Norton, VA 24273",,"196,311",55,"117,486",1
+2008,Mc Clure River  Plant,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Preparation Plant,"DickensonRussell Coal Co., Ll","5703 Crutchfield Dr, Norton, VA 24273",United Mine Workers of America,0,39,"79,091",1
+2008,Nora Preparation Plant,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Preparation Plant,"Wellmore Coal Company, Llc","1229 Homecreek Rd., Big Rock, VA 24202",,0,21,"46,074",1
+2008,Cherokee Mine,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,DickensonRussell Coal Co Llc,"5703 Crutchfield Dr, Norton, VA 24273",United Mine Workers of America,"518,672",115,"249,311",1
+2008,Roaring Fork No 4,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,"DickensonRussell Coal Co., Ll","5703 Crutchfield Drive, Norton, VA 24273",,"588,442",77,"165,282",1
+2008,Premium,Virginia,Dickenson,Appalachia Central,Temporarily closed,Underground,Operating Subsidiary,Mine only,Banner Company,"P.O. Box 458, Big Rock, VA 24603",,"172,877",58,"118,523",1
+2007,Mine No. 9,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,C. S. & S. Coal Corporation,"P.O. Box 1247, Wise, VA 24293",,"95,625",15,"35,083",1
+2007,No 11,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Mine only,Apple Jacks Coal Company Inc,"King Street, P.O. Box 584, N. Tazewell, VA 24630",,"21,233",10,"11,228",1
+2007,No. 9,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Mine only,Bristol Coal Corp.,"P.O. Box 1426, Grundy, VA 24614",,"123,621",21,"42,017",1
+2007,Lmm,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Mine only,Estep Coal Co Inc,"P.O. Box 1025, Grundy, VA 24614",,"33,274",16,"22,109",1
+2007,Premium,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Mine only,The Banner Company,"P.O. Box 458, Big Rock, VA 24603",,"160,859",39,"75,489",1
+2007,No 2,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,Black Dog Coal Corporation,"5703 Crutchfield Dr, Norton, VA 24273",,"189,831",55,"116,826",1
+2007,Mc Clure River  Plant,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Preparation Plant,"DickensonRussell Coal Co., Ll","7546 Gravel Lick Rd., Cleveland, VA 24225",United Mine Workers of America,0,40,"80,912",1
+2007,Nora Preparation Plant,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Preparation Plant,Rapoca Group Llc,"P.O. Box 458, Big Rock, VA 24603",,0,18,"51,988",1
+2007,Cherokee Mine,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,DickensonRussell Coal Co Llc,"7546 Gravel Lick Road, Cleveland, VA 24225",United Mine Workers of America,"571,812",117,"256,153",1
+2007,Roaring Fork No 4,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,"DickensonRussell Coal Co., Ll","7546 Gravel Lick Road, Cleveland, VA 24225",,"639,633",83,"174,862",1
+2007,No. 4,Virginia,Dickenson,Appalachia Central,Permanently abandoned,Underground,Contractor,Mine only,L & J Equipment Company,"Rt 1 Box 68, Honaker, VA 24260",,"38,621",19,"19,692",1
+2007,Nme,Virginia,Dickenson,Appalachia Central,Permanently abandoned,Underground,Contractor,Mine only,Estep Coal Company Inc,"P.O. Box 1025, Grundy, VA 24614",,"34,553",16,"21,720",1
+2007,No. 3 Mine,Virginia,Dickenson,Appalachia Central,Permanently abandoned,Underground,Indepedent Producer Operator,Mine only,"Apple Jacks Coal Company, Inc.","P.O. Box 584, N. Tazewell, VA 24630",,747,7,"3,110",1
+2006,No. 4,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,L & J Equipment Company,"Rt 1 Box 68, Honaker, VA 24260",,"89,669",19,"39,515",1
+2006,Nme,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,Estep Coal Company Inc,"P.O. Box 1025, Grundy, VA 24614",,"56,566",16,"42,879",1
+2006,Mine No. 9,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,C. S. & S. Coal Corporation,"P.O. Box 1247, Wise, VA 24293",,"104,108",16,"36,030",1
+2006,No. 9,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Mine only,Bristol Coal Corp.,"P.O. Box 1426, Grundy, VA 24614",,"20,838",12,"12,261",1
+2006,No 2,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,Black Dog Coal Corporation,"P.O. Box 1578, Coeburn, VA 24230",,"201,127",53,"107,901",1
+2006,Mc Clure River  Plant,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Preparation Plant,DickensonRussell Coal Company,"Rt 2, Box 73, Cleveland, VA 24225",United Mine Workers of America,0,38,"79,091",1
+2006,Nora Preparation Plant,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Preparation Plant,Rapoca Group Llc,"P.O. Box 458, Big Rock, VA 24603",,0,19,"53,751",1
+2006,Laurel Mountain,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,DickensonRussell Coal Company,"Rt 2, Box 73, Cleveland, VA 24225",United Mine Workers of America,"503,901",98,"204,269",1
+2006,Cherokee Mine,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,DickensonRussell Coal Company,"Rt. 2, Box 73, Cleveland, VA 24225",United Mine Workers of America,"537,640",115,"260,955",1
+2006,Roaring Fork No 4,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,DickensonRussell Coal Co Llc,"7546 Gravel Lick Road, Cleveland, VA 24225",,"315,886",52,"104,181",1
+2006,No. 3 Mine,Virginia,Dickenson,Appalachia Central,"Active, men working, not producing",Underground,Contractor,Mine only,"Apple Jacks Coal Company, Inc.","P.O. Box 584, N. Tazewell, VA 24630",,"40,417",13,"21,374",1
+2006,Bristol 8 Mine,Virginia,Dickenson,Appalachia Central,Mine closed by MSHA,Underground,Indepedent Producer Operator,Mine only,Banner Company,"P.O. Box 1426, Grundy, VA 24614",,"5,680",10,"7,395",1
+2006,Mine No 7,Virginia,Dickenson,Appalachia Central,Permanently abandoned,Underground,Contractor,Mine only,FourO-Mining Company Inc,"P.O. Box 148, Vansant, VA 24656",,"22,214",12,"8,040",1
+2006,Roaring Fork No. 3,Virginia,Dickenson,Appalachia Central,Permanently abandoned,Underground,Operating Subsidiary,Mine only,DickensonRussell Coal Company,"Rt. 2, Box 73, Cleveland, VA 24225",,"155,741",48,"73,871",1
+2005,No. 4,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,L & J Equipment Company,"Rt 1 Box 68, Honaker, VA 24260",,"103,817",19,"40,250",1
+2005,Mine No 7,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,FourO-Mining Company Inc,"P.O. Box 148, Vansant, VA 24656",,"66,681",13,"21,311",1
+2005,Nme,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,Estep Coal Company Inc,"P.O. Box 1025, Grundy, VA 24614",,"65,107",16,"43,443",1
+2005,Mine No. 9,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,C. S. & S. Coal Corporation,"P.O. Box 1247, Wise, VA 24293",,"86,428",12,"28,632",1
+2005,No 8,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,Bristol Coal Corp,"P.O. Box 1426, Grundy, VA 24614",,"71,236",15,"29,551",1
+2005,Lambert Coal Prep Plant,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Preparation Plant,Lambert Coal Company Inc,"P.O. Box 490, Nora, VA 24272",,0,1,773,1
+2005,No 2,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,Black Dog Coal Corporation,"P.O. Box 1578, Coeburn, VA 24230",,"112,005",43,"78,161",1
+2005,Mc Clure River  Plant,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Preparation Plant,DickensonRussell Coal Company,"Rt 2, Box 73, Cleveland, VA 24225",United Mine Workers of America,0,38,"73,229",1
+2005,Nora Preparation Plant,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Preparation Plant,Rapoca Group Llc,"2700 Lee Highway, Bristol, VA 24202",,0,11,"26,688",1
+2005,Laurel Mountain,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,DickensonRussell Coal Company,"Rt 2, Box 73, Cleveland, VA 24225",United Mine Workers of America,"431,995",81,"173,618",1
+2005,Cherokee Mine,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,DickensonRussell Coal Company,"Rt. 2, Box 73, Cleveland, VA 24225",United Mine Workers of America,"540,032",108,"239,454",1
+2005,No. 3 Mine,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,"Apple Jacks Coal Company, Inc.","P.O. Box 584, N. Tazewell, VA 24630",,"42,967",15,"18,235",1
+2005,Roaring Fork No. 3,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,DickensonRussell Coal Company,"Rt. 2, Box 73, Cleveland, VA 24225",,"467,101",93,"187,205",1
+2005,#44,Virginia,Dickenson,Appalachia Central,Permanently abandoned,Underground,Indepedent Producer Operator,Mine only,Gbl Enterprises Inc,"P.O. Box 490, Nora, VA 24272",,"8,400",5,"5,308",1
+2005,Mine #3,Virginia,Dickenson,Appalachia Central,Permanently abandoned,Underground,Indepedent Producer Operator,Mine only,Champion Coal Co Inc,"P.O. Box 3267, Wise, VA 24293",,"8,128",16,"4,630",1
+2005,Mine No 3,Virginia,Dickenson,Appalachia Central,Permanently abandoned,Underground,Indepedent Producer Operator,Mine only,Double A Mining Inc,"P.O. Box 30, Newhall, WV 24866",,"4,502",7,"3,260",1
+2005,#1,Virginia,Dickenson,Appalachia Central,Permanently abandoned,Underground,Indepedent Producer Operator,Mine only,Triple M Mining Inc,"P.O. Box 336, Clincho, VA 24226",,"12,667",12,"11,317",1
+2004,No. 4,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,L & J Equipment Company,"Rt 1 Box 68, Honaker, VA 24260",,"96,665",18,"38,988",1
+2004,Mine No 7,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,FourO-Mining Company Inc,"P.O. Box 148, Vansant, VA 24656",,"68,627",14,"24,322",1
+2004,#44,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,"Gbl Enterprises, Inc.","P. O. Box 490, Nora, VA 24272",,"56,560",11,"24,267",1
+2004,Nme,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,Estep Coal Company Inc,"P.O. Box 1025, Grundy, VA 24614",,"79,426",15,"44,112",1
+2004,Lambert Coal Prep Plant,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Preparation Plant,Lambert Coal Company Inc,"P.O. Box 490, Nora, VA 24272",,0,2,"4,490",1
+2004,Nora Prep. Plant,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Preparation Plant,Rapoca Energy Company,"Rt 1 Box 80, Nora, VA 24272",,0,8,"21,288",1
+2004,No 2,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,Black Dog Coal Corporation,"P.O. Box 1578, Coeburn, VA 24230",,"121,230",31,"69,422",1
+2004,Mc Clure River  Plant,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Preparation Plant,DickensonRussell Coal Company,"Rt 2, Box 73, Cleveland, VA 24225",United Mine Workers of America,0,36,"69,512",1
+2004,Laurel Mountain,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,DickensonRussell Coal Company,"Rt 2, Box 73, Cleveland, VA 24225",United Mine Workers of America,"345,574",63,"140,250",1
+2004,Cherokee Mine,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,DickensonRussell Coal Company,"Rt. 2, Box 73, Cleveland, VA 24225",United Mine Workers of America,"489,185",93,"216,355",1
+2004,No. 3 Mine,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,"Apple Jacks Coal Company, Inc.","P.O. Box 584, N. Tazewell, VA 24630",,"44,700",14,"14,501",1
+2004,Roaring Fork No. 3,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,DickensonRussell Coal Company,"Rt. 2, Box 73, Cleveland, VA 24225",,"520,239",85,"171,500",1
+2004,No 8,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,Bristol Coal Corp,"P.O. Box 1426, Grundy, VA 24614",,"104,515",14,"30,832",1
+2004,Mine #3,Virginia,Dickenson,Appalachia Central,Mine closed by MSHA,Underground,Contractor,Mine only,Champion Coal Co Inc,"P.O. Box 3267, Wise, VA 24293",,"135,434",18,"34,908",1
+2004,Mine #1,Virginia,Dickenson,Appalachia Central,Mine closed by MSHA,Underground,Contractor,Mine only,Kelly Branch Resources Inc.,"P.O. Box 3190, Wise, VA 24293",,"67,706",16,"24,274",1
+2003,No. 4,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,L & J Equipment Company,"Rt 1 Box 68, Honaker, VA 24260",,"124,479",18,"37,143",1
+2003,Mine No 7,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,FourO-Mining Company Inc,"P.O. Box 148, Vansant, VA 24656",,"62,646",14,"19,546",1
+2003,#44,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,"Gbl Enterprises, Inc.","P. O. Box 490, Nora, VA 24272",,"62,529",11,"26,444",1
+2003,Mine #3,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,Champion Coal Co Inc,"P O Box 3267, Wise, VA 24293",,"21,210",16,"5,844",1
+2003,No. 3 Mine,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,"Apple Jacks Coal Company, Inc.","P.O. Box 584, N. Tazewell, VA 24630",,"54,322",12,"15,020",1
+2003,Nme,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,"Estep Coal Co., Inc.","P. O. Box 1025, Grundy, VA 24614",,"88,837",16,"44,338",1
+2003,Mine #1,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,Kelly Branch Resources Incorpo,"P.O. Box 3190, Wise, VA 24293",,"37,988",13,"14,394",1
+2003,Lambert Coal Prep Plant,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Preparation Plant,Lambert Coal Company Inc,"P.O. Box 490, Nora, VA 24272",,0,3,"6,199",1
+2003,Nora Prep. Plant,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Preparation Plant,Rapoca Energy Company,"Rt 1 Box 80, Nora, VA 24272",,0,2,"5,694",1
+2003,Tipple No 2,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Preparation Plant,Virginia City Enterprises Inc,"5741 Cranes Nest Rd, Coeburn, VA 24230",,0,1,"3,445",1
+2003,No 8,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Mine only,Bristol Coal Corp,"P.O. Box 1426, Grundy, VA 24614",,"21,292",6,"6,625",1
+2003,Mine No 2,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,Black Dog Coal Corp,"P.O. Box 827, Grundy, VA 24614",,"111,044",22,"44,528",1
+2003,Mc Clure River  Plant,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Preparation Plant,DickensonRussell Coal Company,"Rt 2, Box 73, Cleveland, VA 24225",United Mine Workers of America,0,34,"62,415",1
+2003,Laurel Mountain,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,DickensonRussell Coal Company,"Rt 2, Box 73, Cleveland, VA 24225",United Mine Workers of America,"345,189",60,"128,740",1
+2003,Cherokee Mine,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,DickensonRussell Coal Company,"Rt. 2, Box 73, Cleveland, VA 24225",United Mine Workers of America,"471,078",91,"196,466",1
+2003,Roaring Fork No. 3,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,DickensonRussell Coal Company,"Rt. 2, Box 73, Cleveland, VA 24225",,"578,006",72,"155,335",1
+2003,No. 3,Virginia,Dickenson,Appalachia Central,Mine closed by MSHA,Underground,Contractor,Mine only,"Cove Coal Co., Inc.","P.O. Box 250, Richlands, VA 24641",,"28,846",10,"17,671",1
+2003,No 1,Virginia,Dickenson,Appalachia Central,Temporarily closed,Underground,Indepedent Producer Operator,Mine only,Champion Coal Company Inc,"P.O. Box 3267, Wise, VA 24293",,"53,300",13,"19,633",1
+2002,No. 4,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,L & J Equipment Company,"Rt. 2 Box 351, Honaker, VA 24260",,"76,068",17,"30,285",1
+2002,Mine No 7,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,FourO-Mining Company Inc,"P.O. Box 148, Vansant, VA 24656",,"65,056",13,"23,113",1
+2002,#44,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,"Gbl Enterprises, Inc.","P. O. Box 490, Nora, VA 24272",,"52,043",12,"23,658",1
+2002,No. 3,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,"Cove Coal Co., Inc.","P.O. Box 250, Richlands, VA 24641",,"40,897",13,"23,055",1
+2002,#1,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,"Providence Mining, Inc.","P.O. Box 558, Norton, VA 24273",,"35,414",17,"25,796",1
+2002,No. 3 Mine,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,"Apple Jacks Coal Company, Inc.","P. O. Box 776, Grundy, VA 24614",,"37,065",9,"15,526",1
+2002,Nme,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,"Estep Coal Co., Inc.","P. O. Box 1025, Grundy, VA 24614",,"73,202",16,"44,853",1
+2002,Lambert Coal Prep Plant,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Preparation Plant,Lambert Coal Company Inc,"P.O. Box 490, Nora, VA 24272",,0,3,"6,495",1
+2002,Nora Prep. Plant,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Preparation Plant,Rapoca Energy Company,"Rt 1 Box 80, Nora, VA 24272",,0,3,"6,857",1
+2002,No. 1,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Mine only,"Champion Coal Co., Inc.","P.O. Box 3267, Wise, VA 24293",,"74,798",14,"30,667",1
+2002,Mine  No. 2,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,Black Dog Coal Corp.,"P.O. Box 730, Dante, VA 24237",United Mine Workers of America,"39,986",13,"22,901",1
+2002,Mc Clure River  Plant,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Preparation Plant,DickensonRussell Coal Company,"P.O. Box 730, Dante, VA 24237",United Mine Workers of America,0,38,"61,352",1
+2002,Laurel Mountain,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,DickensonRussell Coal Company,"P.O. Box 730, Dante, VA 24237",United Mine Workers of America,"436,088",81,"150,110",1
+2002,Cherokee Mine,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,DickensonRussell Coal Company,"P.O. Box 730, Dante, VA 24237",United Mine Workers of America,"431,507",93,"166,733",1
+2002,Roaring Fork No 3 Mine,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,Clinchfield Coal Company,"P.O. Box 2345, Latrobe, PA 15650",,"499,930",68,"120,989",1
+2002,Mine #1,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,"Kelly Branch Resources, Inc.","308 Brookwood Court, Blountville, TN 37617",,"338,639",70,"146,701",1
+2002,No 1,Virginia,Dickenson,Appalachia Central,Permanently abandoned,Underground,Contractor,Mine only,Long Ridge Coal Company Inc,"P.O. Box 217, Birchleaf, VA 24220",,"71,158",14,"27,931",1
+2002,Deep Mine #28,Virginia,Dickenson,Appalachia Central,Permanently abandoned,Underground,Operating Subsidiary,Mine only,Paramont Coal Corp,"P.O. Box 7, Dante, VA 24237",,"109,076",26,"53,153",1
+2002,No 6,Virginia,Dickenson,Appalachia Central,Temporarily closed,Underground,Indepedent Producer Operator,Mine only,Capital Coal Corp,"P.O. Box 1426, Grundy, VA 24614",,"70,815",17,"26,582",1
+2001,No. 1,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,"Long Ridge Coal Co., Inc.","P O Box 217, Birchleaf, VA 24220",,"78,469",15,"31,115",1
+2001,Mine No. 7,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,"Four ""o"" Mining Co., Inc.","P.O. Box 148, Vansant, VA 24656",,"74,898",14,"24,263",1
+2001,#1,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,"Providence Mining, Inc.","P.O. Box 558, Norton, VA 24273",,"51,042",18,"33,952",1
+2001,Nme,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,"Estep Coal Co., Inc.","P. O. Box 1025, Grundy, VA 24614",,"80,412",16,"44,984",1
+2001,Lambert Coal Prep Plant,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Preparation Plant,"Lambert Coal Company, Inc.","P.O. Box 490, Nora, VA 24272",,0,5,"12,931",1
+2001,#44,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Mine only,"Gbl Enterprises, Inc.","P. O. Box 490, Nora, VA 24272",,"78,936",12,"26,376",1
+2001,No. 3,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Mine only,"Cove Coal Co., Inc.","P.O. Box 266, Saint Paul, VA 24283",,"2,104",8,"9,241",1
+2001,Nora Prep. Plant,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Preparation Plant,Rapoca Energy Company,"Rt 1 Box 80, Nora, VA 24272",,0,1,"2,573",1
+2001,No. 1,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Mine only,"Champion Coal Co., Inc.","P.O. Box 3267, Wise, VA 24293",,"31,653",11,"17,308",1
+2001,No. 3 Mine,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Mine only,"Apple Jacks Coal Company, Inc.","P. O. Box 776, Grundy, VA 24614",,"1,719",5,833,1
+2001,Mcclure No. 2 Mine,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,Clinchfield Coal Company,"P.O. Box 7, Dante, VA 24237",United Mine Workers of America,"90,866",20,"40,766",1
+2001,Mcclure River Preparation Plan,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Preparation Plant,Clinchfield Coal Company,"P.O. Box 7, Dante, VA 24237",United Mine Workers of America,0,39,"80,034",1
+2001,Laurel Mountain Mine,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,Clinchfield Coal Company,"P. O. Box 7, Dante, VA 24237",United Mine Workers of America,"552,388",82,"167,000",1
+2001,Cherokee Mine,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,Clinchfield Coal Company,"P.O. Box 7, Dante, VA 24237",United Mine Workers of America,"497,106",93,"200,373",1
+2001,Deep Mine #28,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,Paramont Coal Corporation,"P O Box 7, Dante, VA 24237",,"237,063",46,"101,738",1
+2001,Roaring Fork No. 3 Mine,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,Clinchfield Coal Company,"P.O. Box 7, Dante, VA 24237",,"593,513",68,"143,594",1
+2001,Deep Mine #30,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,Paramont Coal Corporation,"P.O. Box 7, Dante, VA 24237",,"372,752",74,"175,582",1
+2001,No. 4,Virginia,Dickenson,Appalachia Central,"Active, men working, not producing",Underground,Contractor,Mine only,L & J Equipment Company,"Rt. 2 Box 351, Honaker, VA 24260",,"16,198",11,"16,176",1
+2001,No. 2,Virginia,Dickenson,Appalachia Central,"Active, men working, not producing",Underground,Contractor,Mine only,Basic Mining Corp.,"P.O. Box 1197, Vansant, VA 24656",,"15,190",15,"6,247",1
+2001,No. 2,Virginia,Dickenson,Appalachia Central,"Active, men working, not producing",Underground,Contractor,Mine only,L & J Equipment Company,"Rt 2 Box 351, Honaker, VA 24260",,"72,904",17,"21,243",1
+2001,#47b,Virginia,Dickenson,Appalachia Central,"Active, men working, not producing",Underground,Indepedent Producer Operator,Mine only,"Gbl Enterprises, Inc.","P.O. Box 490, Nora, VA 24272",,"41,053",11,"19,006",1
+2001,No. 2,Virginia,Dickenson,Appalachia Central,"Active, men working, not producing",Underground,Indepedent Producer Operator,Mine only,Manna Coal Corp,"P.O. Box 34, Richlands, VA 24641",,"3,005",6,"4,210",1
+2001,No. 6,Virginia,Dickenson,Appalachia Central,"Active, men working, not producing",Underground,Indepedent Producer Operator,Mine only,Capitol Coal Corp.,"P. O. Box 1426, Grundy, VA 24614",,"7,791",6,"5,189",1
+2001,Mine No. 2,Virginia,Dickenson,Appalachia Central,Permanently abandoned,Underground,Indepedent Producer Operator,Mine only,"Papaw Coal Co., Inc.","P.O. Box 1010, Wise, VA 24293",,"7,875",25,"11,252",1
+2001,No. 3,Virginia,Dickenson,Appalachia Central,Permanently abandoned,Underground,Indepedent Producer Operator,Mine only,"Papaw Coal Co., Inc.","P.O. Box 506, Wise, VA 24293",,"9,205",25,"8,326",1
+2000,No. 1,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,"Long Ridge Coal Co., Inc.","P O Box 217, Birchleaf, VA 24220",,"50,157",,,1
+2000,Mine No. 7,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,"Four ""o"" Mining Co., Inc.","Pob 148, Vansant, VA 24656",,"83,080",,,1
+2000,#1,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,"Providence Mining, Inc.","Po Box 558, Norton, VA 24273",,"64,262",,,1
+2000,No. 2,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,L & J Equipment Company,"Rt 2 Box 351, Honaker, VA 24260",,"126,779",,,1
+2000,Nme,Virginia,Dickenson,Appalachia Central,Active,Underground,Contractor,Mine only,"Estep Coal Co., Inc.","P. O. Box 1025, Grundy, VA 24614",,"52,535",,,1
+2000,Lambert Coal Prep Plant,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Preparation Plant,"Lambert Coal Company, Inc.","Po Box 490, Nora, VA 24272",,0,,,1
+2000,Nora Prep. Plant,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Preparation Plant,Rapoca Energy Company,"Rt 1 Box 80, Nora, VA 24272",,0,,,1
+2000,No. 1,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Mine only,"Outback Mining, Llc","P.O. Box 1468, Clintwood, VA 24228",,"26,554",,,1
+2000,No. 2,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Mine only,Manna Coal Corp,"P.O. Box 34, Richlands, VA 24641",,577,,,1
+2000,No. 1,Virginia,Dickenson,Appalachia Central,Active,Underground,Indepedent Producer Operator,Mine only,"Champion Coal Co., Inc.","Po Box 3267, Wise, VA 24293",,"13,038",,,1
+2000,Mcclure No. 2 Mine,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,Clinchfield Coal Company,"Po Box 7, Dante, VA 24237",United Mine Workers of America,"232,762",,,1
+2000,#44,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,"Gbl Enterprises, Inc.","P. O. Box 490, Nora, VA 24272",,"78,764",,,1
+2000,Mcclure River Preparation Plan,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Preparation Plant,Clinchfield Coal Company,"Po Box 7, Dante, VA 24237",United Mine Workers of America,0,,,1
+2000,Laurel Mountain Mine,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,Clinchfield Coal Company,"P. O. Box 7, Dante, VA 24237",United Mine Workers of America,"476,815",,,1
+2000,Vicc No. 7 Mine,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,"Coastal Coal Company, Llc","P. O. Box 1578, Coeburn, VA 24230",,"180,850",,,1
+2000,Cherokee Mine,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,Clinchfield Coal Company,"Po Box 7, Dante, VA 24237",United Mine Workers of America,"293,200",,,1
+2000,Deep Mine #28,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,Paramont Coal Corporation,"P O Box 7, Dante, VA 24237",,"339,003",,,1
+2000,Roaring Fork No. 3 Mine,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,Clinchfield Coal Company,"P.O. Box 7, Dante, VA 24237",,"371,993",,,1
+2000,Deep Mine #30,Virginia,Dickenson,Appalachia Central,Active,Underground,Operating Subsidiary,Mine only,Paramont Coal Corporation,"P. O. Box 7, Dante, VA 24237",,"246,298",,,1
+2000,No. 2,Virginia,Dickenson,Appalachia Central,"Active, men working, not producing",Underground,Contractor,Mine only,Basic Mining Corp.,"P.O. Box 1197, Vansant, VA 24656",,"69,902",,,1
+2000,Mine No. 2,Virginia,Dickenson,Appalachia Central,Permanently abandoned,Underground,Indepedent Producer Operator,Mine only,"Papaw Coal Co., Inc.","Po Box 1010, Wise, VA 24293",,"64,658",,,1
+2000,Mine No. 7,Virginia,Dickenson,Appalachia Central,Permanently abandoned,Underground,Indepedent Producer Operator,Mine only,Shady Lane Coal Company,"P. O. Box 776, Grundy, VA 24614",,"7,836",,,1
+2000,No. 3,Virginia,Dickenson,Appalachia Central,Permanently abandoned,Underground,Indepedent Producer Operator,Mine only,"Papaw Coal Co., Inc.","Po Box 506, Wise, VA 24293",,"44,961",,,1
+2000,Roaring Fork No 2 Mine,Virginia,Dickenson,Appalachia Central,Permanently abandoned,Underground,Operating Subsidiary,Mine only,Clinchfield Coal Company,"Po Box 7, Dante, VA 24237",,"218,672",,,1
+2000,Deep Mine #23,Virginia,Dickenson,Appalachia Central,Permanently abandoned,Underground,Operating Subsidiary,Mine only,Paramont Coal Corporation,"Po Box 7, Dante, VA 24237",,"110,368",,,1
+2000,Mine No. 8,Virginia,Dickenson,Appalachia Central,Temporarily closed,Underground,Indepedent Producer Operator,Mine only,Shady Lane Coal Corporation,"P. O. Box 776way, Grundy, VA 24614",,"2,300",,,1

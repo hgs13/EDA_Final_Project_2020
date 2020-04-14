@@ -1,0 +1,94 @@
+---
+output: 
+  pdf_document:
+    keep_tex: yes
+    fig_caption: yes
+    number_sections: yes
+geometry: margin=2.54cm
+title: "Central Appalachian Mine Closures"
+subtitle: "https://github.com/hgs13/EDA_Final_Project_2020"
+author: "Hannah Smith"
+fontsize: 12pt
+mainfont: Times New Roman
+
+---
+
+\newpage
+\tableofcontents 
+\newpage
+\listoftables 
+\newpage
+\listoffigures 
+\newpage
+
+```{r setup, include=FALSE}
+# Set your working directory
+getwd()
+
+# Load your packages
+library(tidyverse)
+library(viridis)
+library(rvest)
+library(ggrepel)
+library(shiny)
+library(shinythemes)
+
+# Set your ggplot theme
+mytheme <- theme_classic() +
+  theme(axis.text = element_text(color = "black"), 
+        legend.position = "top")
+theme_set(mytheme)
+
+# Load your datasets
+harlan <- read.csv("./Data/Raw/EIA_MineData_Harlan_Raw.csv")
+
+dickenson <- read.csv("./Data/Raw/EIA_MineData_Dickenson_Raw.csv")
+
+```
+
+```{r, include = FALSE}
+harlan$year <- as.numeric(harlan$year)
+harlan$ARC <- as.logical(harlan$ARC)
+dickenson$year <- as.numeric(dickenson$year)
+dickenson$ARC <- as.logical(dickenson$ARC)
+class(dickenson$mine.name)
+```
+# Rationale and Research Questions
+
+
+
+\newpage
+
+# Dataset Information
+
+
+
+\newpage
+
+# Exploratory Analysis 
+
+
+
+\newpage
+
+# Analysis
+
+
+
+## Question 1: <insert specific question here and add additional subsections for additional questions below, if needed>
+
+## Question 2: 
+
+
+
+
+\newpage
+
+# Summary and Conclusions
+
+
+\newpage
+
+# References
+<add references here if relevant, otherwise delete this section> 
+
