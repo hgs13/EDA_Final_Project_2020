@@ -73,7 +73,7 @@ Files are named according to the following naming convention: `databasename_data
 * **operating.company** (char): company that owns and operates the mine
 * **operating.company.address** (char): the address of the company that owns and operated the mine (may not be in the same location as the mine itself)
 * **union.code** (numeric): the code representing the union of which the miners are members, may or may not be applicable
-* **production.stons** (numeric): annual coal production in tons of the mine
+* **production.stons** (numeric): annual coal production in short tons
 * **average.employees** (numeric): annual average of employees (mine-wide) employeed by the mine
 * **labor.hours** (numeric): annual number of man hours performed
 * **ARC** (numeric): whether the mine.state is in the Appalachian Regional Commission or not (1 = yes, 0 = no -> will change to logical)

@@ -32,6 +32,10 @@ library(rvest)
 library(ggrepel)
 library(shiny)
 library(shinythemes)
+library(viridis)
+library(RColorBrewer)
+library(colormap)
+library(harrypotter)
 
 # Set your ggplot theme
 mytheme <- theme_classic() +
@@ -46,13 +50,7 @@ dickenson <- read.csv("./Data/Raw/EIA_MineData_Dickenson_Raw.csv")
 
 ```
 
-```{r, include = FALSE}
-harlan$year <- as.numeric(harlan$year)
-harlan$ARC <- as.logical(harlan$ARC)
-dickenson$year <- as.numeric(dickenson$year)
-dickenson$ARC <- as.logical(dickenson$ARC)
-class(dickenson$mine.name)
-```
+
 # Rationale and Research Questions
 
 
@@ -66,8 +64,42 @@ class(dickenson$mine.name)
 \newpage
 
 # Exploratory Analysis 
+```{r, include = FALSE}
+harlan$year <- as.numeric(harlan$year)
+harlan$ARC <- as.logical(harlan$ARC)
+harlan$mine.status <- as.character(harlan$mine.status)
+harlan$operation.type <- as.character(harlan$operation.type)
+harlan$production.stons <- as.numeric(harlan$production.stons)
+harlan$average.employees <- as.numeric(harlan$average.employees)
 
 
+dickenson$year <- as.numeric(dickenson$year)
+dickenson$ARC <- as.logical(dickenson$ARC)
+class(dickenson$mine.name)
+```
+
+```{r}
+library(RColorBrewer)
+nb.cols <- 31
+mycolors <- colorRampPalette(brewer.pal(31, "Set2"))(nb.cols)
+
+hppal <- hp(n = 31, house = "Hufflepuff")
+```
+
+```{r}
+harlan.wrangled <- filter(harlan, production.stons > 1, mine.status == "Active", 
+                          operation.type == "Mine only", average.employees < 20 
+                          | average.employees > 100)
+harlan.plot <- ggplot(harlan.wrangled, aes(x = year, y = average.employees, color = mine.name)) +
+  geom_line() +
+  labs(x = "Year", y = "Number of Employees", color = "Mine") +
+  xlim(2001, 2011) +
+  scale_fill_manual(values=hppal)
+  
+  #scale_color_viridis(discrete = TRUE, option = "magma")
+  #theme(legend.position = "none")
+print(harlan.plot)
+```
 
 \newpage
 

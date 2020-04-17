@@ -19,11 +19,11 @@ harlan_data <- harlan_data %>%
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(theme = shinytheme("superhero")
-    titlePanel("Mine Production in Harlan County, Kentuck, 2000 - 2011"),
+    titlePanel("Mine Production in Harlan County, Kentucky, 2000 - 2011"),
     sidebarLayout(
         sidebarPanel(
             sliderInput(selectInput(inputId = "y", 
-                                    label = "Year",
+                                    label = "Mine",
                                     choices = c("2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011"), 
                                     selected = "2000")
         ),
@@ -45,7 +45,7 @@ ui <- fluidPage(theme = shinytheme("superhero")
                     label = "Year",
                     min = "2000",
                     max = "2011",
-                    value = c(as.Date("1995-01-01"), as.Date("1999-12-31")))),
+                    value = c("2000"), ("2011"))))),
         
         # Output
         mainPanel(
