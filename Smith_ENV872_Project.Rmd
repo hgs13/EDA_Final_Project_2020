@@ -184,6 +184,7 @@ employee <- ggplot(minedata.clean, aes(x = year, y = total.employee, color = cou
   scale_color_manual(values=hppal2) +
   scale_x_continuous("Year", c(2000, 2002, 2004, 2006, 2008, 2010))
 print(employee)
+ggsave("./Output/AnnualEmployment.jpg", employee, height = 4, width = 6, dpi = 300)
 ```
 
 Harlan Mines by Employee
