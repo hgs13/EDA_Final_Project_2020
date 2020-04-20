@@ -22,36 +22,22 @@ ui <- fluidPage(theme = shinytheme("superhero")
     titlePanel("Mine Production in Harlan County, Kentucky, 2000 - 2011"),
     sidebarLayout(
         sidebarPanel(
-            sliderInput(selectInput(inputId = "y", 
-                                    label = "Mine",
-                                    choices = c("2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011"), 
-                                    selected = "2000")
-        ),
+            checkboxGroupInput(inputId = "fill",
+                           label = "County",
+                           choices = c("Harlan", "Dickenson"),
+                           selected = "Harlan"),
 
-        # Select depth
-        checkboxGroupInput(inputId = "fill",
-                           label = "Depth ID",
-                           choices = unique(nutrient_data$depth_id),
-                           selected = c(1, 7)),
-        
-        # Select lake
-        checkboxGroupInput(inputId = "shape",
-                           label = "Lake",
-                           choices = c("Peter Lake", "Paul Lake"),
-                           selected = "Peter Lake"),
-        
-        # Select date range to be plotted
         sliderInput(inputId = "x",
                     label = "Year",
                     min = "2000",
                     max = "2011",
-                    value = c("2000"), ("2011"))))),
+                    value = c("2000"), ("2011"))
         
         # Output
         mainPanel(
             plotOutput("scatterplot", brush = brushOpts(id = "scatterplot_brush")), 
             tableOutput("mytable")
-        )))
+        ))))
 
 #### Define server  ----
 server <- function(input, output) {

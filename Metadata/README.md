@@ -7,9 +7,9 @@ output:
 This repository is for the Environmental Data Analytics final project in data visualization and analysis at Duke University in Spring 2020.
 
 ## Summary
-This project is to analyze the migration patterns of residents of coal counties in central Appalachia from the years 2000 to 2017. Two "coal counties" serve as a case study for migration in central Appalachia: Harlan County, Kentucky and Dickenson County, Virginia. Harlan County serves as a "Boom Bust" county, meaning the county experienced a coal production boom in 2000 and a coal production bust in 2010. Dickenson, on the other hand, is a "Bust Bust" county, where the county experienced a coal production bust in 2000 and did not recover by 2010.
+This project seeks to analyze the migration patterns of residents of coal counties in central Appalachia from the years 2000 to 2017. Two "coal counties" serve as a case study for migration in central Appalachia: Harlan County, Kentucky and Dickenson County, Virginia. Harlan County serves as a "Boom Bust" county, meaning the county experienced a coal production boom in 2000 and a coal production bust in 2010. Dickenson, on the other hand, is a "Bust Bust" county, where the county experienced a coal production bust in 2000 and did not recover by 2010.
 
-An important portion of understanding migration in Appalachia is investigating the mine closures within the coal counties. As such, this project creates and analyzes a visualization of mine closures in Harlan and Dickenson counties between the years 2000 and 2011. The data analysis of the number of mine closures as well as the location of the closures could be indicative of migration within the central Appalachian region.
+An important portion of understanding migration in Appalachia is investigating the mine operations within the coal counties. As such, this project creates and analyzes a visualization of mine production and employee in Harlan and Dickenson counties between the years 2000 and 2011. The data analysis of the coal production and the number of employees in coal mines in each county could be indicative of migration patterns within the central Appalachian region.
 
 ## Investigators
 Hannah Smith
@@ -72,7 +72,6 @@ Files are named according to the following naming convention: `databasename_data
 * **operation.type** (char): whether the mine is a mine and/or preparation plant
 * **operating.company** (char): company that owns and operates the mine
 * **operating.company.address** (char): the address of the company that owns and operated the mine (may not be in the same location as the mine itself)
-* **union.code** (numeric): the code representing the union of which the miners are members, may or may not be applicable
 * **production.stons** (numeric): annual coal production in short tons
 * **average.employees** (numeric): annual average of employees (mine-wide) employeed by the mine
 * **labor.hours** (numeric): annual number of man hours performed
