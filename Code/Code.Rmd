@@ -1,0 +1,309 @@
+---
+title: "Code"
+author: "Hannah Smith"
+date: "4/22/2020"
+output: html_document
+---
+---
+output: 
+  pdf_document:
+    keep_tex: yes
+    fig_caption: yes
+    number_sections: yes
+geometry: margin=2.54cm
+title: "Central Appalachian Mine Closures"
+subtitle: "https://github.com/hgs13/EDA_Final_Project_2020"
+author: "Hannah Smith"
+fontsize: 12pt
+mainfont: Times New Roman
+
+---
+
+\newpage
+\tableofcontents 
+\newpage
+\listoftables 
+\newpage
+\listoffigures 
+\newpage
+
+```{r setup, include=FALSE}
+# Set your working directory
+getwd()
+
+# Load your packages
+library(tidyverse)
+library(viridis)
+library(rvest)
+library(ggrepel)
+library(shiny)
+library(shinythemes)
+library(viridis)
+library(RColorBrewer)
+library(colormap)
+library(harrypotter)
+
+# Set your ggplot theme and color palette
+mytheme <- theme_classic() +
+  theme(axis.text = element_text(color = "black"), 
+        legend.position = "top")
+hppal33 <- hp(n=33, house = "Hufflepuff")
+hppal6 <- hp(n=6, house = "Hufflepuff")
+hppal2 <- hp(n=2, house = "Hufflepuff")
+theme_set(mytheme)
+
+# Load your datasets
+harlan.raw <- read.csv("./Data/Raw/EIA_MineData_Harlan_Raw.csv")
+
+dickenson.raw <- read.csv("./Data/Raw/EIA_MineData_Dickenson_Raw.csv")
+
+```
+
+
+# Rationale and Research Questions
+
+This project seeks to analyze the migration patterns of residents of coal counties in central Appalachia from the years 2000 to 2017. Two "coal counties" serve as a case study for migration in central Appalachia: Harlan County, Kentucky and Dickenson County, Virginia. Harlan County serves as a "Boom Bust" county, meaning the county experienced a coal production boom in 2000 and a coal production bust in 2010. Dickenson, on the other hand, is a "Bust Bust" county, where the county experienced a coal production bust in 2000 and did not recover by 2010.
+
+An important portion of understanding migration in Appalachia is investigating the mine operations within the coal counties. As such, this project creates and analyzes a visualization of mine production and employee in Harlan and Dickenson counties between the years 2000 and 2011. The data analysis of the coal production and the number of employees in coal mines in each county could be indicative of migration patterns within the central Appalachian region.
+
+\newpage
+
+# Dataset Information
+
+The data in this repository is coal mine data compiled by the Coal and America Bass Connections team at Duke University from the Energy Information Administration (EIA) online database throughout the fall of 2019. The data in this repository is coal mine data compiled by the Coal and America Bass Connections team at Duke University from the Energy Information Administration (EIA) online database throughout the fall of 2019. 
+
+"This report is mandatory under the Federal Energy Administration Act of 1974 (Public Law 93-275). Failure to comply may result in criminal fines, civil penalties, and other sanctions as provided by law. Title 18 USC 1001 makes it a criminal offense for any person knowingly and willingly to make to any Agency or Department of the United States any false, fictitious, or fraudulent statements as to any matter within its jurisdiction.
+
+All coal mining companies that owned a mining operation which produced 25,000 or more short tons of coal during the reporting year must submit form EIA-7A, except for anthracite mines. All anthracite mines that produced 10,000 or more short tons during the reporting year must submit form EIA-7A. Standalone facilities (e.g., preparation plant/tipple/loading dock/train loadout) that worked 5,000 or more hours must submit the EIA-7A. Submit a separate form EIA-7A for each mining operation and standalone facility that meets the reporting criteria.
+
+The U.S. Energy Information Administration’s (EIA) Form EIA-7A, Annual Survey of Coal Production and Preparation, collects coal
+production data from U.S. coal mining companies. This includes information on the type and status of coal operations, characteristics of coalbeds mined, recoverable reserves, productive capacity and the disposition of coal mined which provides Congress with basic statistics concerning coal supply. These data appear in the Annual Coal Report, the Quarterly Coal Report, the Monthly Energy Review, and the Annual Energy Review. In addition, the EIA uses the data for coal supply analyses and in short-term modeling efforts, which produce forecasts of coal supply and prices requested by Congress. The forecast data also appear in the Short-Term Energy Outlook and the Annual Energy Outlook."
+
+Therefore, the data used in this project should be timely and accurate. Furthermore, coal production during the decade this project explores was extremely variable. As such, there should be no exclusion of outliers in this report.
+
+\newpage
+
+# Exploratory Analysis 
+## Data Exploration
+
+Data exploration of the Harlan and Dickenson County raw data files.
+```{r}
+dim(harlan.raw)
+dim(dickenson.raw)
+str(harlan.raw)
+str(dickenson.raw)
+colnames(harlan.raw)
+colnames(dickenson.raw)
+summary(harlan.raw)
+summary(dickenson.raw)
+sum(as.numeric(harlan.raw$average.employees), na.rm = TRUE)
+sum(as.numeric(dickenson.raw$average.employees), na.rm = TRUE)
+sum(as.numeric(harlan.raw$production.stons), na.rm = TRUE)
+sum(as.numeric(dickenson.raw$production.stons), na.rm = TRUE)
+```
+
+Formatting Relevant Columns in Harlan and Dickenson County Raw Datasets
+```{r}
+harlan.raw$year <- as.numeric(harlan.raw$year)
+harlan.raw$ARC <- as.logical(harlan.raw$ARC)
+harlan.raw$mine.status <- as.character(harlan.raw$mine.status)
+harlan.raw$operation.type <- as.character(harlan.raw$operation.type)
+harlan.raw$production.stons <- as.numeric(harlan.raw$production.stons)
+harlan.raw$average.employees <- as.integer(harlan.raw$average.employees)
+harlan.raw$labor.hours <- as.integer(harlan.raw$labor.hours)
+
+
+dickenson.raw$year <- as.numeric(dickenson.raw$year)
+dickenson.raw$ARC <- as.logical(dickenson.raw$ARC)
+dickenson.raw$mine.status <- as.character(dickenson.raw$mine.status)
+dickenson.raw$operation.type <- as.character(dickenson.raw$operation.type)
+dickenson.raw$production.stons <- as.numeric(dickenson.raw$production.stons)
+dickenson.raw$average.employees <- as.numeric(dickenson.raw$average.employees)
+dickenson.raw$labor.hours <- as.numeric(dickenson.raw$labor.hours)
+
+```
+
+Visual Data Exploration of Harlan and Dickenson raw data
+```{r}
+
+                     
+```
+
+##Data Wrangling
+Joining Harlan and Dickenson raw data together
+```{r}
+minedata <- full_join(harlan.raw, dickenson.raw)
+```
+
+Filtering for data relevant to research questions
+```{r}
+harlan.clean <- harlan.raw %>%
+  select(year:countystr, mine.status, operation.type, operating.company,
+         production.stons:labor.hours) %>%
+  filter(mine.status == "Active", operation.type == "Mine only") %>%
+  group_by(year, countystr) %>%
+  mutate(total.stons = sum(production.stons), total.employee = sum(average.employees))
+
+dickenson.clean <- dickenson.raw %>%
+  select(year:countystr, mine.status, operation.type, operating.company,
+         production.stons:labor.hours) %>%
+  filter(mine.status == "Active", operation.type == "Mine only") %>%
+  group_by(year, countystr) %>%
+  mutate(total.stons = sum(production.stons), total.employee = sum(average.employees))
+  
+minedata.clean <- minedata %>%
+  select(year:countystr, mine.status, operation.type, operating.company,
+         production.stons:labor.hours) %>%
+  filter(mine.status == "Active", operation.type == "Mine only") %>%
+  group_by(year, countystr) %>%
+  mutate(total.stons = sum(production.stons), total.employee = sum(average.employees))
+```
+
+Save the data in the processed folder
+```{r}
+write.csv(harlan.clean, "./Data/Processed/EIA_MineData_Harlan_Processed.csv")
+write.csv(dickenson.clean, "./Data/Processed/EIA_MineData_Dickenson_Processed.csv")
+write.csv(minedata.clean, "./Data/Processed/EIA_MineData_Combined_Processed.csv")
+```
+
+\newpage
+
+# Analysis
+
+## Question 1: Is the annual tonnage produced by all mines in a boom-bust (Harlan) county in the years 2000 to 2011 significantly greater than that produced by a bust-bust (Dickenson) county in the year 2000 to 2011?
+```{r, fig.height = 4, fig.width = 6, echo = FALSE, fig.cap="\\label{fig:figs} Total Annual Coal Production in Harlan and Dickenson Counties"}
+ton <- ggplot(minedata.clean, aes(x = year, y = total.stons, color =
+                                              countystr)) +
+  geom_line() +
+  labs(x = "Year", y = "Annual Coal Production (short tons)", color = "County") +
+  xlim(2000, 2011) +
+  scale_color_manual(values=hppal2) +
+  scale_x_continuous("Year", c(2000, 2002, 2004, 2006, 2008, 2010))
+print(ton)
+ggsave("./Output/AnnualProudction.jpg", ton, height = 4, width = 6, dpi = 300)
+```
+
+## Question 2: Is the number of people employed in all mines in the boom-bust county (Harlan) in the years 2001 to 2011 significantly greater than those employed by a bust-bust county (Dickenson) in the years 2001 to 2011?
+```{r, fig.height = 4, fig.width = 6, echo = FALSE, fig.cap="\\label{fig:figs} Total Number of Employees in Harlan and Dickenson Counties, 2000 to 2011"}
+employee <- ggplot(minedata.clean, aes(x = year, y = total.employee, color = countystr)) +
+  geom_line() +
+  labs(x = "Year", y = "Total Employed", color = "County") +
+  xlim(2001, 2011) +
+  scale_color_manual(values=hppal2) +
+  scale_x_continuous("Year", c(2000, 2002, 2004, 2006, 2008, 2010))
+print(employee)
+ggsave("./Output/AnnualEmployment.jpg", employee, height = 4, width = 6, dpi = 300)
+```
+## Question 3: How does the number of employees affect labor hours in a boom-bust versus bust-bust county in 2000 compared to 2010?
+```{r}
+minedata.labor <- minedata.clean %>%
+  group_by(year, countystr) %>%
+  mutate(total.labor = sum(labor.hours)) %>%
+  filter(year == 2000 | year == 2001)
+  
+labor.hours <- ggplot(minedata.labor, aes(x = total.year, y = labor.hours, color = countystr)) +
+  geom_line() +
+  labs(x = "Labor Hours", y = "Total Employed", color = "County") 
+  #xlim(2001, 2011) +
+  #scale_color_manual(values=hppal2) +
+  #scale_x_continuous("Year", c(2000, 2002, 2004, 2006, 2008, 2010))
+print(labor.hours)
+ggsave("./Output/AnnualEmployment.jpg", employee, height = 4, width = 6, dpi = 300)
+```
+
+
+Harlan Mines by Employee
+```{r, include = FALSE}
+harlan.clean.bymine <- harlan.raw %>%
+  filter(average.employees > 50) %>%
+  group_by(year, mine.name) %>%
+  mutate(total.stons = sum(production.stons), total.employee = sum(average.employees))
+  
+harlan.employee.plot <- ggplot(harlan.clean.bymine, aes(x = year, y = total.employee, color = mine.name)) +
+ geom_line() +
+  labs(x = "Year", y = "Number of Employees", color = "Mine") +
+  xlim(2001, 2011) +
+  scale_color_manual(values=hppal33) +
+  scale_x_continuous("Year", c(2000, 2002, 2004, 2006, 2008, 2010))
+  #lim(2001, 2011) +
+  #scale_color_manual(values=hppal31)
+print(harlan.employee.plot)
+```
+
+
+Harlan Mines by Production
+```{r}
+harlan.production.plot <- ggplot(harlan.clean.bymine, aes(x = year, y = total.stons, color = mine.name)) +
+ geom_line() +
+  labs(x = "Year", y = "Total Coal Production (short tons)", color = "Mine")
+  #lim(2001, 2011) +
+  #scale_color_manual(values=hppal31)
+print(harlan.production.plot)
+```
+
+
+Dickenson Mines by Employee
+```{r}
+dickenson.clean.bymine <- dickenson.raw %>%
+  filter(average.employees > 50) %>%
+  group_by(year, mine.name) %>%
+  mutate(total.stons = sum(production.stons), total.employee = sum(average.employees))
+  
+dickenson.employee.plot <- ggplot(dickenson.clean.bymine, aes(x = year, y = total.employee, color = mine.name)) +
+ geom_line() +
+  labs(x = "Year", y = "Number of Employees", color = "Mine") +
+  xlim(2001, 2011) +
+  scale_color_manual(values=hppal33) +
+  scale_x_continuous("Year", c(2000, 2002, 2004, 2006, 2008, 2010))
+  #lim(2001, 2011) +
+  #scale_color_manual(values=hppal31)
+print(dickenson.employee.plot)
+```
+
+Dickenson Mines by Production
+```{r}
+dickenson.production.plot <- ggplot(dickenson.clean.bymine, aes(x = year, y = total.stons, color = mine.name)) +
+ geom_line() +
+  labs(x = "Year", y = "Total Coal Production (short tons)", color = "Mine")
+  #lim(2001, 2011) +
+  #scale_color_manual(values=hppal31)
+print(dickenson.production.plot)
+```
+
+
+
+
+\newpage
+
+# Summary and Conclusions
+
+
+\newpage
+
+# References
+<add references here if relevant, otherwise delete this section> 
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

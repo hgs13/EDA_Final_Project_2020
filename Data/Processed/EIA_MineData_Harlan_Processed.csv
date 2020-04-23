@@ -1,318 +1,318 @@
 "","year","mine.name","mine.state","countystr","mine.status","operation.type","operating.company","production.stons","average.employees","labor.hours","total.stons","total.employee"
-"1",2011,"Darby Fork No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",248,110,"288,543",4858,1317
-"2",2011,"Huff Creek No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",313,127,"305,862",4858,1317
-"3",2011,"Mine No.17","Kentucky (East)","Harlan","Active","Mine only","K And D Mining Inc.",81,35,"85,460",4858,1317
-"4",2011,"D & C Mining  Corporation","Kentucky (East)","Harlan","Active","Mine only","D & C Mining Corporation",350,20,"41,784",4858,1317
-"5",2011,"K3","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",224,15,"33,679",4858,1317
-"6",2011,"No 1","Kentucky (East)","Harlan","Active","Mine only","Linsco Energy Llc",249,35,"75,283",4858,1317
-"7",2011,"Rb #12","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",317,32,"39,954",4858,1317
-"8",2011,"Mine No 2","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining, Llc",198,92,"181,961",4858,1317
-"9",2011,"C5","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company Inc.",316,30,"71,749",4858,1317
-"10",2011,"D5","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Co. Inc",154,49,"143,758",4858,1317
-"11",2011,"Mine No 2","Kentucky (East)","Harlan","Active","Mine only","Neco Energy Inc",48,33,"74,416",4858,1317
-"12",2011,"Cloverlick #2","Kentucky (East)","Harlan","Active","Mine only","Jarisa, Inc.",102,38,"82,443",4858,1317
-"13",2011,"Mine No. 3","Kentucky (East)","Harlan","Active","Mine only","Cloverlick Coal Company Llc",216,77,"181,139",4858,1317
-"14",2011,"Mine # 1","Kentucky (East)","Harlan","Active","Mine only","Yellow Rose Coal, Llc",144,29,"62,281",4858,1317
-"15",2011,"D1 Mine","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",181,20,"27,979",4858,1317
-"16",2011,"Liggett #8","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",208,36,"5,426",4858,1317
-"17",2011,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining Llc",286,109,"300,500",4858,1317
-"18",2011,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Cave Spur Coal Llc",192,55,"150,068",4858,1317
-"19",2011,"Mine No. 1","Kentucky (East)","Harlan","Active","Mine only","Panther Mining Llc",244,100,"245,318",4858,1317
-"20",2011,"Mine No. 1","Kentucky (East)","Harlan","Active","Mine only","Cloverlick Coal Company Llc",256,86,"218,254",4858,1317
-"21",2011,"Clover Fork No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",378,116,"318,190",4858,1317
-"22",2011,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Powell Mountain Energy Llc",153,73,"178,036",4858,1317
-"23",2010,"Highsplint","Kentucky (East)","Harlan","Active","Mine only","Parton Bros. Contracting Inc.",72,30,"56,018",6342,1395
-"24",2010,"Mine No 2","Kentucky (East)","Harlan","Active","Mine only","Neco Energy Inc",385,34,"55,831",6342,1395
-"25",2010,"Mine # 1","Kentucky (East)","Harlan","Active","Mine only","Yellow Rose Coal, Llc",97,25,"39,679",6342,1395
-"26",2010,"Darby Fork No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Proces",315,110,"281,843",6342,1395
-"27",2010,"K4 Mine","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company, Inc.",254,18,"44,208",6342,1395
-"28",2010,"Huff Creek No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Proces",301,117,"296,550",6342,1395
-"29",2010,"No 18","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",321,20,"56,633",6342,1395
-"30",2010,"Mine No.17","Kentucky (East)","Harlan","Active","Mine only","K And D Mining Inc.",394,34,"59,239",6342,1395
-"31",2010,"D & C Mining  Corporation","Kentucky (East)","Harlan","Active","Mine only","D & C Mining Corporation",390,24,"44,139",6342,1395
-"32",2010,"Ky No. 2","Kentucky (East)","Harlan","Active","Mine only","Middle Fork Mining Inc.",116,31,"62,352",6342,1395
-"33",2010,"Rb #12","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",361,42,"68,116",6342,1395
-"34",2010,"Mine No 2","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining, Llc",333,80,"206,092",6342,1395
-"35",2010,"Timber Tree #9","Kentucky (East)","Harlan","Active","Mine only","Parton Bros. Contracting, Inc.",287,6,"8,578",6342,1395
-"36",2010,"P1","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",105,77,"126,079",6342,1395
-"37",2010,"C5","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company Inc.",304,29,"75,587",6342,1395
-"38",2010,"D5","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Co. Inc",85,35,"99,900",6342,1395
-"39",2010,"Cloverlick #2","Kentucky (East)","Harlan","Active","Mine only","Jarisa, Inc.",91,40,"85,793",6342,1395
-"40",2010,"Mine No. 3","Kentucky (East)","Harlan","Active","Mine only","Cloverlick Coal Company Llc",73,29,"75,726",6342,1395
-"41",2010,"D1 Mine","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",68,23,"12,682",6342,1395
-"42",2010,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining Llc",262,97,"239,767",6342,1395
-"43",2010,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Cave Spur Coal Llc",187,47,"116,590",6342,1395
-"44",2010,"Mine No. 1","Kentucky (East)","Harlan","Active","Mine only","Panther Mining Llc",237,88,"216,025",6342,1395
-"45",2010,"Mine No. 1","Kentucky (East)","Harlan","Active","Mine only","Cloverlick Coal Company Llc",250,85,"208,276",6342,1395
-"46",2010,"Clover Fork No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Proces",365,114,"301,168",6342,1395
-"47",2010,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Powell Mountain Energy Llc",142,67,"154,629",6342,1395
-"48",2010,"Liggett #3","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",53,42,"116,018",6342,1395
-"49",2010,"Infinity #4","Kentucky (East)","Harlan","Active","Mine only","Infinity Energy Incorporated",266,28,"57,251",6342,1395
-"50",2010,"Liggett #7","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",228,23,"50,050",6342,1395
-"51",2009,"Highsplint","Kentucky (East)","Harlan","Active","Mine only","Parton Bros. Contracting Inc.",36,20,"39,223",5447,1329
-"52",2009,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Conshor Mining Llc",51,27,"45,468",5447,1329
-"53",2009,"Timber Tree #9","Kentucky (East)","Harlan","Active","Mine only","Parton Bros. Contracting, Inc.",270,18,"32,654",5447,1329
-"54",2009,"Liggett #5","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",74,56,"166,376",5447,1329
-"55",2009,"Mine No 4","Kentucky (East)","Harlan","Active","Mine only","A & M Coal Co Inc",55,36,"88,469",5447,1329
-"56",2009,"Darby Fork No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",326,114,"291,677",5447,1329
-"57",2009,"K4 Mine","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company, Inc.",319,19,"52,912",5447,1329
-"58",2009,"Huff Creek No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",238,113,"275,411",5447,1329
-"59",2009,"No 18","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",400,20,"56,761",5447,1329
-"60",2009,"D & C Mining  Corp,","Kentucky (East)","Harlan","Active","Mine only","D & C Mining Corp",84,22,"42,027",5447,1329
-"61",2009,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Cawood Enterprises Llc",258,15,"40,396",5447,1329
-"62",2009,"No. 1 Wallins","Kentucky (East)","Harlan","Active","Mine only","K & D Mining",63,36,"77,361",5447,1329
-"63",2009,"Rb #12","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",386,32,"62,002",5447,1329
-"64",2009,"Mine #2","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining, Llc",299,64,"163,943",5447,1329
-"65",2009,"P1","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",109,68,"134,199",5447,1329
-"66",2009,"C5","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company Inc.",43,32,"91,308",5447,1329
-"67",2009,"D5","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Co. Inc",227,19,"50,081",5447,1329
-"68",2009,"Triumph Mine","Kentucky (East)","Harlan","Active","Mine only","Coalgood Energy Company",284,26,"52,675",5447,1329
-"69",2009,"Cloverlick #2","Kentucky (East)","Harlan","Active","Mine only","Jarisa, Inc.",325,39,"41,542",5447,1329
-"70",2009,"Mine #3","Kentucky (East)","Harlan","Active","Mine only","Cloverlick Coal Company Llc",69,15,"9,247",5447,1329
-"71",2009,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining Llc",275,95,"237,481",5447,1329
-"72",2009,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Cave Spur Coal Llc",194,44,"109,263",5447,1329
-"73",2009,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Panther Mining Llc",251,89,"225,720",5447,1329
-"74",2009,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Cloverlick Coal Company Llc",265,88,"215,381",5447,1329
-"75",2009,"Clover Fork No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",366,121,"297,986",5447,1329
-"76",2009,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Powell Mountain Energy Llc",120,57,"143,682",5447,1329
-"77",2009,"Liggett #3","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",60,44,"121,298",5447,1329
-"78",2008,"Highsplint","Kentucky (East)","Harlan","Active","Mine only","Parton Bros. Contracting Inc.",364,22,"36,116",6244,1195
-"79",2008,"Liggett #3","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",78,51,"142,595",6244,1195
-"80",2008,"No 3","Kentucky (East)","Harlan","Active","Mine only","A & M Coal Co Inc",177,12,"21,941",6244,1195
-"81",2008,"Timber Tree #9","Kentucky (East)","Harlan","Active","Mine only","Parton Bros. Contracting, Inc.",305,16,"28,456",6244,1195
-"82",2008,"Liggett #5","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",188,74,"210,156",6244,1195
-"83",2008,"Mine No 4","Kentucky (East)","Harlan","Active","Mine only","A & M Coal Co Inc",106,39,"17,954",6244,1195
-"84",2008,"Darby Fork No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",337,114,"306,452",6244,1195
-"85",2008,"K4 Mine","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company, Inc.",31,17,"45,494",6244,1195
-"86",2008,"Huff Creek No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",359,114,"299,381",6244,1195
-"87",2008,"No 18","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",395,21,"50,998",6244,1195
-"88",2008,"D & C Mining  Corp,","Kentucky (East)","Harlan","Active","Mine only","D & C Mining Corp",141,23,"47,291",6244,1195
-"89",2008,"Rb #10","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Company Inc",241,23,"59,020",6244,1195
-"90",2008,"Gracie Mine #1","Kentucky (East)","Harlan","Active","Mine only","F&g Resources Llc",217,25,"21,815",6244,1195
-"91",2008,"No. 1 Wallins","Kentucky (East)","Harlan","Active","Mine only","K & D Mining",312,18,"35,688",6244,1195
-"92",2008,"Rb #12","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",349,24,"57,288",6244,1195
-"93",2008,"Mine #2","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining, Llc",223,40,"105,245",6244,1195
-"94",2008,"Panther Mine #4a","Kentucky (East)","Harlan","Active","Mine only","Panther Mining, Llc",110,33,"70,416",6244,1195
-"95",2008,"P1","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining",290,19,"43,319",6244,1195
-"96",2008,"C5","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company Inc.",77,30,"77,735",6244,1195
-"97",2008,"K6","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Llc",165,22,"19,471",6244,1195
-"98",2008,"Infinity #4","Kentucky (East)","Harlan","Active","Mine only","Infinity Energy Incorporated",259,17,"19,972",6244,1195
-"99",2008,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining Llc",308,86,"224,068",6244,1195
-"100",2008,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Cave Spur Coal Llc",211,39,"100,471",6244,1195
-"101",2008,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Panther Mining Llc",264,78,"207,854",6244,1195
-"102",2008,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Cloverlick Coal Company Llc",300,79,"208,392",6244,1195
-"103",2008,"Clover Fork No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",7,116,"305,369",6244,1195
-"104",2008,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Powell Mountain Energy Llc",151,15,"23,741",6244,1195
-"105",2008,"Liggett #6","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",279,28,"38,342",6244,1195
-"106",2007,"Highsplint","Kentucky (East)","Harlan","Active","Mine only","Parton Bros. Contracting Inc.",83,29,"48,653",5181,1031
-"107",2007,"Liggett #3","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",302,29,"57,083",5181,1031
-"108",2007,"Liggett #4a","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",111,43,"112,006",5181,1031
-"109",2007,"Liggett #5","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",195,59,"155,760",5181,1031
-"110",2007,"Darby Fork No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",303,105,"271,541",5181,1031
-"111",2007,"Rb #4","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",24,25,"63,249",5181,1031
-"112",2007,"C3 Mine","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company, Inc.",294,20,"47,667",5181,1031
-"113",2007,"K4","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company, Inc.",334,14,"36,307",5181,1031
-"114",2007,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining Llc",292,73,"200,135",5181,1031
-"115",2007,"Huff Creek No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",295,104,"280,679",5181,1031
-"116",2007,"No 18","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",387,21,"57,332",5181,1031
-"117",2007,"D & C Mining  Corp,","Kentucky (East)","Harlan","Active","Mine only","D & C Mining Corp",64,22,"41,109",5181,1031
-"118",2007,"Rb #10","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Company Inc",285,23,"61,349",5181,1031
-"119",2007,"K3","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",28,22,"60,679",5181,1031
-"120",2007,"No. 2","Kentucky (East)","Harlan","Active","Mine only","A & M Coal Co., Inc.",379,27,"56,171",5181,1031
-"121",2007,"Rb #12","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",44,23,"55,541",5181,1031
-"122",2007,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Conshor Mining Llc",121,30,"49,420",5181,1031
-"123",2007,"Mine #2","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining, Llc",212,37,"99,229",5181,1031
-"124",2007,"No 3","Kentucky (East)","Harlan","Active","Mine only","A & M Coal Co Inc",291,14,"30,087",5181,1031
-"125",2007,"P1","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining",113,11,"5,279",5181,1031
-"126",2007,"C5","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company Inc.",210,19,"21,650",5181,1031
-"127",2007,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Cave Spur Coal Llc",186,36,"92,280",5181,1031
-"128",2007,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Panther Mining Llc",280,70,"180,436",5181,1031
-"129",2007,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Cloverlick Coal Company Llc",342,69,"182,656",5181,1031
-"130",2007,"Clover Fork No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",6,106,"271,017",5181,1031
-"131",2006,"Mine #2","Kentucky (East)","Harlan","Active","Mine only","Orion Resources Inc.",26,24,"51,077",6746,1244
-"132",2006,"Highsplint","Kentucky (East)","Harlan","Active","Mine only","Parton Bros. Contracting Inc.",87,25,"40,880",6746,1244
-"133",2006,"Mine No 3","Kentucky (East)","Harlan","Active","Mine only","H & D Mining Inc",75,26,"37,220",6746,1244
-"134",2006,"Bardo #1","Kentucky (East)","Harlan","Active","Mine only","Bardo Mining Llc",122,58,"153,862",6746,1244
-"135",2006,"Liggett #2","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",131,64,"167,849",6746,1244
-"136",2006,"Liggett #3","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",155,64,"171,429",6746,1244
-"137",2006,"Liggett #4a","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",396,33,"68,650",6746,1244
-"138",2006,"Darby Fork No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",314,102,"268,849",6746,1244
-"139",2006,"Rb #4","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",49,21,"57,438",6746,1244
-"140",2006,"C3 Mine","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company, Inc.",328,16,"41,907",6746,1244
-"141",2006,"K4","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company, Inc.",336,11,"30,321",6746,1244
-"142",2006,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining Llc",252,76,"180,396",6746,1244
-"143",2006,"Huff Creek No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",360,142,"391,935",6746,1244
-"144",2006,"No 18","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",391,17,"51,259",6746,1244
-"145",2006,"No. 19","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",29,19,"52,815",6746,1244
-"146",2006,"D & C Mining  Corp,","Kentucky (East)","Harlan","Active","Mine only","D & C Mining Corp",54,28,"47,382",6746,1244
-"147",2006,"# 1","Kentucky (East)","Harlan","Active","Mine only","RandyD, Llc",298,15,"28,585",6746,1244
-"148",2006,"Rb #10","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Company Inc",274,21,"52,928",6746,1244
-"149",2006,"K3","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",397,19,"52,186",6746,1244
-"150",2006,"No. 2","Kentucky (East)","Harlan","Active","Mine only","A & M Coal Co., Inc.",101,38,"76,089",6746,1244
-"151",2006,"No. 1 Wallins","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Co. Inc.",377,18,"52,423",6746,1244
-"152",2006,"Rb #12","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",61,21,"56,942",6746,1244
-"153",2006,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Conshor Mining Llc",288,7,"5,684",6746,1244
-"154",2006,"Mine #2","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining, Llc",243,35,"88,753",6746,1244
-"155",2006,"No 3","Kentucky (East)","Harlan","Active","Mine only","A & M Coal Co Inc",245,10,"3,400",6746,1244
-"156",2006,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Cave Spur Coal Llc",189,38,"88,065",6746,1244
-"157",2006,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Parton Bros. Contracting Inc.",240,65,"154,950",6746,1244
-"158",2006,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Cloverlick Coal Company Llc",353,70,"163,835",6746,1244
-"159",2006,"Clover Fork No. 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing, Inc.",392,85,"217,855",6746,1244
-"160",2006,"Darby #2","Kentucky (East)","Harlan","Active","Mine only","Powell Mountain Coal Co., Inc.",183,76,"182,108",6746,1244
-"161",2005,"Darby Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Kentucky Darby Llc",103,33,"76,375",6709,1229
-"162",2005,"Highsplint","Kentucky (East)","Harlan","Active","Mine only","Parton Bros. Contracting Inc.",65,24,"35,601",6709,1229
-"163",2005,"Mine No 3","Kentucky (East)","Harlan","Active","Mine only","H & D Mining Inc",123,33,"46,356",6709,1229
-"164",2005,"Bardo #1","Kentucky (East)","Harlan","Active","Mine only","Bardo Mining Llc",196,66,"176,146",6709,1229
-"165",2005,"Liggett #2","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",167,65,"171,048",6709,1229
-"166",2005,"Bardo #2","Kentucky (East)","Harlan","Active","Mine only","Bardo Mining Llc",331,22,"32,389",6709,1229
-"167",2005,"Liggett #3","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",374,30,"61,125",6709,1229
-"168",2005,"Mine #2","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining, Llc",143,27,"44,096",6709,1229
-"169",2005,"Darby Fork No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",309,97,"250,294",6709,1229
-"170",2005,"Rb #4","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",66,25,"71,656",6709,1229
-"171",2005,"C3 Mine","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company, Inc.",306,14,"36,562",6709,1229
-"172",2005,"K4","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company, Inc.",267,10,"27,923",6709,1229
-"173",2005,"Huff Creek No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",3,149,"398,133",6709,1229
-"174",2005,"No 18","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",21,18,"53,170",6709,1229
-"175",2005,"No. 19","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",384,28,"80,375",6709,1229
-"176",2005,"D & C Mining  Corp,","Kentucky (East)","Harlan","Active","Mine only","D & C Mining Corp",398,24,"42,903",6709,1229
-"177",2005,"Pathfork Mine #1","Kentucky (East)","Harlan","Active","Mine only","Maggard Mining",351,23,"52,991",6709,1229
-"178",2005,"# 1","Kentucky (East)","Harlan","Active","Mine only","RandyD, Llc",215,13,"18,797",6709,1229
-"179",2005,"Rb #10","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Company Inc",382,20,"50,385",6709,1229
-"180",2005,"K3","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",340,16,"47,766",6709,1229
-"181",2005,"No. 2","Kentucky (East)","Harlan","Active","Mine only","A & M Coal Co., Inc.",96,39,"81,615",6709,1229
-"182",2005,"No. 1 Wallins","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Co. Inc.",19,19,"55,077",6709,1229
-"183",2005,"Rb #12","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",80,27,"61,429",6709,1229
-"184",2005,"Limestone Mine","Kentucky (East)","Harlan","Active","Mine only","Powell Mountain Coal Co., Inc.",145,37,"87,255",6709,1229
-"185",2005,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining Llc",247,68,"167,827",6709,1229
-"186",2005,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Cave Spur Coal Llc",197,37,"87,796",6709,1229
-"187",2005,"Mine No1","Kentucky (East)","Harlan","Active","Mine only","Panther Mining Llc",239,49,"124,936",6709,1229
-"188",2005,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Cloverlick Management Company",370,66,"160,839",6709,1229
-"189",2005,"Rebco Coal #5","Kentucky (East)","Harlan","Active","Mine only","Rebco Coal Inc",236,20,"29,395",6709,1229
-"190",2005,"Clover Fork No. 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing, Inc.",368,65,"174,774",6709,1229
-"191",2005,"Darby #2","Kentucky (East)","Harlan","Active","Mine only","Powell Mountain Coal Co., Inc.",168,65,"145,248",6709,1229
-"192",2004,"Mine No. 1","Kentucky (East)","Harlan","Active","Mine only","Highlands Mining & Processing",134,42,"75,913",6636,1173
-"193",2004,"Darby Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Kentucky Darby Llc",146,33,"72,926",6636,1173
-"194",2004,"No. 2","Kentucky (East)","Harlan","Active","Mine only","A & M Coal Co., Inc.",128,37,"79,587",6636,1173
-"195",2004,"B & D #3","Kentucky (East)","Harlan","Active","Mine only","B & D Mining L.L.C.",199,70,"194,596",6636,1173
-"196",2004,"Bardo #1","Kentucky (East)","Harlan","Active","Mine only","Bardo Mining Llc",191,63,"165,987",6636,1173
-"197",2004,"Liggett #2","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",221,29,"19,636",6636,1173
-"198",2004,"Darby Fork No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",341,91,"250,629",6636,1173
-"199",2004,"Rb #4","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",94,36,"94,646",6636,1173
-"200",2004,"C3 Mine","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company, Inc.",339,14,"41,773",6636,1173
-"201",2004,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining Llc",322,61,"156,830",6636,1173
-"202",2004,"Huff Creek No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",13,142,"387,019",6636,1173
-"203",2004,"No 18","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",372,18,"51,571",6636,1173
-"204",2004,"No. 19","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",393,21,"60,879",6636,1173
-"205",2004,"D & C Mining  Corp,","Kentucky (East)","Harlan","Active","Mine only","D & C Mining Corp",47,25,"43,282",6636,1173
-"206",2004,"Highsplint","Kentucky (East)","Harlan","Active","Mine only","Parton Bros. Contracting Inc.",355,15,"26,038",6636,1173
-"207",2004,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Cave Spur Coal Llc",204,35,"88,117",6636,1173
-"208",2004,"Mine No1","Kentucky (East)","Harlan","Active","Mine only","Panther Mining Llc",307,56,"138,133",6636,1173
-"209",2004,"Pathfork Mine #1","Kentucky (East)","Harlan","Active","Mine only","Maggard Mining",76,27,"49,567",6636,1173
-"210",2004,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Cloverlick Management Company",389,62,"157,010",6636,1173
-"211",2004,"Peters Knob","Kentucky (East)","Harlan","Active","Mine only","Nally & Hamilton Enterprises I",242,77,"191,933",6636,1173
-"212",2004,"Mine No. 2","Kentucky (East)","Harlan","Active","Mine only","New Phase Mining Llc",235,11,"12,072",6636,1173
-"213",2004,"Rb 10","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Company Inc",371,22,"54,509",6636,1173
-"214",2004,"K3","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",318,15,"44,071",6636,1173
-"215",2004,"Mine No 3","Kentucky (East)","Harlan","Active","Mine only","H & D Mining, Inc.",82,29,"44,388",6636,1173
-"216",2004,"No. 1 Wallins","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Co. Inc.",356,16,"45,586",6636,1173
-"217",2004,"Clover Fork No. 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing, Inc.",268,52,"129,240",6636,1173
-"218",2004,"Limestone Mine","Kentucky (East)","Harlan","Active","Mine only","Powell Mountain Coal Co., Inc.",170,46,"97,790",6636,1173
-"219",2004,"Darby #2","Kentucky (East)","Harlan","Active","Mine only","Powell Mountain Coal Co., Inc.",323,28,"37,993",6636,1173
-"220",2003,"Mine No. 1","Kentucky (East)","Harlan","Active","Mine only","Highlands Mining & Processing",159,37,"77,857",3482,1017
-"221",2003,"Darby Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Kentucky Darby Llc",164,31,"63,879",3482,1017
-"222",2003,"No. 2","Kentucky (East)","Harlan","Active","Mine only","A & M Coal Co., Inc.",135,35,"72,672",3482,1017
-"223",2003,"B & D #3","Kentucky (East)","Harlan","Active","Mine only","B & D Mining L.L.C.",203,77,"192,816",3482,1017
-"224",2003,"B & D # 4","Kentucky (East)","Harlan","Active","Mine only","B & D Mining L.L.C.",147,74,"139,726",3482,1017
-"225",2003,"B & D #5","Kentucky (East)","Harlan","Active","Mine only","B & D Mining Llc",71,33,"50,496",3482,1017
-"226",2003,"Darby Fork No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",5,125,"327,284",3482,1017
-"227",2003,"R B #4","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Company Inc",178,41,"102,020",3482,1017
-"228",2003,"C3 Mine","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company, Inc.",246,13,"38,344",3482,1017
-"229",2003,"Rb #5","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Company Inc",88,23,"56,581",3482,1017
-"230",2003,"Huff Creek No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",12,148,"376,252",3482,1017
-"231",2003,"No 18","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",253,12,"24,305",3482,1017
-"232",2003,"D & C Mining  Corp,","Kentucky (East)","Harlan","Active","Mine only","D & C Mining Corp",33,17,"32,525",3482,1017
-"233",2003,"Mine No. 2","Kentucky (East)","Harlan","Active","Mine only","New Phase Mining Llc",124,7,"4,393",3482,1017
-"234",2003,"Rb 10","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Company Inc",50,21,"55,053",3482,1017
-"235",2003,"K3","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",156,12,"18,752",3482,1017
-"236",2003,"Kok #4","Kentucky (East)","Harlan","Active","Mine only","Kelly Branch Resources, Inc.",112,12,"1,692",3482,1017
-"237",2003,"No. 1 Wallins","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Co. Inc.",166,10,"12,836",3482,1017
-"238",2003,"Limestone Mine","Kentucky (East)","Harlan","Active","Mine only","Powell Mountain Coal Co Inc",278,23,"21,125",3482,1017
-"239",2003,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining Llc",255,40,"99,113",3482,1017
-"240",2003,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Cave Spur Coal Llc",207,36,"90,947",3482,1017
-"241",2003,"Mine No1","Kentucky (East)","Harlan","Active","Mine only","Panther Mining Llc",269,58,"139,243",3482,1017
-"242",2003,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Cloverlick Coal Company Llc",2,61,"151,338",3482,1017
-"243",2003,"Creech #1","Kentucky (East)","Harlan","Active","Mine only","Powell Mountain Coal Co., Inc",149,51,"113,813",3482,1017
-"244",2003,"Clover Fork No. 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing, Inc.",20,20,"18,388",3482,1017
-"245",2002,"Mine No. 1","Kentucky (East)","Harlan","Active","Mine only","Highlands Mining & Processing",161,38,"83,694",3173,873
-"246",2002,"Darby Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Kentucky Darby Llc",158,30,"64,887",3173,873
-"247",2002,"No. 2","Kentucky (East)","Harlan","Active","Mine only","A & M Coal Co., Inc.",17,31,"49,004",3173,873
-"248",2002,"B & D #3","Kentucky (East)","Harlan","Active","Mine only","B & D Mining L.L.C.",99,18,"5,587",3173,873
-"249",2002,"Darby Fork No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",8,149,"347,432",3173,873
-"250",2002,"C2","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",104,46,"132,184",3173,873
-"251",2002,"R B # 4","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co. Inc.",180,45,"89,437",3173,873
-"252",2002,"C3 Mine","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company, Inc.",293,13,"38,633",3173,873
-"253",2002,"Rb #5","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Company Inc",100,23,"47,034",3173,873
-"254",2002,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining Llc",222,33,"83,125",3173,873
-"255",2002,"Huff Creek No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",10,166,"388,397",3173,873
-"256",2002,"D & C Mining  Corp,","Kentucky (East)","Harlan","Active","Mine only","D & C Mining Corp",257,15,"22,012",3173,873
-"257",2002,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Lakeway Mining Incorporated",127,24,"55,028",3173,873
-"258",2002,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Cave Spur Coal Llc",352,68,"161,138",3173,873
-"259",2002,"Mine No1","Kentucky (East)","Harlan","Active","Mine only","Panther Mining Llc",373,21,"24,091",3173,873
-"260",2002,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Cloverlick Coal Company Llc",380,62,"152,680",3173,873
-"261",2002,"Rb 10","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Company Inc",92,21,"43,692",3173,873
-"262",2002,"Mine No. 4","Kentucky (East)","Harlan","Active","Mine only","Kincaid Mining Co. Inc.",40,8,"6,859",3173,873
-"263",2002,"Creech #1","Kentucky (East)","Harlan","Active","Mine only","Powell Mountain Coal Co., Inc.",200,62,"132,142",3173,873
-"264",2001,"Mine No. 1","Kentucky (East)","Harlan","Active","Mine only","Highlands Mining & Processing",185,38,"78,798",4963,1219
-"265",2001,"B & D #2","Kentucky (East)","Harlan","Active","Mine only","B & D Mining Llc",58,13,"7,672",4963,1219
-"266",2001,"B & D # 1","Kentucky (East)","Harlan","Active","Mine only","B & D Mining, Llc.",25,39,"33,920",4963,1219
-"267",2001,"Brd #3","Kentucky (East)","Harlan","Active","Mine only","Br&d Enterprises, Inc.",327,84,"216,149",4963,1219
-"268",2001,"Darby Mine No. 1","Kentucky (East)","Harlan","Active","Mine only","Kentucky Darby Llc",52,20,"33,648",4963,1219
-"269",2001,"# 3","Kentucky (East)","Harlan","Active","Mine only","Northpoint Resources Llc",160,35,"77,888",4963,1219
-"270",2001,"Mine No. 2","Kentucky (East)","Harlan","Active","Mine only","A & M Coal Co., Inc.",157,26,"12,696",4963,1219
-"271",2001,"Darby Fork No. 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing, Inc.",4,123,"300,008",4963,1219
-"272",2001,"C2","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",184,65,"187,087",4963,1219
-"273",2001,"R B # 4","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co. Inc.",193,45,"94,413",4963,1219
-"274",2001,"D2 Mine","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",201,15,"45,035",4963,1219
-"275",2001,"# 1","Kentucky (East)","Harlan","Active","Mine only","Northpoint Resources, Llc",332,26,"19,541",4963,1219
-"276",2001,"# 2","Kentucky (East)","Harlan","Active","Mine only","Northpoint Resources, Llc",86,36,"64,592",4963,1219
-"277",2001,"Rb #5","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Company Inc",130,23,"51,501",4963,1219
-"278",2001,"Mine No. 1","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining Llc",272,34,"85,717",4963,1219
-"279",2001,"Huff Creek No. 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc.",14,163,"394,812",4963,1219
-"280",2001,"Mine #16","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Company Inc",148,42,"83,539",4963,1219
-"281",2001,"Mine # 19","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co. Inc",129,26,"50,528",4963,1219
-"282",2001,"D & C Mining","Kentucky (East)","Harlan","Active","Mine only","D & C Mining Corp.",375,10,"5,509",4963,1219
-"283",2001,"Mine No.1","Kentucky (East)","Harlan","Active","Mine only","High Splint Coal Llc",176,31,"76,932",4963,1219
-"284",2001,"Mine No.1","Kentucky (East)","Harlan","Active","Mine only","Cave Spur Coal, Llc",358,64,"158,527",4963,1219
-"285",2001,"Pathfork Mine #1","Kentucky (East)","Harlan","Active","Mine only","Maggard Mining",399,23,"44,268",4963,1219
-"286",2001,"Mine No.1","Kentucky (East)","Harlan","Active","Mine only","Cloverlick Coal Company, Llc",281,47,"117,169",4963,1219
-"287",2001,"Rb 10","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",95,22,"50,297",4963,1219
-"288",2001,"KentuckyWallins","Kentucky (East)","Harlan","Active","Mine only","Powell Mountain Coal Co., Inc.",218,81,"178,461",4963,1219
-"289",2001,"Bullhorn Mine","Kentucky (East)","Harlan","Active","Mine only","Bledsoe Coal Corporation",231,32,"80,221",4963,1219
-"290",2001,"Creech #1","Kentucky (East)","Harlan","Active","Mine only","Powell Mountain Coal Co., Inc.",173,56,"121,066",4963,1219
-"291",2000,"Mine No. 1","Kentucky (East)","Harlan","Active","Mine only","Highlands Mining & Processing",383,NA,"",4872,NA
-"292",2000,"No.12","Kentucky (East)","Harlan","Active","Mine only","HarLee Coal Co., Inc.",57,NA,"",4872,NA
-"293",2000,"No. 14 Mine","Kentucky (East)","Harlan","Active","Mine only","HarLee Coal Co., Inc.",348,NA,"",4872,NA
-"294",2000,"Brd #3","Kentucky (East)","Harlan","Active","Mine only","Br&d Enterprises, Inc.",357,NA,"",4872,NA
-"295",2000,"Darby Fork No. 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing, Inc.",388,NA,"",4872,NA
-"296",2000,"C2","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",282,NA,"",4872,NA
-"297",2000,"R B # 4","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co. Inc.",232,NA,"",4872,NA
-"298",2000,"# 1","Kentucky (East)","Harlan","Active","Mine only","Northpoint Resources, Llc",137,NA,"",4872,NA
-"299",2000,"Darby # 3","Kentucky (East)","Harlan","Active","Mine only","Hunter Coales Llc",32,NA,"",4872,NA
-"300",2000,"#1","Kentucky (East)","Harlan","Active","Mine only","A&m Coal Co. Inc.",119,NA,"",4872,NA
-"301",2000,"Rb #5","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co. Inc.",93,NA,"",4872,NA
-"302",2000,"Mine No. 1","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining Llc",263,NA,"",4872,NA
-"303",2000,"Huff Creek No. 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc.",11,NA,"",4872,NA
-"304",2000,"Mine # 16","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",162,NA,"",4872,NA
-"305",2000,"Mine # 17","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",118,NA,"",4872,NA
-"306",2000,"Mine # 19","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co. Inc",136,NA,"",4872,NA
-"307",2000,"Rb #8","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",23,NA,"",4872,NA
-"308",2000,"Mine # 1","Kentucky (East)","Harlan","Active","Mine only","B & A Mining Inc.",209,NA,"",4872,NA
-"309",2000,"Mine No.1","Kentucky (East)","Harlan","Active","Mine only","High Splint Coal Llc",175,NA,"",4872,NA
-"310",2000,"Pathfork Mine #1","Kentucky (East)","Harlan","Active","Mine only","Maggard Mining",39,NA,"",4872,NA
-"311",2000,"Mine No.1","Kentucky (East)","Harlan","Active","Mine only","Cloverlick Coal Company, Llc",289,NA,"",4872,NA
-"312",2000,"Bullhorn Mine","Kentucky (East)","Harlan","Active","Mine only","Bledsoe Coal Corporation",172,NA,"",4872,NA
-"313",2000,"Rb 10","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",16,NA,"",4872,NA
-"314",2000,"# 3","Kentucky (East)","Harlan","Active","Mine only","Tricoal, Inc.",150,NA,"",4872,NA
-"315",2000,"KentuckyWallins","Kentucky (East)","Harlan","Active","Mine only","Powell Mountain Coal Co., Inc.",226,NA,"",4872,NA
-"316",2000,"Mine No.1","Kentucky (East)","Harlan","Active","Mine only","Cave Spur Coal, Llc",230,NA,"",4872,NA
-"317",2000,"Creech #1","Kentucky (East)","Harlan","Active","Mine only","Powell Mountain Coal Co., Inc.",225,NA,"",4872,NA
+"1",2011,"Darby Fork No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",248,110,174,4858,1317
+"2",2011,"Huff Creek No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",313,127,193,4858,1317
+"3",2011,"Mine No.17","Kentucky (East)","Harlan","Active","Mine only","K And D Mining Inc.",81,35,446,4858,1317
+"4",2011,"D & C Mining  Corporation","Kentucky (East)","Harlan","Active","Mine only","D & C Mining Corporation",350,20,248,4858,1317
+"5",2011,"K3","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",224,15,206,4858,1317
+"6",2011,"No 1","Kentucky (East)","Harlan","Active","Mine only","Linsco Energy Llc",249,35,414,4858,1317
+"7",2011,"Rb #12","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",317,32,234,4858,1317
+"8",2011,"Mine No 2","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining, Llc",198,92,100,4858,1317
+"9",2011,"C5","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company Inc.",316,30,407,4858,1317
+"10",2011,"D5","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Co. Inc",154,49,55,4858,1317
+"11",2011,"Mine No 2","Kentucky (East)","Harlan","Active","Mine only","Neco Energy Inc",48,33,412,4858,1317
+"12",2011,"Cloverlick #2","Kentucky (East)","Harlan","Active","Mine only","Jarisa, Inc.",102,38,440,4858,1317
+"13",2011,"Mine No. 3","Kentucky (East)","Harlan","Active","Mine only","Cloverlick Coal Company Llc",216,77,99,4858,1317
+"14",2011,"Mine # 1","Kentucky (East)","Harlan","Active","Mine only","Yellow Rose Coal, Llc",144,29,376,4858,1317
+"15",2011,"D1 Mine","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",181,20,165,4858,1317
+"16",2011,"Liggett #8","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",208,36,292,4858,1317
+"17",2011,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining Llc",286,109,190,4858,1317
+"18",2011,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Cave Spur Coal Llc",192,55,60,4858,1317
+"19",2011,"Mine No. 1","Kentucky (East)","Harlan","Active","Mine only","Panther Mining Llc",244,100,150,4858,1317
+"20",2011,"Mine No. 1","Kentucky (East)","Harlan","Active","Mine only","Cloverlick Coal Company Llc",256,86,131,4858,1317
+"21",2011,"Clover Fork No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",378,116,196,4858,1317
+"22",2011,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Powell Mountain Energy Llc",153,73,90,4858,1317
+"23",2010,"Highsplint","Kentucky (East)","Harlan","Active","Mine only","Parton Bros. Contracting Inc.",72,30,342,6342,1395
+"24",2010,"Mine No 2","Kentucky (East)","Harlan","Active","Mine only","Neco Energy Inc",385,34,341,6342,1395
+"25",2010,"Mine # 1","Kentucky (East)","Harlan","Active","Mine only","Yellow Rose Coal, Llc",97,25,233,6342,1395
+"26",2010,"Darby Fork No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Proces",315,110,173,6342,1395
+"27",2010,"K4 Mine","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company, Inc.",254,18,264,6342,1395
+"28",2010,"Huff Creek No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Proces",301,117,179,6342,1395
+"29",2010,"No 18","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",321,20,345,6342,1395
+"30",2010,"Mine No.17","Kentucky (East)","Harlan","Active","Mine only","K And D Mining Inc.",394,34,357,6342,1395
+"31",2010,"D & C Mining  Corporation","Kentucky (East)","Harlan","Active","Mine only","D & C Mining Corporation",390,24,263,6342,1395
+"32",2010,"Ky No. 2","Kentucky (East)","Harlan","Active","Mine only","Middle Fork Mining Inc.",116,31,377,6342,1395
+"33",2010,"Rb #12","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",361,42,391,6342,1395
+"34",2010,"Mine No 2","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining, Llc",333,80,117,6342,1395
+"35",2010,"Timber Tree #9","Kentucky (East)","Harlan","Active","Mine only","Parton Bros. Contracting, Inc.",287,6,431,6342,1395
+"36",2010,"P1","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",105,77,38,6342,1395
+"37",2010,"C5","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company Inc.",304,29,415,6342,1395
+"38",2010,"D5","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Co. Inc",85,35,468,6342,1395
+"39",2010,"Cloverlick #2","Kentucky (East)","Harlan","Active","Mine only","Jarisa, Inc.",91,40,448,6342,1395
+"40",2010,"Mine No. 3","Kentucky (East)","Harlan","Active","Mine only","Cloverlick Coal Company Llc",73,29,417,6342,1395
+"41",2010,"D1 Mine","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",68,23,31,6342,1395
+"42",2010,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining Llc",262,97,143,6342,1395
+"43",2010,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Cave Spur Coal Llc",187,47,26,6342,1395
+"44",2010,"Mine No. 1","Kentucky (East)","Harlan","Active","Mine only","Panther Mining Llc",237,88,128,6342,1395
+"45",2010,"Mine No. 1","Kentucky (East)","Harlan","Active","Mine only","Cloverlick Coal Company Llc",250,85,119,6342,1395
+"46",2010,"Clover Fork No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Proces",365,114,191,6342,1395
+"47",2010,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Powell Mountain Energy Llc",142,67,65,6342,1395
+"48",2010,"Liggett #3","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",53,42,25,6342,1395
+"49",2010,"Infinity #4","Kentucky (East)","Harlan","Active","Mine only","Infinity Energy Incorporated",266,28,350,6342,1395
+"50",2010,"Liggett #7","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",228,23,304,6342,1395
+"51",2009,"Highsplint","Kentucky (East)","Harlan","Active","Mine only","Parton Bros. Contracting Inc.",36,20,231,5447,1329
+"52",2009,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Conshor Mining Llc",51,27,269,5447,1329
+"53",2009,"Timber Tree #9","Kentucky (East)","Harlan","Active","Mine only","Parton Bros. Contracting, Inc.",270,18,201,5447,1329
+"54",2009,"Liggett #5","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",74,56,79,5447,1329
+"55",2009,"Mine No 4","Kentucky (East)","Harlan","Active","Mine only","A & M Coal Co Inc",55,36,454,5447,1329
+"56",2009,"Darby Fork No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",326,114,178,5447,1329
+"57",2009,"K4 Mine","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company, Inc.",319,19,325,5447,1329
+"58",2009,"Huff Creek No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",238,113,168,5447,1329
+"59",2009,"No 18","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",400,20,346,5447,1329
+"60",2009,"D & C Mining  Corp,","Kentucky (East)","Harlan","Active","Mine only","D & C Mining Corp",84,22,250,5447,1329
+"61",2009,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Cawood Enterprises Llc",258,15,242,5447,1329
+"62",2009,"No. 1 Wallins","Kentucky (East)","Harlan","Active","Mine only","K & D Mining",63,36,422,5447,1329
+"63",2009,"Rb #12","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",386,32,374,5447,1329
+"64",2009,"Mine #2","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining, Llc",299,64,77,5447,1329
+"65",2009,"P1","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",109,68,45,5447,1329
+"66",2009,"C5","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company Inc.",43,32,461,5447,1329
+"67",2009,"D5","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Co. Inc",227,19,305,5447,1329
+"68",2009,"Triumph Mine","Kentucky (East)","Harlan","Active","Mine only","Coalgood Energy Company",284,26,322,5447,1329
+"69",2009,"Cloverlick #2","Kentucky (East)","Harlan","Active","Mine only","Jarisa, Inc.",325,39,246,5447,1329
+"70",2009,"Mine #3","Kentucky (East)","Harlan","Active","Mine only","Cloverlick Coal Company Llc",69,15,457,5447,1329
+"71",2009,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining Llc",275,95,142,5447,1329
+"72",2009,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Cave Spur Coal Llc",194,44,16,5447,1329
+"73",2009,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Panther Mining Llc",251,89,137,5447,1329
+"74",2009,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Cloverlick Coal Company Llc",265,88,127,5447,1329
+"75",2009,"Clover Fork No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",366,121,180,5447,1329
+"76",2009,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Powell Mountain Energy Llc",120,57,54,5447,1329
+"77",2009,"Liggett #3","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",60,44,36,5447,1329
+"78",2008,"Highsplint","Kentucky (East)","Harlan","Active","Mine only","Parton Bros. Contracting Inc.",364,22,214,6244,1195
+"79",2008,"Liggett #3","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",78,51,53,6244,1195
+"80",2008,"No 3","Kentucky (East)","Harlan","Active","Mine only","A & M Coal Co Inc",177,12,125,6244,1195
+"81",2008,"Timber Tree #9","Kentucky (East)","Harlan","Active","Mine only","Parton Bros. Contracting, Inc.",305,16,169,6244,1195
+"82",2008,"Liggett #5","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",188,74,126,6244,1195
+"83",2008,"Mine No 4","Kentucky (East)","Harlan","Active","Mine only","A & M Coal Co Inc",106,39,85,6244,1195
+"84",2008,"Darby Fork No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",337,114,194,6244,1195
+"85",2008,"K4 Mine","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company, Inc.",31,17,270,6244,1195
+"86",2008,"Huff Creek No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",359,114,181,6244,1195
+"87",2008,"No 18","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",395,21,311,6244,1195
+"88",2008,"D & C Mining  Corp,","Kentucky (East)","Harlan","Active","Mine only","D & C Mining Corp",141,23,276,6244,1195
+"89",2008,"Rb #10","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Company Inc",241,23,356,6244,1195
+"90",2008,"Gracie Mine #1","Kentucky (East)","Harlan","Active","Mine only","F&g Resources Llc",217,25,123,6244,1195
+"91",2008,"No. 1 Wallins","Kentucky (East)","Harlan","Active","Mine only","K & D Mining",312,18,213,6244,1195
+"92",2008,"Rb #12","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",349,24,351,6244,1195
+"93",2008,"Mine #2","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining, Llc",223,40,14,6244,1195
+"94",2008,"Panther Mine #4a","Kentucky (East)","Harlan","Active","Mine only","Panther Mining, Llc",110,33,403,6244,1195
+"95",2008,"P1","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining",290,19,255,6244,1195
+"96",2008,"C5","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company Inc.",77,30,423,6244,1195
+"97",2008,"K6","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Llc",165,22,105,6244,1195
+"98",2008,"Infinity #4","Kentucky (East)","Harlan","Active","Mine only","Infinity Energy Incorporated",259,17,108,6244,1195
+"99",2008,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining Llc",308,86,136,6244,1195
+"100",2008,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Cave Spur Coal Llc",211,39,10,6244,1195
+"101",2008,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Panther Mining Llc",264,78,118,6244,1195
+"102",2008,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Cloverlick Coal Company Llc",300,79,120,6244,1195
+"103",2008,"Clover Fork No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",7,116,192,6244,1195
+"104",2008,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Powell Mountain Energy Llc",151,15,141,6244,1195
+"105",2008,"Liggett #6","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",279,28,222,6244,1195
+"106",2007,"Highsplint","Kentucky (East)","Harlan","Active","Mine only","Parton Bros. Contracting Inc.",83,29,282,5181,1031
+"107",2007,"Liggett #3","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",302,29,349,5181,1031
+"108",2007,"Liggett #4a","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",111,43,22,5181,1031
+"109",2007,"Liggett #5","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",195,59,67,5181,1031
+"110",2007,"Darby Fork No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",303,105,167,5181,1031
+"111",2007,"Rb #4","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",24,25,379,5181,1031
+"112",2007,"C3 Mine","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company, Inc.",294,20,278,5181,1031
+"113",2007,"K4","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company, Inc.",334,14,215,5181,1031
+"114",2007,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining Llc",292,73,116,5181,1031
+"115",2007,"Huff Creek No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",295,104,172,5181,1031
+"116",2007,"No 18","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",387,21,352,5181,1031
+"117",2007,"D & C Mining  Corp,","Kentucky (East)","Harlan","Active","Mine only","D & C Mining Corp",64,22,245,5181,1031
+"118",2007,"Rb #10","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Company Inc",285,23,370,5181,1031
+"119",2007,"K3","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",28,22,367,5181,1031
+"120",2007,"No. 2","Kentucky (East)","Harlan","Active","Mine only","A & M Coal Co., Inc.",379,27,343,5181,1031
+"121",2007,"Rb #12","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",44,23,340,5181,1031
+"122",2007,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Conshor Mining Llc",121,30,287,5181,1031
+"123",2007,"Mine #2","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining, Llc",212,37,467,5181,1031
+"124",2007,"No 3","Kentucky (East)","Harlan","Active","Mine only","A & M Coal Co Inc",291,14,185,5181,1031
+"125",2007,"P1","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining",113,11,289,5181,1031
+"126",2007,"C5","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company Inc.",210,19,122,5181,1031
+"127",2007,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Cave Spur Coal Llc",186,36,462,5181,1031
+"128",2007,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Panther Mining Llc",280,70,98,5181,1031
+"129",2007,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Cloverlick Coal Company Llc",342,69,102,5181,1031
+"130",2007,"Clover Fork No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",6,106,166,5181,1031
+"131",2006,"Mine #2","Kentucky (East)","Harlan","Active","Mine only","Orion Resources Inc.",26,24,312,6746,1244
+"132",2006,"Highsplint","Kentucky (East)","Harlan","Active","Mine only","Parton Bros. Contracting Inc.",87,25,244,6746,1244
+"133",2006,"Mine No 3","Kentucky (East)","Harlan","Active","Mine only","H & D Mining Inc",75,26,217,6746,1244
+"134",2006,"Bardo #1","Kentucky (East)","Harlan","Active","Mine only","Bardo Mining Llc",122,58,64,6746,1244
+"135",2006,"Liggett #2","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",131,64,81,6746,1244
+"136",2006,"Liggett #3","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",155,64,87,6746,1244
+"137",2006,"Liggett #4a","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",396,33,393,6746,1244
+"138",2006,"Darby Fork No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",314,102,159,6746,1244
+"139",2006,"Rb #4","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",49,21,353,6746,1244
+"140",2006,"C3 Mine","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company, Inc.",328,16,249,6746,1244
+"141",2006,"K4","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company, Inc.",336,11,186,6746,1244
+"142",2006,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining Llc",252,76,97,6746,1244
+"143",2006,"Huff Creek No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",360,142,235,6746,1244
+"144",2006,"No 18","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",391,17,313,6746,1244
+"145",2006,"No. 19","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",29,19,324,6746,1244
+"146",2006,"D & C Mining  Corp,","Kentucky (East)","Harlan","Active","Mine only","D & C Mining Corp",54,28,277,6746,1244
+"147",2006,"# 1","Kentucky (East)","Harlan","Active","Mine only","RandyD, Llc",298,15,170,6746,1244
+"148",2006,"Rb #10","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Company Inc",274,21,326,6746,1244
+"149",2006,"K3","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",397,19,319,6746,1244
+"150",2006,"No. 2","Kentucky (East)","Harlan","Active","Mine only","A & M Coal Co., Inc.",101,38,419,6746,1244
+"151",2006,"No. 1 Wallins","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Co. Inc.",377,18,320,6746,1244
+"152",2006,"Rb #12","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",61,21,347,6746,1244
+"153",2006,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Conshor Mining Llc",288,7,297,6746,1244
+"154",2006,"Mine #2","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining, Llc",243,35,455,6746,1244
+"155",2006,"No 3","Kentucky (East)","Harlan","Active","Mine only","A & M Coal Co Inc",245,10,183,6746,1244
+"156",2006,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Cave Spur Coal Llc",189,38,452,6746,1244
+"157",2006,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Parton Bros. Contracting Inc.",240,65,66,6746,1244
+"158",2006,"Mine #1","Kentucky (East)","Harlan","Active","Mine only","Cloverlick Coal Company Llc",353,70,76,6746,1244
+"159",2006,"Clover Fork No. 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing, Inc.",392,85,130,6746,1244
+"160",2006,"Darby #2","Kentucky (East)","Harlan","Active","Mine only","Powell Mountain Coal Co., Inc.",183,76,101,6746,1244
+"161",2005,"Darby Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Kentucky Darby Llc",103,33,420,6709,1229
+"162",2005,"Highsplint","Kentucky (East)","Harlan","Active","Mine only","Parton Bros. Contracting Inc.",65,24,212,6709,1229
+"163",2005,"Mine No 3","Kentucky (East)","Harlan","Active","Mine only","H & D Mining Inc",123,33,273,6709,1229
+"164",2005,"Bardo #1","Kentucky (East)","Harlan","Active","Mine only","Bardo Mining Llc",196,66,89,6709,1229
+"165",2005,"Liggett #2","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",167,65,86,6709,1229
+"166",2005,"Bardo #2","Kentucky (East)","Harlan","Active","Mine only","Bardo Mining Llc",331,22,199,6709,1229
+"167",2005,"Liggett #3","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",374,30,369,6709,1229
+"168",2005,"Mine #2","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining, Llc",143,27,262,6709,1229
+"169",2005,"Darby Fork No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",309,97,153,6709,1229
+"170",2005,"Rb #4","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",66,25,406,6709,1229
+"171",2005,"C3 Mine","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company, Inc.",306,14,216,6709,1229
+"172",2005,"K4","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company, Inc.",267,10,164,6709,1229
+"173",2005,"Huff Creek No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",3,149,237,6709,1229
+"174",2005,"No 18","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",21,18,328,6709,1229
+"175",2005,"No. 19","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",384,28,437,6709,1229
+"176",2005,"D & C Mining  Corp,","Kentucky (East)","Harlan","Active","Mine only","D & C Mining Corp",398,24,253,6709,1229
+"177",2005,"Pathfork Mine #1","Kentucky (East)","Harlan","Active","Mine only","Maggard Mining",351,23,327,6709,1229
+"178",2005,"# 1","Kentucky (East)","Harlan","Active","Mine only","RandyD, Llc",215,13,95,6709,1229
+"179",2005,"Rb #10","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Company Inc",382,20,308,6709,1229
+"180",2005,"K3","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",340,16,281,6709,1229
+"181",2005,"No. 2","Kentucky (East)","Harlan","Active","Mine only","A & M Coal Co., Inc.",96,39,438,6709,1229
+"182",2005,"No. 1 Wallins","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Co. Inc.",19,19,339,6709,1229
+"183",2005,"Rb #12","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",80,27,372,6709,1229
+"184",2005,"Limestone Mine","Kentucky (East)","Harlan","Active","Mine only","Powell Mountain Coal Co., Inc.",145,37,450,6709,1229
+"185",2005,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining Llc",247,68,80,6709,1229
+"186",2005,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Cave Spur Coal Llc",197,37,451,6709,1229
+"187",2005,"Mine No1","Kentucky (East)","Harlan","Active","Mine only","Panther Mining Llc",239,49,37,6709,1229
+"188",2005,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Cloverlick Management Company",370,66,74,6709,1229
+"189",2005,"Rebco Coal #5","Kentucky (East)","Harlan","Active","Mine only","Rebco Coal Inc",236,20,175,6709,1229
+"190",2005,"Clover Fork No. 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing, Inc.",368,65,88,6709,1229
+"191",2005,"Darby #2","Kentucky (East)","Harlan","Active","Mine only","Powell Mountain Coal Co., Inc.",168,65,56,6709,1229
+"192",2004,"Mine No. 1","Kentucky (East)","Harlan","Active","Mine only","Highlands Mining & Processing",134,42,418,6636,1173
+"193",2004,"Darby Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Kentucky Darby Llc",146,33,410,6636,1173
+"194",2004,"No. 2","Kentucky (East)","Harlan","Active","Mine only","A & M Coal Co., Inc.",128,37,428,6636,1173
+"195",2004,"B & D #3","Kentucky (East)","Harlan","Active","Mine only","B & D Mining L.L.C.",199,70,111,6636,1173
+"196",2004,"Bardo #1","Kentucky (East)","Harlan","Active","Mine only","Bardo Mining Llc",191,63,78,6636,1173
+"197",2004,"Liggett #2","Kentucky (East)","Harlan","Active","Mine only","Liggett Mining Llc",221,29,107,6636,1173
+"198",2004,"Darby Fork No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",341,91,154,6636,1173
+"199",2004,"Rb #4","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",94,36,464,6636,1173
+"200",2004,"C3 Mine","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company, Inc.",339,14,247,6636,1173
+"201",2004,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining Llc",322,61,68,6636,1173
+"202",2004,"Huff Creek No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",13,142,229,6636,1173
+"203",2004,"No 18","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",372,18,316,6636,1173
+"204",2004,"No. 19","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",393,21,368,6636,1173
+"205",2004,"D & C Mining  Corp,","Kentucky (East)","Harlan","Active","Mine only","D & C Mining Corp",47,25,254,6636,1173
+"206",2004,"Highsplint","Kentucky (East)","Harlan","Active","Mine only","Parton Bros. Contracting Inc.",355,15,155,6636,1173
+"207",2004,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Cave Spur Coal Llc",204,35,453,6636,1173
+"208",2004,"Mine No1","Kentucky (East)","Harlan","Active","Mine only","Panther Mining Llc",307,56,46,6636,1173
+"209",2004,"Pathfork Mine #1","Kentucky (East)","Harlan","Active","Mine only","Maggard Mining",76,27,288,6636,1173
+"210",2004,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Cloverlick Management Company",389,62,69,6636,1173
+"211",2004,"Peters Knob","Kentucky (East)","Harlan","Active","Mine only","Nally & Hamilton Enterprises I",242,77,109,6636,1173
+"212",2004,"Mine No. 2","Kentucky (East)","Harlan","Active","Mine only","New Phase Mining Llc",235,11,29,6636,1173
+"213",2004,"Rb 10","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Company Inc",371,22,332,6636,1173
+"214",2004,"K3","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",318,15,260,6636,1173
+"215",2004,"Mine No 3","Kentucky (East)","Harlan","Active","Mine only","H & D Mining, Inc.",82,29,267,6636,1173
+"216",2004,"No. 1 Wallins","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Co. Inc.",356,16,271,6636,1173
+"217",2004,"Clover Fork No. 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing, Inc.",268,52,39,6636,1173
+"218",2004,"Limestone Mine","Kentucky (East)","Harlan","Active","Mine only","Powell Mountain Coal Co., Inc.",170,46,465,6636,1173
+"219",2004,"Darby #2","Kentucky (East)","Harlan","Active","Mine only","Powell Mountain Coal Co., Inc.",323,28,219,6636,1173
+"220",2003,"Mine No. 1","Kentucky (East)","Harlan","Active","Mine only","Highlands Mining & Processing",159,37,424,3482,1017
+"221",2003,"Darby Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Kentucky Darby Llc",164,31,381,3482,1017
+"222",2003,"No. 2","Kentucky (East)","Harlan","Active","Mine only","A & M Coal Co., Inc.",135,35,409,3482,1017
+"223",2003,"B & D #3","Kentucky (East)","Harlan","Active","Mine only","B & D Mining L.L.C.",203,77,110,3482,1017
+"224",2003,"B & D # 4","Kentucky (East)","Harlan","Active","Mine only","B & D Mining L.L.C.",147,74,49,3482,1017
+"225",2003,"B & D #5","Kentucky (East)","Harlan","Active","Mine only","B & D Mining Llc",71,33,309,3482,1017
+"226",2003,"Darby Fork No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",5,125,204,3482,1017
+"227",2003,"R B #4","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Company Inc",178,41,12,3482,1017
+"228",2003,"C3 Mine","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company, Inc.",246,13,223,3482,1017
+"229",2003,"Rb #5","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Company Inc",88,23,344,3482,1017
+"230",2003,"Huff Creek No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",12,148,220,3482,1017
+"231",2003,"No 18","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",253,12,147,3482,1017
+"232",2003,"D & C Mining  Corp,","Kentucky (East)","Harlan","Active","Mine only","D & C Mining Corp",33,17,200,3482,1017
+"233",2003,"Mine No. 2","Kentucky (East)","Harlan","Active","Mine only","New Phase Mining Llc",124,7,238,3482,1017
+"234",2003,"Rb 10","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Company Inc",50,21,338,3482,1017
+"235",2003,"K3","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",156,12,94,3482,1017
+"236",2003,"Kok #4","Kentucky (East)","Harlan","Active","Mine only","Kelly Branch Resources, Inc.",112,12,3,3482,1017
+"237",2003,"No. 1 Wallins","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Co. Inc.",166,10,34,3482,1017
+"238",2003,"Limestone Mine","Kentucky (East)","Harlan","Active","Mine only","Powell Mountain Coal Co Inc",278,23,121,3482,1017
+"239",2003,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining Llc",255,40,466,3482,1017
+"240",2003,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Cave Spur Coal Llc",207,36,460,3482,1017
+"241",2003,"Mine No1","Kentucky (East)","Harlan","Active","Mine only","Panther Mining Llc",269,58,48,3482,1017
+"242",2003,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Cloverlick Coal Company Llc",2,61,62,3482,1017
+"243",2003,"Creech #1","Kentucky (East)","Harlan","Active","Mine only","Powell Mountain Coal Co., Inc",149,51,23,3482,1017
+"244",2003,"Clover Fork No. 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing, Inc.",20,20,93,3482,1017
+"245",2002,"Mine No. 1","Kentucky (East)","Harlan","Active","Mine only","Highlands Mining & Processing",161,38,443,3173,873
+"246",2002,"Darby Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Kentucky Darby Llc",158,30,384,3173,873
+"247",2002,"No. 2","Kentucky (East)","Harlan","Active","Mine only","A & M Coal Co., Inc.",17,31,285,3173,873
+"248",2002,"B & D #3","Kentucky (East)","Harlan","Active","Mine only","B & D Mining L.L.C.",99,18,295,3173,873
+"249",2002,"Darby Fork No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",8,149,211,3173,873
+"250",2002,"C2","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",104,46,44,3173,873
+"251",2002,"R B # 4","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co. Inc.",180,45,456,3173,873
+"252",2002,"C3 Mine","Kentucky (East)","Harlan","Active","Mine only","Rex Coal Company, Inc.",293,13,225,3173,873
+"253",2002,"Rb #5","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Company Inc",100,23,275,3173,873
+"254",2002,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining Llc",222,33,441,3173,873
+"255",2002,"Huff Creek No 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc",10,166,230,3173,873
+"256",2002,"D & C Mining  Corp,","Kentucky (East)","Harlan","Active","Mine only","D & C Mining Corp",257,15,132,3173,873
+"257",2002,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Lakeway Mining Incorporated",127,24,337,3173,873
+"258",2002,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Cave Spur Coal Llc",352,68,75,3173,873
+"259",2002,"Mine No1","Kentucky (East)","Harlan","Active","Mine only","Panther Mining Llc",373,21,144,3173,873
+"260",2002,"Mine No 1","Kentucky (East)","Harlan","Active","Mine only","Cloverlick Coal Company Llc",380,62,63,3173,873
+"261",2002,"Rb 10","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Company Inc",92,21,259,3173,873
+"262",2002,"Mine No. 4","Kentucky (East)","Harlan","Active","Mine only","Kincaid Mining Co. Inc.",40,8,362,3173,873
+"263",2002,"Creech #1","Kentucky (East)","Harlan","Active","Mine only","Powell Mountain Coal Co., Inc.",200,62,43,3173,873
+"264",2001,"Mine No. 1","Kentucky (East)","Harlan","Active","Mine only","Highlands Mining & Processing",185,38,427,4963,1219
+"265",2001,"B & D #2","Kentucky (East)","Harlan","Active","Mine only","B & D Mining Llc",58,13,401,4963,1219
+"266",2001,"B & D # 1","Kentucky (East)","Harlan","Active","Mine only","B & D Mining, Llc.",25,39,207,4963,1219
+"267",2001,"Brd #3","Kentucky (East)","Harlan","Active","Mine only","Br&d Enterprises, Inc.",327,84,129,4963,1219
+"268",2001,"Darby Mine No. 1","Kentucky (East)","Harlan","Active","Mine only","Kentucky Darby Llc",52,20,205,4963,1219
+"269",2001,"# 3","Kentucky (East)","Harlan","Active","Mine only","Northpoint Resources Llc",160,35,425,4963,1219
+"270",2001,"Mine No. 2","Kentucky (East)","Harlan","Active","Mine only","A & M Coal Co., Inc.",157,26,32,4963,1219
+"271",2001,"Darby Fork No. 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing, Inc.",4,123,189,4963,1219
+"272",2001,"C2","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",184,65,103,4963,1219
+"273",2001,"R B # 4","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co. Inc.",193,45,463,4963,1219
+"274",2001,"D2 Mine","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",201,15,268,4963,1219
+"275",2001,"# 1","Kentucky (East)","Harlan","Active","Mine only","Northpoint Resources, Llc",332,26,106,4963,1219
+"276",2001,"# 2","Kentucky (East)","Harlan","Active","Mine only","Northpoint Resources, Llc",86,36,382,4963,1219
+"277",2001,"Rb #5","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Company Inc",130,23,315,4963,1219
+"278",2001,"Mine No. 1","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining Llc",272,34,447,4963,1219
+"279",2001,"Huff Creek No. 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc.",14,163,236,4963,1219
+"280",2001,"Mine #16","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Company Inc",148,42,442,4963,1219
+"281",2001,"Mine # 19","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co. Inc",129,26,310,4963,1219
+"282",2001,"D & C Mining","Kentucky (East)","Harlan","Active","Mine only","D & C Mining Corp.",375,10,294,4963,1219
+"283",2001,"Mine No.1","Kentucky (East)","Harlan","Active","Mine only","High Splint Coal Llc",176,31,421,4963,1219
+"284",2001,"Mine No.1","Kentucky (East)","Harlan","Active","Mine only","Cave Spur Coal, Llc",358,64,70,4963,1219
+"285",2001,"Pathfork Mine #1","Kentucky (East)","Harlan","Active","Mine only","Maggard Mining",399,23,265,4963,1219
+"286",2001,"Mine No.1","Kentucky (East)","Harlan","Active","Mine only","Cloverlick Coal Company, Llc",281,47,27,4963,1219
+"287",2001,"Rb 10","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",95,22,307,4963,1219
+"288",2001,"KentuckyWallins","Kentucky (East)","Harlan","Active","Mine only","Powell Mountain Coal Co., Inc.",218,81,91,4963,1219
+"289",2001,"Bullhorn Mine","Kentucky (East)","Harlan","Active","Mine only","Bledsoe Coal Corporation",231,32,436,4963,1219
+"290",2001,"Creech #1","Kentucky (East)","Harlan","Active","Mine only","Powell Mountain Coal Co., Inc.",173,56,35,4963,1219
+"291",2000,"Mine No. 1","Kentucky (East)","Harlan","Active","Mine only","Highlands Mining & Processing",383,NA,1,4872,NA
+"292",2000,"No.12","Kentucky (East)","Harlan","Active","Mine only","HarLee Coal Co., Inc.",57,NA,1,4872,NA
+"293",2000,"No. 14 Mine","Kentucky (East)","Harlan","Active","Mine only","HarLee Coal Co., Inc.",348,NA,1,4872,NA
+"294",2000,"Brd #3","Kentucky (East)","Harlan","Active","Mine only","Br&d Enterprises, Inc.",357,NA,1,4872,NA
+"295",2000,"Darby Fork No. 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing, Inc.",388,NA,1,4872,NA
+"296",2000,"C2","Kentucky (East)","Harlan","Active","Mine only","Harlan Cumberland Coal Company",282,NA,1,4872,NA
+"297",2000,"R B # 4","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co. Inc.",232,NA,1,4872,NA
+"298",2000,"# 1","Kentucky (East)","Harlan","Active","Mine only","Northpoint Resources, Llc",137,NA,1,4872,NA
+"299",2000,"Darby # 3","Kentucky (East)","Harlan","Active","Mine only","Hunter Coales Llc",32,NA,1,4872,NA
+"300",2000,"#1","Kentucky (East)","Harlan","Active","Mine only","A&m Coal Co. Inc.",119,NA,1,4872,NA
+"301",2000,"Rb #5","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co. Inc.",93,NA,1,4872,NA
+"302",2000,"Mine No. 1","Kentucky (East)","Harlan","Active","Mine only","Stillhouse Mining Llc",263,NA,1,4872,NA
+"303",2000,"Huff Creek No. 1","Kentucky (East)","Harlan","Active","Mine only","Lone Mountain Processing Inc.",11,NA,1,4872,NA
+"304",2000,"Mine # 16","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",162,NA,1,4872,NA
+"305",2000,"Mine # 17","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",118,NA,1,4872,NA
+"306",2000,"Mine # 19","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co. Inc",136,NA,1,4872,NA
+"307",2000,"Rb #8","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",23,NA,1,4872,NA
+"308",2000,"Mine # 1","Kentucky (East)","Harlan","Active","Mine only","B & A Mining Inc.",209,NA,1,4872,NA
+"309",2000,"Mine No.1","Kentucky (East)","Harlan","Active","Mine only","High Splint Coal Llc",175,NA,1,4872,NA
+"310",2000,"Pathfork Mine #1","Kentucky (East)","Harlan","Active","Mine only","Maggard Mining",39,NA,1,4872,NA
+"311",2000,"Mine No.1","Kentucky (East)","Harlan","Active","Mine only","Cloverlick Coal Company, Llc",289,NA,1,4872,NA
+"312",2000,"Bullhorn Mine","Kentucky (East)","Harlan","Active","Mine only","Bledsoe Coal Corporation",172,NA,1,4872,NA
+"313",2000,"Rb 10","Kentucky (East)","Harlan","Active","Mine only","Manalapan Mining Co., Inc.",16,NA,1,4872,NA
+"314",2000,"# 3","Kentucky (East)","Harlan","Active","Mine only","Tricoal, Inc.",150,NA,1,4872,NA
+"315",2000,"KentuckyWallins","Kentucky (East)","Harlan","Active","Mine only","Powell Mountain Coal Co., Inc.",226,NA,1,4872,NA
+"316",2000,"Mine No.1","Kentucky (East)","Harlan","Active","Mine only","Cave Spur Coal, Llc",230,NA,1,4872,NA
+"317",2000,"Creech #1","Kentucky (East)","Harlan","Active","Mine only","Powell Mountain Coal Co., Inc.",225,NA,1,4872,NA
