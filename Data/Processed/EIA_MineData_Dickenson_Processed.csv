@@ -1,124 +1,124 @@
-"","year","mine.name","mine.state","countystr","mine.status","operation.type","operating.company","production.stons","average.employees","labor.hours","total.stons","total.employee"
-"1",2011,"No 9","Virginia","Dickenson","Active","Mine only","Bristol Coal Corp",87,16,97,623,339
-"2",2011,"Lmm","Virginia","Dickenson","Active","Mine only","Estep Coal Co Inc",118,17,127,623,339
-"3",2011,"No 8","Virginia","Dickenson","Active","Mine only","Capital Coal Corporation",74,13,84,623,339
-"4",2011,"No 10","Virginia","Dickenson","Active","Mine only","Four O Mining Corporation",96,14,82,623,339
-"5",2011,"Deep Mine 41","Virginia","Dickenson","Active","Mine only","Paramont Coal Company Virginia",52,94,58,623,339
-"6",2011,"Deep Mine 37","Virginia","Dickenson","Active","Mine only","Paramont Coal Company Virginia",121,48,168,623,339
-"7",2011,"Cherokee Mine","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Co Llc",48,101,56,623,339
-"8",2011,"Roaring Fork No 4","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Co Llc",27,36,162,623,339
-"9",2010,"No 9","Virginia","Dickenson","Active","Mine only","Bristol Coal Corp",117,16,96,535,280
-"10",2010,"Lmm","Virginia","Dickenson","Active","Mine only","Estep Coal Co Inc",141,17,121,535,280
-"11",2010,"No 8","Virginia","Dickenson","Active","Mine only","Capital Coal Corporation",56,11,43,535,280
-"12",2010,"No 10","Virginia","Dickenson","Active","Mine only","Four O Mining Corporation",43,9,9,535,280
-"13",2010,"Cherokee Mine","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Co Llc",50,96,50,535,280
-"14",2010,"Roaring Fork No 4","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Co Llc",31,44,166,535,280
-"15",2010,"Deep Mine 41","Virginia","Dickenson","Active","Mine only","Paramont Coal Company Virginia",80,32,155,535,280
-"16",2010,"Deep Mine 37","Virginia","Dickenson","Active","Mine only","Paramont Coal Company Virginia",17,55,15,535,280
-"17",2009,"#2","Virginia","Dickenson","Active","Mine only","Calvary Coal Corp",11,13,22,585,244
-"18",2009,"No 9","Virginia","Dickenson","Active","Mine only","Bristol Coal Corp",146,19,103,585,244
-"19",2009,"Lmm","Virginia","Dickenson","Active","Mine only","Estep Coal Co Inc",138,16,116,585,244
-"20",2009,"No 8","Virginia","Dickenson","Active","Mine only","Capital Coal Corporation",60,8,31,585,244
-"21",2009,"Cherokee Mine","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Co Llc",57,100,45,585,244
-"22",2009,"Roaring Fork No 4","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Co Llc",68,65,18,585,244
-"23",2009,"Deep Mine 37","Virginia","Dickenson","Active","Mine only","Paramont Coal Company Virginia",105,23,125,585,244
-"24",2008,"Mine No. 9","Virginia","Dickenson","Active","Mine only","C. S. & S. Coal Corporation",10,18,110,748,329
-"25",2008,"Mine #1","Virginia","Dickenson","Active","Mine only","New Birth Mining Llc",116,14,145,748,329
-"26",2008,"No 11","Virginia","Dickenson","Active","Mine only","Apple Jacks Coal Company Inc",24,7,147,748,329
-"27",2008,"No. 9","Virginia","Dickenson","Active","Mine only","Bristol Coal Corp.",163,21,118,748,329
-"28",2008,"Lmm","Virginia","Dickenson","Active","Mine only","Estep Coal Co Inc",155,16,124,748,329
-"29",2008,"No 8","Virginia","Dickenson","Active","Mine only","Capital Coal Corporation",35,6,52,748,329
-"30",2008,"No 2","Virginia","Dickenson","Active","Mine only","Black Dog Coal Corporation",32,55,11,748,329
-"31",2008,"Cherokee Mine","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Co Llc",99,115,75,748,329
-"32",2008,"Roaring Fork No 4","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Co., Ll",114,77,33,748,329
-"33",2007,"Mine No. 9","Virginia","Dickenson","Active","Mine only","C. S. & S. Coal Corporation",161,15,100,565,356
-"34",2007,"No 11","Virginia","Dickenson","Active","Mine only","Apple Jacks Coal Company Inc",41,10,6,565,356
-"35",2007,"No. 9","Virginia","Dickenson","Active","Mine only","Bristol Coal Corp.",14,21,113,565,356
-"36",2007,"Lmm","Virginia","Dickenson","Active","Mine only","Estep Coal Co Inc",61,16,65,565,356
-"37",2007,"Premium","Virginia","Dickenson","Active","Mine only","The Banner Company",25,39,152,565,356
-"38",2007,"No 2","Virginia","Dickenson","Active","Mine only","Black Dog Coal Corporation",30,55,10,565,356
-"39",2007,"Cherokee Mine","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Co Llc",111,117,77,565,356
-"40",2007,"Roaring Fork No 4","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Co., Ll",122,83,40,565,356
-"41",2006,"No. 4","Virginia","Dickenson","Active","Mine only","L & J Equipment Company",158,19,105,607,381
-"42",2006,"Nme","Virginia","Dickenson","Active","Mine only","Estep Coal Company Inc",110,16,114,607,381
-"43",2006,"Mine No. 9","Virginia","Dickenson","Active","Mine only","C. S. & S. Coal Corporation",4,16,101,607,381
-"44",2006,"No. 9","Virginia","Dickenson","Active","Mine only","Bristol Coal Corp.",37,12,13,607,381
-"45",2006,"No 2","Virginia","Dickenson","Active","Mine only","Black Dog Coal Corporation",38,53,5,607,381
-"46",2006,"Laurel Mountain","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Company",97,98,57,607,381
-"47",2006,"Cherokee Mine","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Company",104,115,83,607,381
-"48",2006,"Roaring Fork No 4","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Co Llc",59,52,4,607,381
-"49",2005,"No. 4","Virginia","Dickenson","Active","Mine only","L & J Equipment Company",3,19,111,917,415
-"50",2005,"Mine No 7","Virginia","Dickenson","Active","Mine only","FourO-Mining Company Inc",127,13,61,917,415
-"51",2005,"Nme","Virginia","Dickenson","Active","Mine only","Estep Coal Company Inc",126,16,115,917,415
-"52",2005,"Mine No. 9","Virginia","Dickenson","Active","Mine only","C. S. & S. Coal Corporation",156,12,86,917,415
-"53",2005,"No 8","Virginia","Dickenson","Active","Mine only","Bristol Coal Corp",137,15,88,917,415
-"54",2005,"No 2","Virginia","Dickenson","Active","Mine only","Black Dog Coal Corporation",9,43,156,917,415
-"55",2005,"Laurel Mountain","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Company",83,81,39,917,415
-"56",2005,"Cherokee Mine","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Company",107,108,70,917,415
-"57",2005,"No. 3 Mine","Virginia","Dickenson","Active","Mine only","Apple Jacks Coal Company, Inc.",81,15,42,917,415
-"58",2005,"Roaring Fork No. 3","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Company",88,93,44,917,415
-"59",2004,"No. 4","Virginia","Dickenson","Active","Mine only","L & J Equipment Company",162,18,104,912,358
-"60",2004,"Mine No 7","Virginia","Dickenson","Active","Mine only","FourO-Mining Company Inc",129,14,74,912,358
-"61",2004,"#44","Virginia","Dickenson","Active","Mine only","Gbl Enterprises, Inc.",109,11,72,912,358
-"62",2004,"Nme","Virginia","Dickenson","Active","Mine only","Estep Coal Company Inc",150,15,117,912,358
-"63",2004,"No 2","Virginia","Dickenson","Active","Mine only","Black Dog Coal Corporation",13,31,143,912,358
-"64",2004,"Laurel Mountain","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Company",66,63,23,912,358
-"65",2004,"Cherokee Mine","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Company",91,93,64,912,358
-"66",2004,"No. 3 Mine","Virginia","Dickenson","Active","Mine only","Apple Jacks Coal Company, Inc.",85,14,21,912,358
-"67",2004,"Roaring Fork No. 3","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Company",102,85,38,912,358
-"68",2004,"No 8","Virginia","Dickenson","Active","Mine only","Bristol Coal Corp",5,14,94,912,358
-"69",2003,"No. 4","Virginia","Dickenson","Active","Mine only","L & J Equipment Company",15,18,102,944,351
-"70",2003,"Mine No 7","Virginia","Dickenson","Active","Mine only","FourO-Mining Company Inc",120,14,47,944,351
-"71",2003,"#44","Virginia","Dickenson","Active","Mine only","Gbl Enterprises, Inc.",119,11,79,944,351
-"72",2003,"Mine #3","Virginia","Dickenson","Active","Mine only","Champion Coal Co Inc",40,16,131,944,351
-"73",2003,"No. 3 Mine","Virginia","Dickenson","Active","Mine only","Apple Jacks Coal Company, Inc.",106,12,26,944,351
-"74",2003,"Nme","Virginia","Dickenson","Active","Mine only","Estep Coal Co., Inc.",157,16,119,944,351
-"75",2003,"Mine #1","Virginia","Dickenson","Active","Mine only","Kelly Branch Resources Incorpo",70,13,20,944,351
-"76",2003,"No 8","Virginia","Dickenson","Active","Mine only","Bristol Coal Corp",42,6,138,944,351
-"77",2003,"Mine No 2","Virginia","Dickenson","Active","Mine only","Black Dog Coal Corp",8,22,120,944,351
-"78",2003,"Laurel Mountain","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Company",65,60,17,944,351
-"79",2003,"Cherokee Mine","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Company",89,91,51,944,351
-"80",2003,"Roaring Fork No. 3","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Company",113,72,29,944,351
-"81",2002,"No. 4","Virginia","Dickenson","Active","Mine only","L & J Equipment Company",145,17,92,1262,436
-"82",2002,"Mine No 7","Virginia","Dickenson","Active","Mine only","FourO-Mining Company Inc",125,13,68,1262,436
-"83",2002,"#44","Virginia","Dickenson","Active","Mine only","Gbl Enterprises, Inc.",100,12,69,1262,436
-"84",2002,"No. 3","Virginia","Dickenson","Active","Mine only","Cove Coal Co., Inc.",78,13,67,1262,436
-"85",2002,"#1","Virginia","Dickenson","Active","Mine only","Providence Mining, Inc.",67,17,76,1262,436
-"86",2002,"No. 3 Mine","Virginia","Dickenson","Active","Mine only","Apple Jacks Coal Company, Inc.",69,9,27,1262,436
-"87",2002,"Nme","Virginia","Dickenson","Active","Mine only","Estep Coal Co., Inc.",140,16,122,1262,436
-"88",2002,"No. 1","Virginia","Dickenson","Active","Mine only","Champion Coal Co., Inc.",142,14,93,1262,436
-"89",2002,"Mine  No. 2","Virginia","Dickenson","Active","Mine only","Black Dog Coal Corp.",75,13,66,1262,436
-"90",2002,"Laurel Mountain","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Company",84,81,28,1262,436
-"91",2002,"Cherokee Mine","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Company",82,93,34,1262,436
-"92",2002,"Roaring Fork No 3 Mine","Virginia","Dickenson","Active","Mine only","Clinchfield Coal Company",93,68,16,1262,436
-"93",2002,"Mine #1","Virginia","Dickenson","Active","Mine only","Kelly Branch Resources, Inc.",62,70,25,1262,436
-"94",2001,"No. 1","Virginia","Dickenson","Active","Mine only","Long Ridge Coal Co., Inc.",147,15,95,1377,482
-"95",2001,"Mine No. 7","Virginia","Dickenson","Active","Mine only","Four ""o"" Mining Co., Inc.",143,14,71,1377,482
-"96",2001,"#1","Virginia","Dickenson","Active","Mine only","Providence Mining, Inc.",98,18,98,1377,482
-"97",2001,"Nme","Virginia","Dickenson","Active","Mine only","Estep Coal Co., Inc.",153,16,123,1377,482
-"98",2001,"#44","Virginia","Dickenson","Active","Mine only","Gbl Enterprises, Inc.",149,12,78,1377,482
-"99",2001,"No. 3","Virginia","Dickenson","Active","Mine only","Cove Coal Co., Inc.",33,8,167,1377,482
-"100",2001,"No. 1","Virginia","Dickenson","Active","Mine only","Champion Coal Co., Inc.",58,11,36,1377,482
-"101",2001,"No. 3 Mine","Virginia","Dickenson","Active","Mine only","Apple Jacks Coal Company, Inc.",2,5,164,1377,482
-"102",2001,"Mcclure No. 2 Mine","Virginia","Dickenson","Active","Mine only","Clinchfield Coal Company",160,20,112,1377,482
-"103",2001,"Laurel Mountain Mine","Virginia","Dickenson","Active","Mine only","Clinchfield Coal Company",108,82,35,1377,482
-"104",2001,"Cherokee Mine","Virginia","Dickenson","Active","Mine only","Clinchfield Coal Company",92,93,55,1377,482
-"105",2001,"Deep Mine #28","Virginia","Dickenson","Active","Mine only","Paramont Coal Corporation",47,46,3,1377,482
-"106",2001,"Roaring Fork No. 3 Mine","Virginia","Dickenson","Active","Mine only","Clinchfield Coal Company",115,68,24,1377,482
-"107",2001,"Deep Mine #30","Virginia","Dickenson","Active","Mine only","Paramont Coal Corporation",72,74,41,1377,482
-"108",2000,"No. 1","Virginia","Dickenson","Active","Mine only","Long Ridge Coal Co., Inc.",95,NA,1,1220,NA
-"109",2000,"Mine No. 7","Virginia","Dickenson","Active","Mine only","Four ""o"" Mining Co., Inc.",154,NA,1,1220,NA
-"110",2000,"#1","Virginia","Dickenson","Active","Mine only","Providence Mining, Inc.",123,NA,1,1220,NA
-"111",2000,"No. 2","Virginia","Dickenson","Active","Mine only","L & J Equipment Company",16,NA,1,1220,NA
-"112",2000,"Nme","Virginia","Dickenson","Active","Mine only","Estep Coal Co., Inc.",101,NA,1,1220,NA
-"113",2000,"No. 1","Virginia","Dickenson","Active","Mine only","Outback Mining, Llc",51,NA,1,1220,NA
-"114",2000,"No. 2","Virginia","Dickenson","Active","Mine only","Manna Coal Corp",112,NA,1,1220,NA
-"115",2000,"No. 1","Virginia","Dickenson","Active","Mine only","Champion Coal Co., Inc.",18,NA,1,1220,NA
-"116",2000,"Mcclure No. 2 Mine","Virginia","Dickenson","Active","Mine only","Clinchfield Coal Company",46,NA,1,1220,NA
-"117",2000,"#44","Virginia","Dickenson","Active","Mine only","Gbl Enterprises, Inc.",148,NA,1,1220,NA
-"118",2000,"Laurel Mountain Mine","Virginia","Dickenson","Active","Mine only","Clinchfield Coal Company",90,NA,1,1220,NA
-"119",2000,"Vicc No. 7 Mine","Virginia","Dickenson","Active","Mine only","Coastal Coal Company, Llc",29,NA,1,1220,NA
-"120",2000,"Cherokee Mine","Virginia","Dickenson","Active","Mine only","Clinchfield Coal Company",54,NA,1,1220,NA
-"121",2000,"Deep Mine #28","Virginia","Dickenson","Active","Mine only","Paramont Coal Corporation",63,NA,1,1220,NA
-"122",2000,"Roaring Fork No. 3 Mine","Virginia","Dickenson","Active","Mine only","Clinchfield Coal Company",71,NA,1,1220,NA
-"123",2000,"Deep Mine #30","Virginia","Dickenson","Active","Mine only","Paramont Coal Corporation",49,NA,1,1220,NA
+"","year","mine.name","mine.state","countystr","mine.status","operation.type","operating.company","production.stons","average.employees","labor.hours","total.production","total.employee","mean.production","mean.employee","na.rm"
+"1",2011,"No 9","Virginia","Dickenson","Active","Mine only","Bristol Coal Corp",87,16,97,623,339,77.875,42.375,TRUE
+"2",2011,"Lmm","Virginia","Dickenson","Active","Mine only","Estep Coal Co Inc",118,17,127,623,339,77.875,42.375,TRUE
+"3",2011,"No 8","Virginia","Dickenson","Active","Mine only","Capital Coal Corporation",74,13,84,623,339,77.875,42.375,TRUE
+"4",2011,"No 10","Virginia","Dickenson","Active","Mine only","Four O Mining Corporation",96,14,82,623,339,77.875,42.375,TRUE
+"5",2011,"Deep Mine 41","Virginia","Dickenson","Active","Mine only","Paramont Coal Company Virginia",52,94,58,623,339,77.875,42.375,TRUE
+"6",2011,"Deep Mine 37","Virginia","Dickenson","Active","Mine only","Paramont Coal Company Virginia",121,48,168,623,339,77.875,42.375,TRUE
+"7",2011,"Cherokee Mine","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Co Llc",48,101,56,623,339,77.875,42.375,TRUE
+"8",2011,"Roaring Fork No 4","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Co Llc",27,36,162,623,339,77.875,42.375,TRUE
+"9",2010,"No 9","Virginia","Dickenson","Active","Mine only","Bristol Coal Corp",117,16,96,535,280,66.875,35,TRUE
+"10",2010,"Lmm","Virginia","Dickenson","Active","Mine only","Estep Coal Co Inc",141,17,121,535,280,66.875,35,TRUE
+"11",2010,"No 8","Virginia","Dickenson","Active","Mine only","Capital Coal Corporation",56,11,43,535,280,66.875,35,TRUE
+"12",2010,"No 10","Virginia","Dickenson","Active","Mine only","Four O Mining Corporation",43,9,9,535,280,66.875,35,TRUE
+"13",2010,"Cherokee Mine","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Co Llc",50,96,50,535,280,66.875,35,TRUE
+"14",2010,"Roaring Fork No 4","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Co Llc",31,44,166,535,280,66.875,35,TRUE
+"15",2010,"Deep Mine 41","Virginia","Dickenson","Active","Mine only","Paramont Coal Company Virginia",80,32,155,535,280,66.875,35,TRUE
+"16",2010,"Deep Mine 37","Virginia","Dickenson","Active","Mine only","Paramont Coal Company Virginia",17,55,15,535,280,66.875,35,TRUE
+"17",2009,"#2","Virginia","Dickenson","Active","Mine only","Calvary Coal Corp",11,13,22,585,244,83.5714285714286,34.8571428571429,TRUE
+"18",2009,"No 9","Virginia","Dickenson","Active","Mine only","Bristol Coal Corp",146,19,103,585,244,83.5714285714286,34.8571428571429,TRUE
+"19",2009,"Lmm","Virginia","Dickenson","Active","Mine only","Estep Coal Co Inc",138,16,116,585,244,83.5714285714286,34.8571428571429,TRUE
+"20",2009,"No 8","Virginia","Dickenson","Active","Mine only","Capital Coal Corporation",60,8,31,585,244,83.5714285714286,34.8571428571429,TRUE
+"21",2009,"Cherokee Mine","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Co Llc",57,100,45,585,244,83.5714285714286,34.8571428571429,TRUE
+"22",2009,"Roaring Fork No 4","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Co Llc",68,65,18,585,244,83.5714285714286,34.8571428571429,TRUE
+"23",2009,"Deep Mine 37","Virginia","Dickenson","Active","Mine only","Paramont Coal Company Virginia",105,23,125,585,244,83.5714285714286,34.8571428571429,TRUE
+"24",2008,"Mine No. 9","Virginia","Dickenson","Active","Mine only","C. S. & S. Coal Corporation",10,18,110,748,329,83.1111111111111,36.5555555555556,TRUE
+"25",2008,"Mine #1","Virginia","Dickenson","Active","Mine only","New Birth Mining Llc",116,14,145,748,329,83.1111111111111,36.5555555555556,TRUE
+"26",2008,"No 11","Virginia","Dickenson","Active","Mine only","Apple Jacks Coal Company Inc",24,7,147,748,329,83.1111111111111,36.5555555555556,TRUE
+"27",2008,"No. 9","Virginia","Dickenson","Active","Mine only","Bristol Coal Corp.",163,21,118,748,329,83.1111111111111,36.5555555555556,TRUE
+"28",2008,"Lmm","Virginia","Dickenson","Active","Mine only","Estep Coal Co Inc",155,16,124,748,329,83.1111111111111,36.5555555555556,TRUE
+"29",2008,"No 8","Virginia","Dickenson","Active","Mine only","Capital Coal Corporation",35,6,52,748,329,83.1111111111111,36.5555555555556,TRUE
+"30",2008,"No 2","Virginia","Dickenson","Active","Mine only","Black Dog Coal Corporation",32,55,11,748,329,83.1111111111111,36.5555555555556,TRUE
+"31",2008,"Cherokee Mine","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Co Llc",99,115,75,748,329,83.1111111111111,36.5555555555556,TRUE
+"32",2008,"Roaring Fork No 4","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Co., Ll",114,77,33,748,329,83.1111111111111,36.5555555555556,TRUE
+"33",2007,"Mine No. 9","Virginia","Dickenson","Active","Mine only","C. S. & S. Coal Corporation",161,15,100,565,356,70.625,44.5,TRUE
+"34",2007,"No 11","Virginia","Dickenson","Active","Mine only","Apple Jacks Coal Company Inc",41,10,6,565,356,70.625,44.5,TRUE
+"35",2007,"No. 9","Virginia","Dickenson","Active","Mine only","Bristol Coal Corp.",14,21,113,565,356,70.625,44.5,TRUE
+"36",2007,"Lmm","Virginia","Dickenson","Active","Mine only","Estep Coal Co Inc",61,16,65,565,356,70.625,44.5,TRUE
+"37",2007,"Premium","Virginia","Dickenson","Active","Mine only","The Banner Company",25,39,152,565,356,70.625,44.5,TRUE
+"38",2007,"No 2","Virginia","Dickenson","Active","Mine only","Black Dog Coal Corporation",30,55,10,565,356,70.625,44.5,TRUE
+"39",2007,"Cherokee Mine","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Co Llc",111,117,77,565,356,70.625,44.5,TRUE
+"40",2007,"Roaring Fork No 4","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Co., Ll",122,83,40,565,356,70.625,44.5,TRUE
+"41",2006,"No. 4","Virginia","Dickenson","Active","Mine only","L & J Equipment Company",158,19,105,607,381,75.875,47.625,TRUE
+"42",2006,"Nme","Virginia","Dickenson","Active","Mine only","Estep Coal Company Inc",110,16,114,607,381,75.875,47.625,TRUE
+"43",2006,"Mine No. 9","Virginia","Dickenson","Active","Mine only","C. S. & S. Coal Corporation",4,16,101,607,381,75.875,47.625,TRUE
+"44",2006,"No. 9","Virginia","Dickenson","Active","Mine only","Bristol Coal Corp.",37,12,13,607,381,75.875,47.625,TRUE
+"45",2006,"No 2","Virginia","Dickenson","Active","Mine only","Black Dog Coal Corporation",38,53,5,607,381,75.875,47.625,TRUE
+"46",2006,"Laurel Mountain","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Company",97,98,57,607,381,75.875,47.625,TRUE
+"47",2006,"Cherokee Mine","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Company",104,115,83,607,381,75.875,47.625,TRUE
+"48",2006,"Roaring Fork No 4","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Co Llc",59,52,4,607,381,75.875,47.625,TRUE
+"49",2005,"No. 4","Virginia","Dickenson","Active","Mine only","L & J Equipment Company",3,19,111,917,415,91.7,41.5,TRUE
+"50",2005,"Mine No 7","Virginia","Dickenson","Active","Mine only","FourO-Mining Company Inc",127,13,61,917,415,91.7,41.5,TRUE
+"51",2005,"Nme","Virginia","Dickenson","Active","Mine only","Estep Coal Company Inc",126,16,115,917,415,91.7,41.5,TRUE
+"52",2005,"Mine No. 9","Virginia","Dickenson","Active","Mine only","C. S. & S. Coal Corporation",156,12,86,917,415,91.7,41.5,TRUE
+"53",2005,"No 8","Virginia","Dickenson","Active","Mine only","Bristol Coal Corp",137,15,88,917,415,91.7,41.5,TRUE
+"54",2005,"No 2","Virginia","Dickenson","Active","Mine only","Black Dog Coal Corporation",9,43,156,917,415,91.7,41.5,TRUE
+"55",2005,"Laurel Mountain","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Company",83,81,39,917,415,91.7,41.5,TRUE
+"56",2005,"Cherokee Mine","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Company",107,108,70,917,415,91.7,41.5,TRUE
+"57",2005,"No. 3 Mine","Virginia","Dickenson","Active","Mine only","Apple Jacks Coal Company, Inc.",81,15,42,917,415,91.7,41.5,TRUE
+"58",2005,"Roaring Fork No. 3","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Company",88,93,44,917,415,91.7,41.5,TRUE
+"59",2004,"No. 4","Virginia","Dickenson","Active","Mine only","L & J Equipment Company",162,18,104,912,358,91.2,35.8,TRUE
+"60",2004,"Mine No 7","Virginia","Dickenson","Active","Mine only","FourO-Mining Company Inc",129,14,74,912,358,91.2,35.8,TRUE
+"61",2004,"#44","Virginia","Dickenson","Active","Mine only","Gbl Enterprises, Inc.",109,11,72,912,358,91.2,35.8,TRUE
+"62",2004,"Nme","Virginia","Dickenson","Active","Mine only","Estep Coal Company Inc",150,15,117,912,358,91.2,35.8,TRUE
+"63",2004,"No 2","Virginia","Dickenson","Active","Mine only","Black Dog Coal Corporation",13,31,143,912,358,91.2,35.8,TRUE
+"64",2004,"Laurel Mountain","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Company",66,63,23,912,358,91.2,35.8,TRUE
+"65",2004,"Cherokee Mine","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Company",91,93,64,912,358,91.2,35.8,TRUE
+"66",2004,"No. 3 Mine","Virginia","Dickenson","Active","Mine only","Apple Jacks Coal Company, Inc.",85,14,21,912,358,91.2,35.8,TRUE
+"67",2004,"Roaring Fork No. 3","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Company",102,85,38,912,358,91.2,35.8,TRUE
+"68",2004,"No 8","Virginia","Dickenson","Active","Mine only","Bristol Coal Corp",5,14,94,912,358,91.2,35.8,TRUE
+"69",2003,"No. 4","Virginia","Dickenson","Active","Mine only","L & J Equipment Company",15,18,102,944,351,78.6666666666667,29.25,TRUE
+"70",2003,"Mine No 7","Virginia","Dickenson","Active","Mine only","FourO-Mining Company Inc",120,14,47,944,351,78.6666666666667,29.25,TRUE
+"71",2003,"#44","Virginia","Dickenson","Active","Mine only","Gbl Enterprises, Inc.",119,11,79,944,351,78.6666666666667,29.25,TRUE
+"72",2003,"Mine #3","Virginia","Dickenson","Active","Mine only","Champion Coal Co Inc",40,16,131,944,351,78.6666666666667,29.25,TRUE
+"73",2003,"No. 3 Mine","Virginia","Dickenson","Active","Mine only","Apple Jacks Coal Company, Inc.",106,12,26,944,351,78.6666666666667,29.25,TRUE
+"74",2003,"Nme","Virginia","Dickenson","Active","Mine only","Estep Coal Co., Inc.",157,16,119,944,351,78.6666666666667,29.25,TRUE
+"75",2003,"Mine #1","Virginia","Dickenson","Active","Mine only","Kelly Branch Resources Incorpo",70,13,20,944,351,78.6666666666667,29.25,TRUE
+"76",2003,"No 8","Virginia","Dickenson","Active","Mine only","Bristol Coal Corp",42,6,138,944,351,78.6666666666667,29.25,TRUE
+"77",2003,"Mine No 2","Virginia","Dickenson","Active","Mine only","Black Dog Coal Corp",8,22,120,944,351,78.6666666666667,29.25,TRUE
+"78",2003,"Laurel Mountain","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Company",65,60,17,944,351,78.6666666666667,29.25,TRUE
+"79",2003,"Cherokee Mine","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Company",89,91,51,944,351,78.6666666666667,29.25,TRUE
+"80",2003,"Roaring Fork No. 3","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Company",113,72,29,944,351,78.6666666666667,29.25,TRUE
+"81",2002,"No. 4","Virginia","Dickenson","Active","Mine only","L & J Equipment Company",145,17,92,1262,436,97.0769230769231,33.5384615384615,TRUE
+"82",2002,"Mine No 7","Virginia","Dickenson","Active","Mine only","FourO-Mining Company Inc",125,13,68,1262,436,97.0769230769231,33.5384615384615,TRUE
+"83",2002,"#44","Virginia","Dickenson","Active","Mine only","Gbl Enterprises, Inc.",100,12,69,1262,436,97.0769230769231,33.5384615384615,TRUE
+"84",2002,"No. 3","Virginia","Dickenson","Active","Mine only","Cove Coal Co., Inc.",78,13,67,1262,436,97.0769230769231,33.5384615384615,TRUE
+"85",2002,"#1","Virginia","Dickenson","Active","Mine only","Providence Mining, Inc.",67,17,76,1262,436,97.0769230769231,33.5384615384615,TRUE
+"86",2002,"No. 3 Mine","Virginia","Dickenson","Active","Mine only","Apple Jacks Coal Company, Inc.",69,9,27,1262,436,97.0769230769231,33.5384615384615,TRUE
+"87",2002,"Nme","Virginia","Dickenson","Active","Mine only","Estep Coal Co., Inc.",140,16,122,1262,436,97.0769230769231,33.5384615384615,TRUE
+"88",2002,"No. 1","Virginia","Dickenson","Active","Mine only","Champion Coal Co., Inc.",142,14,93,1262,436,97.0769230769231,33.5384615384615,TRUE
+"89",2002,"Mine  No. 2","Virginia","Dickenson","Active","Mine only","Black Dog Coal Corp.",75,13,66,1262,436,97.0769230769231,33.5384615384615,TRUE
+"90",2002,"Laurel Mountain","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Company",84,81,28,1262,436,97.0769230769231,33.5384615384615,TRUE
+"91",2002,"Cherokee Mine","Virginia","Dickenson","Active","Mine only","DickensonRussell Coal Company",82,93,34,1262,436,97.0769230769231,33.5384615384615,TRUE
+"92",2002,"Roaring Fork No 3 Mine","Virginia","Dickenson","Active","Mine only","Clinchfield Coal Company",93,68,16,1262,436,97.0769230769231,33.5384615384615,TRUE
+"93",2002,"Mine #1","Virginia","Dickenson","Active","Mine only","Kelly Branch Resources, Inc.",62,70,25,1262,436,97.0769230769231,33.5384615384615,TRUE
+"94",2001,"No. 1","Virginia","Dickenson","Active","Mine only","Long Ridge Coal Co., Inc.",147,15,95,1377,482,98.3571428571429,34.4285714285714,TRUE
+"95",2001,"Mine No. 7","Virginia","Dickenson","Active","Mine only","Four ""o"" Mining Co., Inc.",143,14,71,1377,482,98.3571428571429,34.4285714285714,TRUE
+"96",2001,"#1","Virginia","Dickenson","Active","Mine only","Providence Mining, Inc.",98,18,98,1377,482,98.3571428571429,34.4285714285714,TRUE
+"97",2001,"Nme","Virginia","Dickenson","Active","Mine only","Estep Coal Co., Inc.",153,16,123,1377,482,98.3571428571429,34.4285714285714,TRUE
+"98",2001,"#44","Virginia","Dickenson","Active","Mine only","Gbl Enterprises, Inc.",149,12,78,1377,482,98.3571428571429,34.4285714285714,TRUE
+"99",2001,"No. 3","Virginia","Dickenson","Active","Mine only","Cove Coal Co., Inc.",33,8,167,1377,482,98.3571428571429,34.4285714285714,TRUE
+"100",2001,"No. 1","Virginia","Dickenson","Active","Mine only","Champion Coal Co., Inc.",58,11,36,1377,482,98.3571428571429,34.4285714285714,TRUE
+"101",2001,"No. 3 Mine","Virginia","Dickenson","Active","Mine only","Apple Jacks Coal Company, Inc.",2,5,164,1377,482,98.3571428571429,34.4285714285714,TRUE
+"102",2001,"Mcclure No. 2 Mine","Virginia","Dickenson","Active","Mine only","Clinchfield Coal Company",160,20,112,1377,482,98.3571428571429,34.4285714285714,TRUE
+"103",2001,"Laurel Mountain Mine","Virginia","Dickenson","Active","Mine only","Clinchfield Coal Company",108,82,35,1377,482,98.3571428571429,34.4285714285714,TRUE
+"104",2001,"Cherokee Mine","Virginia","Dickenson","Active","Mine only","Clinchfield Coal Company",92,93,55,1377,482,98.3571428571429,34.4285714285714,TRUE
+"105",2001,"Deep Mine #28","Virginia","Dickenson","Active","Mine only","Paramont Coal Corporation",47,46,3,1377,482,98.3571428571429,34.4285714285714,TRUE
+"106",2001,"Roaring Fork No. 3 Mine","Virginia","Dickenson","Active","Mine only","Clinchfield Coal Company",115,68,24,1377,482,98.3571428571429,34.4285714285714,TRUE
+"107",2001,"Deep Mine #30","Virginia","Dickenson","Active","Mine only","Paramont Coal Corporation",72,74,41,1377,482,98.3571428571429,34.4285714285714,TRUE
+"108",2000,"No. 1","Virginia","Dickenson","Active","Mine only","Long Ridge Coal Co., Inc.",95,NA,1,1220,NA,76.25,NA,TRUE
+"109",2000,"Mine No. 7","Virginia","Dickenson","Active","Mine only","Four ""o"" Mining Co., Inc.",154,NA,1,1220,NA,76.25,NA,TRUE
+"110",2000,"#1","Virginia","Dickenson","Active","Mine only","Providence Mining, Inc.",123,NA,1,1220,NA,76.25,NA,TRUE
+"111",2000,"No. 2","Virginia","Dickenson","Active","Mine only","L & J Equipment Company",16,NA,1,1220,NA,76.25,NA,TRUE
+"112",2000,"Nme","Virginia","Dickenson","Active","Mine only","Estep Coal Co., Inc.",101,NA,1,1220,NA,76.25,NA,TRUE
+"113",2000,"No. 1","Virginia","Dickenson","Active","Mine only","Outback Mining, Llc",51,NA,1,1220,NA,76.25,NA,TRUE
+"114",2000,"No. 2","Virginia","Dickenson","Active","Mine only","Manna Coal Corp",112,NA,1,1220,NA,76.25,NA,TRUE
+"115",2000,"No. 1","Virginia","Dickenson","Active","Mine only","Champion Coal Co., Inc.",18,NA,1,1220,NA,76.25,NA,TRUE
+"116",2000,"Mcclure No. 2 Mine","Virginia","Dickenson","Active","Mine only","Clinchfield Coal Company",46,NA,1,1220,NA,76.25,NA,TRUE
+"117",2000,"#44","Virginia","Dickenson","Active","Mine only","Gbl Enterprises, Inc.",148,NA,1,1220,NA,76.25,NA,TRUE
+"118",2000,"Laurel Mountain Mine","Virginia","Dickenson","Active","Mine only","Clinchfield Coal Company",90,NA,1,1220,NA,76.25,NA,TRUE
+"119",2000,"Vicc No. 7 Mine","Virginia","Dickenson","Active","Mine only","Coastal Coal Company, Llc",29,NA,1,1220,NA,76.25,NA,TRUE
+"120",2000,"Cherokee Mine","Virginia","Dickenson","Active","Mine only","Clinchfield Coal Company",54,NA,1,1220,NA,76.25,NA,TRUE
+"121",2000,"Deep Mine #28","Virginia","Dickenson","Active","Mine only","Paramont Coal Corporation",63,NA,1,1220,NA,76.25,NA,TRUE
+"122",2000,"Roaring Fork No. 3 Mine","Virginia","Dickenson","Active","Mine only","Clinchfield Coal Company",71,NA,1,1220,NA,76.25,NA,TRUE
+"123",2000,"Deep Mine #30","Virginia","Dickenson","Active","Mine only","Paramont Coal Corporation",49,NA,1,1220,NA,76.25,NA,TRUE

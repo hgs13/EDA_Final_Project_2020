@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.12)  20 APR 2020 15:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.12)  23 APR 2020 22:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -502,7 +502,14 @@ Package grffile Info: Option `multidot' is set to `true'.
 Package grffile Info: Option `extendedchars' is set to `false'.
 Package grffile Info: Option `space' is set to `true'.
 Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 494.
-) (./Smith_ENV872_Project.aux)
+) (./Smith_ENV872_Project.aux
+
+LaTeX Warning: Label `fig:figs' multiply defined.
+
+
+LaTeX Warning: Label `fig:figs' multiply defined.
+
+)
 \openout1 = `Smith_ENV872_Project.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
@@ -898,146 +905,118 @@ aration Plant: 32[]
  []
 
 [10]
-Overfull \hbox (11.89485pt too wide) in paragraph at lines 505--505
+Overfull \hbox (11.89485pt too wide) in paragraph at lines 507--507
 []\T1/lmtt/m/n/12 ## "mine.basin", "mine.status", "mine.type", "company.type", 
 "operation.type",[] 
  []
 
 
-Overfull \hbox (30.41986pt too wide) in paragraph at lines 510--510
+Overfull \hbox (30.41986pt too wide) in paragraph at lines 512--512
 []\T1/lmtt/m/n/12 ## Warning: Column \TS1/lmtt/m/n/12 `\T1/lmtt/m/n/12 mine.nam
 e\TS1/lmtt/m/n/12 ` \T1/lmtt/m/n/12 joining factors with different levels, coer
 cing to[] 
  []
 
 
-Overfull \hbox (36.59486pt too wide) in paragraph at lines 515--515
+Overfull \hbox (36.59486pt too wide) in paragraph at lines 517--517
 []\T1/lmtt/m/n/12 ## Warning: Column \TS1/lmtt/m/n/12 `\T1/lmtt/m/n/12 mine.sta
 te\TS1/lmtt/m/n/12 ` \T1/lmtt/m/n/12 joining factors with different levels, coe
 rcing to[] 
  []
 
 
-Overfull \hbox (30.41986pt too wide) in paragraph at lines 520--520
+Overfull \hbox (30.41986pt too wide) in paragraph at lines 522--522
 []\T1/lmtt/m/n/12 ## Warning: Column \TS1/lmtt/m/n/12 `\T1/lmtt/m/n/12 countyst
 r\TS1/lmtt/m/n/12 ` \T1/lmtt/m/n/12 joining factors with different levels, coer
 cing to[] 
  []
 
 
-Overfull \hbox (5.71985pt too wide) in paragraph at lines 525--525
+Overfull \hbox (5.71985pt too wide) in paragraph at lines 527--527
 []\T1/lmtt/m/n/12 ## Warning: Column \TS1/lmtt/m/n/12 `\T1/lmtt/m/n/12 operatin
 g.company\TS1/lmtt/m/n/12 ` \T1/lmtt/m/n/12 joining factors with different leve
 ls,[] 
  []
 
 
-Overfull \hbox (5.71985pt too wide) in paragraph at lines 530--530
+Overfull \hbox (5.71985pt too wide) in paragraph at lines 532--532
 []\T1/lmtt/m/n/12 ## Warning: Column \TS1/lmtt/m/n/12 `\T1/lmtt/m/n/12 operatin
 g.company.address\TS1/lmtt/m/n/12 ` \T1/lmtt/m/n/12 joining factors with differ
 ent[] 
  []
 
-
-Overfull \hbox (42.76987pt too wide) in paragraph at lines 535--535
-[]\T1/lmtt/m/n/12 ## Warning: Column \TS1/lmtt/m/n/12 `\T1/lmtt/m/n/12 labor.ho
-urs\TS1/lmtt/m/n/12 ` \T1/lmtt/m/n/12 joining factors with different levels, co
-ercing to[] 
- []
-
 [11] [12]
-Overfull \hbox (5.71985pt too wide) in paragraph at lines 589--589
+Overfull \hbox (5.71985pt too wide) in paragraph at lines 588--588
 []\T1/lmtt/m/n/12 ## Scale for \TS1/lmtt/m/n/12 '\T1/lmtt/m/n/12 x\TS1/lmtt/m/n
 /12 ' \T1/lmtt/m/n/12 is already present. Adding another scale for \TS1/lmtt/m/
 n/12 '\T1/lmtt/m/n/12 x\TS1/lmtt/m/n/12 '\T1/lmtt/m/n/12 , which will[] 
  []
 
-<"Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-7-1".pdf, id=119, 433
+<"Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-7-1".pdf, id=117, 433
 .62pt x 289.08pt>
 File: "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-7-1".pdf Graphic
  file (type pdf)
 <use "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-7-1".pdf>
 Package pdftex.def Info: "Smith_ENV872_Project_files/figure-latex/""unnamed-chu
-nk-7-1".pdf  used on input line 593.
+nk-7-1".pdf  used on input line 592.
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
-[13 <./Smith_ENV872_Project_files/figure-latex/unnamed-chunk-7-1.pdf>]
-Overfull \hbox (5.71985pt too wide) in paragraph at lines 619--619
+
+Overfull \hbox (5.71985pt too wide) in paragraph at lines 600--600
 []\T1/lmtt/m/n/12 ## Scale for \TS1/lmtt/m/n/12 '\T1/lmtt/m/n/12 x\TS1/lmtt/m/n
 /12 ' \T1/lmtt/m/n/12 is already present. Adding another scale for \TS1/lmtt/m/
 n/12 '\T1/lmtt/m/n/12 x\TS1/lmtt/m/n/12 '\T1/lmtt/m/n/12 , which will[] 
  []
 
-<"Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-8-1".pdf, id=133, 289
-.08pt x 216.81pt>
+<"Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-8-1".pdf, id=118, 433
+.62pt x 289.08pt>
 File: "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-8-1".pdf Graphic
  file (type pdf)
 <use "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-8-1".pdf>
 Package pdftex.def Info: "Smith_ENV872_Project_files/figure-latex/""unnamed-chu
-nk-8-1".pdf  used on input line 631.
-(pdftex.def)             Requested size: 289.09251pt x 216.81938pt.
-<"Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-10-1".pdf, id=134, 46
-9.755pt x 325.215pt>
-File: "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-10-1".pdf Graphi
-c file (type pdf)
-<use "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-10-1".pdf>
+nk-8-1".pdf  used on input line 608.
+(pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
+<"Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-9-1".pdf, id=119, 433
+.62pt x 289.08pt>
+File: "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-9-1".pdf Graphic
+ file (type pdf)
+<use "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-9-1".pdf>
 Package pdftex.def Info: "Smith_ENV872_Project_files/figure-latex/""unnamed-chu
-nk-10-1".pdf  used on input line 658.
-(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-[14 <./Smith_ENV872_Project_files/figure-latex/unnamed-chunk-8-1.pdf>]
-Overfull \hbox (5.71985pt too wide) in paragraph at lines 681--681
-[]\T1/lmtt/m/n/12 ## Scale for \TS1/lmtt/m/n/12 '\T1/lmtt/m/n/12 x\TS1/lmtt/m/n
-/12 ' \T1/lmtt/m/n/12 is already present. Adding another scale for \TS1/lmtt/m/
-n/12 '\T1/lmtt/m/n/12 x\TS1/lmtt/m/n/12 '\T1/lmtt/m/n/12 , which will[] 
- []
-
-<"Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-11-1".pdf, id=146, 46
-9.755pt x 325.215pt>
-File: "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-11-1".pdf Graphi
-c file (type pdf)
-<use "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-11-1".pdf>
-Package pdftex.def Info: "Smith_ENV872_Project_files/figure-latex/""unnamed-chu
-nk-11-1".pdf  used on input line 691.
-(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-[15 <./Smith_ENV872_Project_files/figure-latex/unnamed-chunk-10-1.pdf>]
-<"Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-12-1".pdf, id=156, 46
-9.755pt x 325.215pt>
-File: "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-12-1".pdf Graphi
-c file (type pdf)
-<use "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-12-1".pdf>
-Package pdftex.def Info: "Smith_ENV872_Project_files/figure-latex/""unnamed-chu
-nk-12-1".pdf  used on input line 706.
-(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-[16 <./Smith_ENV872_Project_files/figure-latex/unnamed-chunk-11-1.pdf>] [17 <./
-Smith_ENV872_Project_files/figure-latex/unnamed-chunk-12-1.pdf>] [18]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 721.
-[19]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 721.
+nk-9-1".pdf  used on input line 619.
+(pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
+[13 <./Smith_ENV872_Project_files/figure-latex/unnamed-chunk-7-1.pdf>] [14 <./S
+mith_ENV872_Project_files/figure-latex/unnamed-chunk-8-1.pdf>] [15 <./Smith_ENV
+872_Project_files/figure-latex/unnamed-chunk-9-1.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 640.
+[16]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 640.
 (./Smith_ENV872_Project.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 721.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 721.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 640.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 640.
 Package rerunfilecheck Info: File `Smith_ENV872_Project.out' has not changed.
-(rerunfilecheck)             Checksum: E00FE05447EFAB6B0DE1C8C1A0B005CA;3496.
+(rerunfilecheck)             Checksum: A407DE294E991A4AFDE8C1A051FE1E83;2065.
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 13265 strings out of 493610
- 196076 string characters out of 6159293
- 306520 words of memory out of 5000000
- 17146 multiletter control sequences out of 15000+600000
- 53446 words of font info for 82 fonts, out of 8000000 for 9000
+ 13251 strings out of 493610
+ 194809 string characters out of 6159293
+ 306045 words of memory out of 5000000
+ 17132 multiletter control sequences out of 15000+600000
+ 53309 words of font info for 83 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 39i,6n,42p,1335b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019basic/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/l
-ocal/texlive/2019basic/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/tex
+ 39i,6n,42p,1146b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019basic/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/
+local/texlive/2019basic/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/tex
 live/2019basic/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/
 2019basic/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2019ba
 sic/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2019basic/te
 xmf-dist/fonts/type1/public/lm/lmtk10.pfb></usr/local/texlive/2019basic/texmf-d
-ist/fonts/type1/public/lm/lmtt12.pfb></usr/local/texlive/2019basic/texmf-dist/f
-onts/type1/public/lm/lmtti10.pfb>
-Output written on Smith_ENV872_Project.pdf (19 pages, 203811 bytes).
+ist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on Smith_ENV872_Project.pdf (16 pages, 176143 bytes).
 PDF statistics:
- 222 PDF objects out of 1000 (max. 8388607)
- 183 compressed objects within 2 object streams
- 42 named destinations out of 1000 (max. 500000)
- 10338 words of extra memory for PDF output out of 12000 (max. 10000000)
+ 190 PDF objects out of 1000 (max. 8388607)
+ 159 compressed objects within 2 object streams
+ 39 named destinations out of 1000 (max. 500000)
+ 10320 words of extra memory for PDF output out of 12000 (max. 10000000)
 

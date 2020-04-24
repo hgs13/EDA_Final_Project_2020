@@ -136,9 +136,9 @@ This project seeks to analyze the migration patterns of residents of
 coal counties in central Appalachia from the years 2000 to 2017. Two
 ``coal counties'' serve as a case study for migration in central
 Appalachia: Harlan County, Kentucky and Dickenson County, Virginia.
-Harlan County serves as a ``Boom Bust'' county, meaning the county
+Harlan County serves as a ``Boom-Bust'' county, meaning the county
 experienced a coal production boom in 2000 and a coal production bust in
-2010. Dickenson, on the other hand, is a ``Bust Bust'' county, where the
+2010. Dickenson, on the other hand, is a ``Bust-Bust'' county, where the
 county experienced a coal production bust in 2000 and did not recover by
 2010.
 
@@ -476,6 +476,7 @@ Formatting Relevant Columns in Harlan and Dickenson County Raw Datasets
 \NormalTok{harlan.raw}\OperatorTok{$}\NormalTok{operation.type <-}\StringTok{ }\KeywordTok{as.character}\NormalTok{(harlan.raw}\OperatorTok{$}\NormalTok{operation.type)}
 \NormalTok{harlan.raw}\OperatorTok{$}\NormalTok{production.stons <-}\StringTok{ }\KeywordTok{as.numeric}\NormalTok{(harlan.raw}\OperatorTok{$}\NormalTok{production.stons)}
 \NormalTok{harlan.raw}\OperatorTok{$}\NormalTok{average.employees <-}\StringTok{ }\KeywordTok{as.integer}\NormalTok{(harlan.raw}\OperatorTok{$}\NormalTok{average.employees)}
+\NormalTok{harlan.raw}\OperatorTok{$}\NormalTok{labor.hours <-}\StringTok{ }\KeywordTok{as.integer}\NormalTok{(harlan.raw}\OperatorTok{$}\NormalTok{labor.hours)}
 
 
 \NormalTok{dickenson.raw}\OperatorTok{$}\NormalTok{year <-}\StringTok{ }\KeywordTok{as.numeric}\NormalTok{(dickenson.raw}\OperatorTok{$}\NormalTok{year)}
@@ -484,6 +485,7 @@ Formatting Relevant Columns in Harlan and Dickenson County Raw Datasets
 \NormalTok{dickenson.raw}\OperatorTok{$}\NormalTok{operation.type <-}\StringTok{ }\KeywordTok{as.character}\NormalTok{(dickenson.raw}\OperatorTok{$}\NormalTok{operation.type)}
 \NormalTok{dickenson.raw}\OperatorTok{$}\NormalTok{production.stons <-}\StringTok{ }\KeywordTok{as.numeric}\NormalTok{(dickenson.raw}\OperatorTok{$}\NormalTok{production.stons)}
 \NormalTok{dickenson.raw}\OperatorTok{$}\NormalTok{average.employees <-}\StringTok{ }\KeywordTok{as.numeric}\NormalTok{(dickenson.raw}\OperatorTok{$}\NormalTok{average.employees)}
+\NormalTok{dickenson.raw}\OperatorTok{$}\NormalTok{labor.hours <-}\StringTok{ }\KeywordTok{as.numeric}\NormalTok{(dickenson.raw}\OperatorTok{$}\NormalTok{labor.hours)}
 \end{Highlighting}
 \end{Shaded}
 
@@ -529,11 +531,6 @@ Visual Data Exploration of Harlan and Dickenson raw data
 ## levels, coercing to character vector
 \end{verbatim}
 
-\begin{verbatim}
-## Warning: Column `labor.hours` joining factors with different levels, coercing to
-## character vector
-\end{verbatim}
-
 Filtering for data relevant to research questions
 
 \begin{Shaded}
@@ -543,21 +540,24 @@ Filtering for data relevant to research questions
 \NormalTok{         production.stons}\OperatorTok{:}\NormalTok{labor.hours) }\OperatorTok{%>%}
 \StringTok{  }\KeywordTok{filter}\NormalTok{(mine.status }\OperatorTok{==}\StringTok{ "Active"}\NormalTok{, operation.type }\OperatorTok{==}\StringTok{ "Mine only"}\NormalTok{) }\OperatorTok{%>%}
 \StringTok{  }\KeywordTok{group_by}\NormalTok{(year, countystr) }\OperatorTok{%>%}
-\StringTok{  }\KeywordTok{mutate}\NormalTok{(}\DataTypeTok{total.stons =} \KeywordTok{sum}\NormalTok{(production.stons), }\DataTypeTok{total.employee =} \KeywordTok{sum}\NormalTok{(average.employees))}
+\StringTok{  }\KeywordTok{mutate}\NormalTok{(}\DataTypeTok{total.production =} \KeywordTok{sum}\NormalTok{(production.stons), }\DataTypeTok{total.employee =} \KeywordTok{sum}\NormalTok{(average.employees), }\DataTypeTok{mean.production =} \KeywordTok{mean}\NormalTok{(production.stons), }
+         \DataTypeTok{mean.employee =} \KeywordTok{mean}\NormalTok{(average.employees), }\DataTypeTok{na.rm =} \OtherTok{TRUE}\NormalTok{)}
 
 \NormalTok{dickenson.clean <-}\StringTok{ }\NormalTok{dickenson.raw }\OperatorTok{%>%}
 \StringTok{  }\KeywordTok{select}\NormalTok{(year}\OperatorTok{:}\NormalTok{countystr, mine.status, operation.type, operating.company,}
 \NormalTok{         production.stons}\OperatorTok{:}\NormalTok{labor.hours) }\OperatorTok{%>%}
 \StringTok{  }\KeywordTok{filter}\NormalTok{(mine.status }\OperatorTok{==}\StringTok{ "Active"}\NormalTok{, operation.type }\OperatorTok{==}\StringTok{ "Mine only"}\NormalTok{) }\OperatorTok{%>%}
 \StringTok{  }\KeywordTok{group_by}\NormalTok{(year, countystr) }\OperatorTok{%>%}
-\StringTok{  }\KeywordTok{mutate}\NormalTok{(}\DataTypeTok{total.stons =} \KeywordTok{sum}\NormalTok{(production.stons), }\DataTypeTok{total.employee =} \KeywordTok{sum}\NormalTok{(average.employees))}
+\StringTok{  }\KeywordTok{mutate}\NormalTok{(}\DataTypeTok{total.production =} \KeywordTok{sum}\NormalTok{(production.stons), }\DataTypeTok{total.employee =} \KeywordTok{sum}\NormalTok{(average.employees), }\DataTypeTok{mean.production =} \KeywordTok{mean}\NormalTok{(production.stons), }
+         \DataTypeTok{mean.employee =} \KeywordTok{mean}\NormalTok{(average.employees), }\DataTypeTok{na.rm =} \OtherTok{TRUE}\NormalTok{)}
   
 \NormalTok{minedata.clean <-}\StringTok{ }\NormalTok{minedata }\OperatorTok{%>%}
 \StringTok{  }\KeywordTok{select}\NormalTok{(year}\OperatorTok{:}\NormalTok{countystr, mine.status, operation.type, operating.company,}
 \NormalTok{         production.stons}\OperatorTok{:}\NormalTok{labor.hours) }\OperatorTok{%>%}
 \StringTok{  }\KeywordTok{filter}\NormalTok{(mine.status }\OperatorTok{==}\StringTok{ "Active"}\NormalTok{, operation.type }\OperatorTok{==}\StringTok{ "Mine only"}\NormalTok{) }\OperatorTok{%>%}
 \StringTok{  }\KeywordTok{group_by}\NormalTok{(year, countystr) }\OperatorTok{%>%}
-\StringTok{  }\KeywordTok{mutate}\NormalTok{(}\DataTypeTok{total.stons =} \KeywordTok{sum}\NormalTok{(production.stons), }\DataTypeTok{total.employee =} \KeywordTok{sum}\NormalTok{(average.employees))}
+\StringTok{  }\KeywordTok{mutate}\NormalTok{(}\DataTypeTok{total.production =} \KeywordTok{sum}\NormalTok{(production.stons), }\DataTypeTok{total.employee =} \KeywordTok{sum}\NormalTok{(average.employees), }\DataTypeTok{mean.production =} \KeywordTok{mean}\NormalTok{(production.stons), }
+         \DataTypeTok{mean.employee =} \KeywordTok{mean}\NormalTok{(average.employees), }\DataTypeTok{na.rm =} \OtherTok{TRUE}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
 
@@ -576,12 +576,11 @@ Save the data in the processed folder
 \hypertarget{analysis}{%
 \section{Analysis}\label{analysis}}
 
-\hypertarget{question-1-is-the-annual-tonnage-produced-by-all-mines-in-a-boom-bust-harlan-county-in-the-years-2000-to-2011-significantly-greater-than-that-produced-by-a-bust-bust-dickenson-county-in-the-year-2000-to-2011}{%
-\subsection{Question 1: Is the annual tonnage produced by all mines in a
-boom-bust (Harlan) county in the years 2000 to 2011 significantly
-greater than that produced by a bust-bust (Dickenson) county in the year
-2000 to
-2011?}\label{question-1-is-the-annual-tonnage-produced-by-all-mines-in-a-boom-bust-harlan-county-in-the-years-2000-to-2011-significantly-greater-than-that-produced-by-a-bust-bust-dickenson-county-in-the-year-2000-to-2011}}
+\hypertarget{question-1-is-the-total-number-of-employees-for-all-mines-in-a-boom-bust-or-a-bust-bust-county-in-the-years-2000-to-2011-a-significant-predictor-of-annual-coal-production-for-all-mines}{%
+\subsection{Question 1: Is the total number of employees for all mines
+in a boom-bust or a bust-bust county in the years 2000 to 2011 a
+significant predictor of annual coal production for all
+mines?}\label{question-1-is-the-total-number-of-employees-for-all-mines-in-a-boom-bust-or-a-bust-bust-county-in-the-years-2000-to-2011-a-significant-predictor-of-annual-coal-production-for-all-mines}}
 
 \begin{verbatim}
 ## Scale for 'x' is already present. Adding another scale for 'x', which will
@@ -595,115 +594,35 @@ greater than that produced by a bust-bust (Dickenson) county in the year
 Dickenson Counties}
 \end{figure}
 
-\hypertarget{question-2-is-the-number-of-people-employed-in-all-mines-in-the-boom-bust-county-harlan-in-the-years-2001-to-2011-significantly-greater-than-those-employed-by-a-bust-bust-county-dickenson-in-the-years-2001-to-2011}{%
-\subsection{Question 2: Is the number of people employed in all mines in
-the boom-bust county (Harlan) in the years 2001 to 2011 significantly
-greater than those employed by a bust-bust county (Dickenson) in the
-years 2001 to
-2011?}\label{question-2-is-the-number-of-people-employed-in-all-mines-in-the-boom-bust-county-harlan-in-the-years-2001-to-2011-significantly-greater-than-those-employed-by-a-bust-bust-county-dickenson-in-the-years-2001-to-2011}}
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{employee <-}\StringTok{ }\KeywordTok{ggplot}\NormalTok{(minedata.clean, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x =}\NormalTok{ year, }\DataTypeTok{y =}\NormalTok{ total.employee, }\DataTypeTok{color =}\NormalTok{ countystr)) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{geom_line}\NormalTok{() }\OperatorTok{+}
-\StringTok{  }\KeywordTok{labs}\NormalTok{(}\DataTypeTok{x =} \StringTok{"Year"}\NormalTok{, }\DataTypeTok{y =} \StringTok{"Total Employed"}\NormalTok{, }\DataTypeTok{color =} \StringTok{"County"}\NormalTok{) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{xlim}\NormalTok{(}\DecValTok{2001}\NormalTok{, }\DecValTok{2011}\NormalTok{) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{scale_color_manual}\NormalTok{(}\DataTypeTok{values=}\NormalTok{hppal2) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{scale_x_continuous}\NormalTok{(}\StringTok{"Year"}\NormalTok{, }\KeywordTok{c}\NormalTok{(}\DecValTok{2000}\NormalTok{, }\DecValTok{2002}\NormalTok{, }\DecValTok{2004}\NormalTok{, }\DecValTok{2006}\NormalTok{, }\DecValTok{2008}\NormalTok{, }\DecValTok{2010}\NormalTok{))}
-\end{Highlighting}
-\end{Shaded}
-
 \begin{verbatim}
 ## Scale for 'x' is already present. Adding another scale for 'x', which will
 ## replace the existing scale.
 \end{verbatim}
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\KeywordTok{print}\NormalTok{(employee)}
-\end{Highlighting}
-\end{Shaded}
-
 \begin{verbatim}
 ## Warning: Removed 43 rows containing missing values (geom_path).
 \end{verbatim}
 
+\begin{figure}
+\centering
 \includegraphics{Smith_ENV872_Project_files/figure-latex/unnamed-chunk-8-1.pdf}
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\KeywordTok{ggsave}\NormalTok{(}\StringTok{"./Output/AnnualEmployment.jpg"}\NormalTok{, employee, }\DataTypeTok{height =} \DecValTok{4}\NormalTok{, }\DataTypeTok{width =} \DecValTok{6}\NormalTok{, }\DataTypeTok{dpi =} \DecValTok{300}\NormalTok{)}
-\end{Highlighting}
-\end{Shaded}
+\caption{\label{fig:figs} Total Number of Employees in Harlan and
+Dickenson Counties, 2000 to 2011}
+\end{figure}
 
 \begin{verbatim}
 ## Warning: Removed 43 rows containing missing values (geom_path).
 \end{verbatim}
 
-Harlan Mines by Employee
+\begin{figure}
+\centering
+\includegraphics{Smith_ENV872_Project_files/figure-latex/unnamed-chunk-9-1.pdf}
+\caption{\label{fig:figs} Annual Coal Production Compared to Total
+Employees in Harlan and Dickenson Counties, 2000 to 2011 (ANOVA; df =
+288, F = 276, p-value \textless{} 0.001)}
+\end{figure}
 
-Harlan Mines by Production
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{harlan.production.plot <-}\StringTok{ }\KeywordTok{ggplot}\NormalTok{(harlan.clean.bymine, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x =}\NormalTok{ year, }\DataTypeTok{y =}\NormalTok{ total.stons, }\DataTypeTok{color =}\NormalTok{ mine.name)) }\OperatorTok{+}
-\StringTok{ }\KeywordTok{geom_line}\NormalTok{() }\OperatorTok{+}
-\StringTok{  }\KeywordTok{labs}\NormalTok{(}\DataTypeTok{x =} \StringTok{"Year"}\NormalTok{, }\DataTypeTok{y =} \StringTok{"Total Coal Production (short tons)"}\NormalTok{, }\DataTypeTok{color =} \StringTok{"Mine"}\NormalTok{)}
-  \CommentTok{#lim(2001, 2011) +}
-  \CommentTok{#scale_color_manual(values=hppal31)}
-\KeywordTok{print}\NormalTok{(harlan.production.plot)}
-\end{Highlighting}
-\end{Shaded}
-
-\includegraphics{Smith_ENV872_Project_files/figure-latex/unnamed-chunk-10-1.pdf}
-
-Dickenson Mines by Employee
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{dickenson.clean.bymine <-}\StringTok{ }\NormalTok{dickenson.raw }\OperatorTok{%>%}
-\StringTok{  }\KeywordTok{filter}\NormalTok{(average.employees }\OperatorTok{>}\StringTok{ }\DecValTok{50}\NormalTok{) }\OperatorTok{%>%}
-\StringTok{  }\KeywordTok{group_by}\NormalTok{(year, mine.name) }\OperatorTok{%>%}
-\StringTok{  }\KeywordTok{mutate}\NormalTok{(}\DataTypeTok{total.stons =} \KeywordTok{sum}\NormalTok{(production.stons), }\DataTypeTok{total.employee =} \KeywordTok{sum}\NormalTok{(average.employees))}
-  
-\NormalTok{dickenson.employee.plot <-}\StringTok{ }\KeywordTok{ggplot}\NormalTok{(dickenson.clean.bymine, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x =}\NormalTok{ year, }\DataTypeTok{y =}\NormalTok{ total.employee, }\DataTypeTok{color =}\NormalTok{ mine.name)) }\OperatorTok{+}
-\StringTok{ }\KeywordTok{geom_line}\NormalTok{() }\OperatorTok{+}
-\StringTok{  }\KeywordTok{labs}\NormalTok{(}\DataTypeTok{x =} \StringTok{"Year"}\NormalTok{, }\DataTypeTok{y =} \StringTok{"Number of Employees"}\NormalTok{, }\DataTypeTok{color =} \StringTok{"Mine"}\NormalTok{) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{xlim}\NormalTok{(}\DecValTok{2001}\NormalTok{, }\DecValTok{2011}\NormalTok{) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{scale_color_manual}\NormalTok{(}\DataTypeTok{values=}\NormalTok{hppal33) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{scale_x_continuous}\NormalTok{(}\StringTok{"Year"}\NormalTok{, }\KeywordTok{c}\NormalTok{(}\DecValTok{2000}\NormalTok{, }\DecValTok{2002}\NormalTok{, }\DecValTok{2004}\NormalTok{, }\DecValTok{2006}\NormalTok{, }\DecValTok{2008}\NormalTok{, }\DecValTok{2010}\NormalTok{))}
-\end{Highlighting}
-\end{Shaded}
-
-\begin{verbatim}
-## Scale for 'x' is already present. Adding another scale for 'x', which will
-## replace the existing scale.
-\end{verbatim}
-
-\begin{Shaded}
-\begin{Highlighting}[]
-  \CommentTok{#lim(2001, 2011) +}
-  \CommentTok{#scale_color_manual(values=hppal31)}
-\KeywordTok{print}\NormalTok{(dickenson.employee.plot)}
-\end{Highlighting}
-\end{Shaded}
-
-\includegraphics{Smith_ENV872_Project_files/figure-latex/unnamed-chunk-11-1.pdf}
-
-Dickenson Mines by Production
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{dickenson.production.plot <-}\StringTok{ }\KeywordTok{ggplot}\NormalTok{(dickenson.clean.bymine, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x =}\NormalTok{ year, }\DataTypeTok{y =}\NormalTok{ total.stons, }\DataTypeTok{color =}\NormalTok{ mine.name)) }\OperatorTok{+}
-\StringTok{ }\KeywordTok{geom_line}\NormalTok{() }\OperatorTok{+}
-\StringTok{  }\KeywordTok{labs}\NormalTok{(}\DataTypeTok{x =} \StringTok{"Year"}\NormalTok{, }\DataTypeTok{y =} \StringTok{"Total Coal Production (short tons)"}\NormalTok{, }\DataTypeTok{color =} \StringTok{"Mine"}\NormalTok{)}
-  \CommentTok{#lim(2001, 2011) +}
-  \CommentTok{#scale_color_manual(values=hppal31)}
-\KeywordTok{print}\NormalTok{(dickenson.production.plot)}
-\end{Highlighting}
-\end{Shaded}
-
-\includegraphics{Smith_ENV872_Project_files/figure-latex/unnamed-chunk-12-1.pdf}
+\newpage
 
 \newpage
 
