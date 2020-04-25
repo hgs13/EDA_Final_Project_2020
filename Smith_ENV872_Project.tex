@@ -132,9 +132,15 @@
 \section{Rationale and Research
 Questions}\label{rationale-and-research-questions}}
 
-This project seeks to analyze the migration patterns of residents of
-coal counties in central Appalachia from the years 2000 to 2017. Two
-``coal counties'' serve as a case study for migration in central
+This project seeks to analyze preliminary data that may affect the
+migration patterns of residents of coal counties in central Appalachia
+from the years 2000 to 2011. There is little to no research exploring
+migration patterns in Appalachia during this time period, especially as
+it relates to migration. Furthermore, the energy sector is transitioning
+to greener energy, which further impacts coal production, especially in
+Appalachia.
+
+Two ``coal counties'' serve as a case study for migration in central
 Appalachia: Harlan County, Kentucky and Dickenson County, Virginia.
 Harlan County serves as a ``Boom-Bust'' county, meaning the county
 experienced a coal production boom in 2000 and a coal production bust in
@@ -145,15 +151,42 @@ county experienced a coal production bust in 2000 and did not recover by
 An important portion of understanding migration in Appalachia is
 investigating the mine operations within the coal counties. As such,
 this project creates and analyzes a visualization of mine production and
-employee in Harlan and Dickenson counties between the years 2000 and
+employment in Harlan and Dickenson counties between the years 2000 and
 2011. The data analysis of the coal production and the number of
 employees in coal mines in each county could be indicative of migration
 patterns within the central Appalachian region.
+
+The main questions for this research study are as follows:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  What is the relationship between coal production and number of
+  employees in coal mines in Harlan and Dickenson Counties?
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  How does coal production differ between all mines in Harlan County
+  compared to Dickenson County?
+\item
+  How does the number of employees in the mines of Harlan County compare
+  to Dickenson County?
+\item
+  Is the total number of employees for all mines in a boom-bust and a
+  bust-bust county in the years 2000 to 2011 a significant predictor of
+  annual coal production for all mines?
+\end{enumerate}
 
 \newpage
 
 \hypertarget{dataset-information}{%
 \section{Dataset Information}\label{dataset-information}}
+
+\hypertarget{data-origin-location}{%
+\subsection{Data Origin Location}\label{data-origin-location}}
 
 The data in this repository is coal mine data compiled by the Coal and
 America Bass Connections team at Duke University from the Energy
@@ -191,22 +224,33 @@ Report, the Monthly Energy Review, and the Annual Energy Review. In
 addition, the EIA uses the data for coal supply analyses and in
 short-term modeling efforts, which produce forecasts of coal supply and
 prices requested by Congress. The forecast data also appear in the
-Short-Term Energy Outlook and the Annual Energy Outlook."
+Short-Term Energy Outlook and the Annual Energy Outlook." (EIA, Form
+EIA-7A)
 
 Therefore, the data used in this project should be timely and accurate.
 Furthermore, coal production during the decade this project explores was
 extremely variable. As such, there should be no exclusion of outliers in
 this report.
 
-\newpage
+\hypertarget{data-wrangling-methods}{%
+\subsection{Data Wrangling Methods}\label{data-wrangling-methods}}
 
-\hypertarget{exploratory-analysis}{%
-\section{Exploratory Analysis}\label{exploratory-analysis}}
+For this project, the data was imported as two separate .csv files for
+each county of interest (Harlan, Kentucky and Dickenson, Virginia). From
+there, each column was coerced into the appropriate vector format. The
+two data frames were then joined into one data frame to create ease of
+access. Then, irrelevant columns were removed so that only the year,
+mine name, mine state, mine county, mine status, operation type,
+operating company, average employees, and labor hours were included.
+After this, only active mines were selected for, as inactive mines would
+skew the data. After grouping the remaining data by year and county, the
+total production, total employed, mean production, and mean empoyment
+were found for each county by year.
 
 \hypertarget{data-exploration}{%
 \subsection{Data Exploration}\label{data-exploration}}
 
-Data exploration of the Harlan and Dickenson County raw data files.
+Data exploration of the Harlan and Dickenson County raw data files
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -426,215 +470,195 @@ Data exploration of the Harlan and Dickenson County raw data files.
 ##  NA's   :26        (Other):162
 \end{verbatim}
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\KeywordTok{sum}\NormalTok{(}\KeywordTok{as.numeric}\NormalTok{(harlan.raw}\OperatorTok{$}\NormalTok{average.employees), }\DataTypeTok{na.rm =} \OtherTok{TRUE}\NormalTok{)}
-\end{Highlighting}
-\end{Shaded}
+\newpage
 
-\begin{verbatim}
-## [1] 16336
-\end{verbatim}
+\hypertarget{exploratory-analysis}{%
+\section{Exploratory Analysis}\label{exploratory-analysis}}
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\KeywordTok{sum}\NormalTok{(}\KeywordTok{as.numeric}\NormalTok{(dickenson.raw}\OperatorTok{$}\NormalTok{average.employees), }\DataTypeTok{na.rm =} \OtherTok{TRUE}\NormalTok{)}
-\end{Highlighting}
-\end{Shaded}
+\hypertarget{visual-data-exploration-of-harlan-and-dickenson-data}{%
+\subsection{Visual Data Exploration of Harlan and Dickenson
+Data}\label{visual-data-exploration-of-harlan-and-dickenson-data}}
 
-\begin{verbatim}
-## [1] 5058
-\end{verbatim}
+\begin{figure}
+\centering
+\includegraphics{Smith_ENV872_Project_files/figure-latex/unnamed-chunk-6-1.pdf}
+\caption{\label{fig:figs} Total Annual Labor Hours for Mining in Harlan
+and Dickenson Counties by Mine}
+\end{figure}
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\KeywordTok{sum}\NormalTok{(}\KeywordTok{as.numeric}\NormalTok{(harlan.raw}\OperatorTok{$}\NormalTok{production.stons), }\DataTypeTok{na.rm =} \OtherTok{TRUE}\NormalTok{)}
-\end{Highlighting}
-\end{Shaded}
+\begin{figure}
+\centering
+\includegraphics{Smith_ENV872_Project_files/figure-latex/unnamed-chunk-7-1.pdf}
+\caption{\label{fig:figs} Total Annual Labor Hours for Mining in Harlan
+and Dickenson Counties by County}
+\end{figure}
 
-\begin{verbatim}
-## [1] 80309
-\end{verbatim}
+\begin{figure}
+\centering
+\includegraphics{Smith_ENV872_Project_files/figure-latex/unnamed-chunk-8-1.pdf}
+\caption{\label{fig:figs} Total Annual Coal Employment in Harlan and
+Dickenson Counties by Mine}
+\end{figure}
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\KeywordTok{sum}\NormalTok{(}\KeywordTok{as.numeric}\NormalTok{(dickenson.raw}\OperatorTok{$}\NormalTok{production.stons), }\DataTypeTok{na.rm =} \OtherTok{TRUE}\NormalTok{)}
-\end{Highlighting}
-\end{Shaded}
+\begin{figure}
+\centering
+\includegraphics{Smith_ENV872_Project_files/figure-latex/unnamed-chunk-9-1.pdf}
+\caption{\label{fig:figs} Total Annual Coal Employment in Harlan and
+Dickenson Counties by County}
+\end{figure}
 
-\begin{verbatim}
-## [1] 13397
-\end{verbatim}
+\begin{figure}
+\centering
+\includegraphics{Smith_ENV872_Project_files/figure-latex/unnamed-chunk-10-1.pdf}
+\caption{\label{fig:figs} Total Annual Coal Production in Harlan and
+Dickenson Counties by Mine}
+\end{figure}
 
-Formatting Relevant Columns in Harlan and Dickenson County Raw Datasets
+\begin{figure}
+\centering
+\includegraphics{Smith_ENV872_Project_files/figure-latex/unnamed-chunk-11-1.pdf}
+\caption{\label{fig:figs} Total Annual Coal Production in Harlan and
+Dickenson Counties by County}
+\end{figure}
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{harlan.raw}\OperatorTok{$}\NormalTok{year <-}\StringTok{ }\KeywordTok{as.numeric}\NormalTok{(harlan.raw}\OperatorTok{$}\NormalTok{year)}
-\NormalTok{harlan.raw}\OperatorTok{$}\NormalTok{ARC <-}\StringTok{ }\KeywordTok{as.logical}\NormalTok{(harlan.raw}\OperatorTok{$}\NormalTok{ARC)}
-\NormalTok{harlan.raw}\OperatorTok{$}\NormalTok{mine.status <-}\StringTok{ }\KeywordTok{as.character}\NormalTok{(harlan.raw}\OperatorTok{$}\NormalTok{mine.status)}
-\NormalTok{harlan.raw}\OperatorTok{$}\NormalTok{operation.type <-}\StringTok{ }\KeywordTok{as.character}\NormalTok{(harlan.raw}\OperatorTok{$}\NormalTok{operation.type)}
-\NormalTok{harlan.raw}\OperatorTok{$}\NormalTok{production.stons <-}\StringTok{ }\KeywordTok{as.numeric}\NormalTok{(harlan.raw}\OperatorTok{$}\NormalTok{production.stons)}
-\NormalTok{harlan.raw}\OperatorTok{$}\NormalTok{average.employees <-}\StringTok{ }\KeywordTok{as.integer}\NormalTok{(harlan.raw}\OperatorTok{$}\NormalTok{average.employees)}
-\NormalTok{harlan.raw}\OperatorTok{$}\NormalTok{labor.hours <-}\StringTok{ }\KeywordTok{as.integer}\NormalTok{(harlan.raw}\OperatorTok{$}\NormalTok{labor.hours)}
+\begin{figure}
+\centering
+\includegraphics{Smith_ENV872_Project_files/figure-latex/unnamed-chunk-12-1.pdf}
+\caption{\label{fig:figs} Total Annual Coal Production versus Total
+Employment in Harlan and Dickenson Counties by Mine}
+\end{figure}
 
+\begin{figure}
+\centering
+\includegraphics{Smith_ENV872_Project_files/figure-latex/unnamed-chunk-13-1.pdf}
+\caption{\label{fig:figs} Total Annual Coal Production versus Total
+Employment in Harlan and Dickenson Counties by County}
+\end{figure}
 
-\NormalTok{dickenson.raw}\OperatorTok{$}\NormalTok{year <-}\StringTok{ }\KeywordTok{as.numeric}\NormalTok{(dickenson.raw}\OperatorTok{$}\NormalTok{year)}
-\NormalTok{dickenson.raw}\OperatorTok{$}\NormalTok{ARC <-}\StringTok{ }\KeywordTok{as.logical}\NormalTok{(dickenson.raw}\OperatorTok{$}\NormalTok{ARC)}
-\NormalTok{dickenson.raw}\OperatorTok{$}\NormalTok{mine.status <-}\StringTok{ }\KeywordTok{as.character}\NormalTok{(dickenson.raw}\OperatorTok{$}\NormalTok{mine.status)}
-\NormalTok{dickenson.raw}\OperatorTok{$}\NormalTok{operation.type <-}\StringTok{ }\KeywordTok{as.character}\NormalTok{(dickenson.raw}\OperatorTok{$}\NormalTok{operation.type)}
-\NormalTok{dickenson.raw}\OperatorTok{$}\NormalTok{production.stons <-}\StringTok{ }\KeywordTok{as.numeric}\NormalTok{(dickenson.raw}\OperatorTok{$}\NormalTok{production.stons)}
-\NormalTok{dickenson.raw}\OperatorTok{$}\NormalTok{average.employees <-}\StringTok{ }\KeywordTok{as.numeric}\NormalTok{(dickenson.raw}\OperatorTok{$}\NormalTok{average.employees)}
-\NormalTok{dickenson.raw}\OperatorTok{$}\NormalTok{labor.hours <-}\StringTok{ }\KeywordTok{as.numeric}\NormalTok{(dickenson.raw}\OperatorTok{$}\NormalTok{labor.hours)}
-\end{Highlighting}
-\end{Shaded}
+The relationship of mines to labor hours, employment, and production
+across the coal sector from 2000 to 2011 does not seem to be a
+consistent trend, nor is it easy to visualize (Figures 1, 3, and 5).
+There are too many mines to determine any sort of relationship;
+furthermore, whether a mine is from a boom-bust or bust-bust county is
+indeterminable in these visualizations (Figures 1, 3., and 5). However,
+mine data for employees related to production shows the most promise for
+a significant correlation at the mine level; however, since this project
+focuses on coal counties, this correlation is not especially relevant to
+the research question (Figure 7).
 
-Visual Data Exploration of Harlan and Dickenson raw data
-
-\#\#Data Wrangling Joining Harlan and Dickenson raw data together
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{minedata <-}\StringTok{ }\KeywordTok{full_join}\NormalTok{(harlan.raw, dickenson.raw)}
-\end{Highlighting}
-\end{Shaded}
-
-\begin{verbatim}
-## Joining, by = c("year", "mine.name", "mine.state", "countystr",
-## "mine.basin", "mine.status", "mine.type", "company.type", "operation.type",
-## "operating.company", "operating.company.address", "production.stons",
-## "average.employees", "labor.hours", "ARC")
-\end{verbatim}
-
-\begin{verbatim}
-## Warning: Column `mine.name` joining factors with different levels, coercing to
-## character vector
-\end{verbatim}
-
-\begin{verbatim}
-## Warning: Column `mine.state` joining factors with different levels, coercing to
-## character vector
-\end{verbatim}
-
-\begin{verbatim}
-## Warning: Column `countystr` joining factors with different levels, coercing to
-## character vector
-\end{verbatim}
-
-\begin{verbatim}
-## Warning: Column `operating.company` joining factors with different levels,
-## coercing to character vector
-\end{verbatim}
-
-\begin{verbatim}
-## Warning: Column `operating.company.address` joining factors with different
-## levels, coercing to character vector
-\end{verbatim}
-
-Filtering for data relevant to research questions
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{harlan.clean <-}\StringTok{ }\NormalTok{harlan.raw }\OperatorTok{%>%}
-\StringTok{  }\KeywordTok{select}\NormalTok{(year}\OperatorTok{:}\NormalTok{countystr, mine.status, operation.type, operating.company,}
-\NormalTok{         production.stons}\OperatorTok{:}\NormalTok{labor.hours) }\OperatorTok{%>%}
-\StringTok{  }\KeywordTok{filter}\NormalTok{(mine.status }\OperatorTok{==}\StringTok{ "Active"}\NormalTok{, operation.type }\OperatorTok{==}\StringTok{ "Mine only"}\NormalTok{) }\OperatorTok{%>%}
-\StringTok{  }\KeywordTok{group_by}\NormalTok{(year, countystr) }\OperatorTok{%>%}
-\StringTok{  }\KeywordTok{mutate}\NormalTok{(}\DataTypeTok{total.production =} \KeywordTok{sum}\NormalTok{(production.stons), }\DataTypeTok{total.employee =} \KeywordTok{sum}\NormalTok{(average.employees), }\DataTypeTok{mean.production =} \KeywordTok{mean}\NormalTok{(production.stons), }
-         \DataTypeTok{mean.employee =} \KeywordTok{mean}\NormalTok{(average.employees), }\DataTypeTok{na.rm =} \OtherTok{TRUE}\NormalTok{)}
-
-\NormalTok{dickenson.clean <-}\StringTok{ }\NormalTok{dickenson.raw }\OperatorTok{%>%}
-\StringTok{  }\KeywordTok{select}\NormalTok{(year}\OperatorTok{:}\NormalTok{countystr, mine.status, operation.type, operating.company,}
-\NormalTok{         production.stons}\OperatorTok{:}\NormalTok{labor.hours) }\OperatorTok{%>%}
-\StringTok{  }\KeywordTok{filter}\NormalTok{(mine.status }\OperatorTok{==}\StringTok{ "Active"}\NormalTok{, operation.type }\OperatorTok{==}\StringTok{ "Mine only"}\NormalTok{) }\OperatorTok{%>%}
-\StringTok{  }\KeywordTok{group_by}\NormalTok{(year, countystr) }\OperatorTok{%>%}
-\StringTok{  }\KeywordTok{mutate}\NormalTok{(}\DataTypeTok{total.production =} \KeywordTok{sum}\NormalTok{(production.stons), }\DataTypeTok{total.employee =} \KeywordTok{sum}\NormalTok{(average.employees), }\DataTypeTok{mean.production =} \KeywordTok{mean}\NormalTok{(production.stons), }
-         \DataTypeTok{mean.employee =} \KeywordTok{mean}\NormalTok{(average.employees), }\DataTypeTok{na.rm =} \OtherTok{TRUE}\NormalTok{)}
-  
-\NormalTok{minedata.clean <-}\StringTok{ }\NormalTok{minedata }\OperatorTok{%>%}
-\StringTok{  }\KeywordTok{select}\NormalTok{(year}\OperatorTok{:}\NormalTok{countystr, mine.status, operation.type, operating.company,}
-\NormalTok{         production.stons}\OperatorTok{:}\NormalTok{labor.hours) }\OperatorTok{%>%}
-\StringTok{  }\KeywordTok{filter}\NormalTok{(mine.status }\OperatorTok{==}\StringTok{ "Active"}\NormalTok{, operation.type }\OperatorTok{==}\StringTok{ "Mine only"}\NormalTok{) }\OperatorTok{%>%}
-\StringTok{  }\KeywordTok{group_by}\NormalTok{(year, countystr) }\OperatorTok{%>%}
-\StringTok{  }\KeywordTok{mutate}\NormalTok{(}\DataTypeTok{total.production =} \KeywordTok{sum}\NormalTok{(production.stons), }\DataTypeTok{total.employee =} \KeywordTok{sum}\NormalTok{(average.employees), }\DataTypeTok{mean.production =} \KeywordTok{mean}\NormalTok{(production.stons), }
-         \DataTypeTok{mean.employee =} \KeywordTok{mean}\NormalTok{(average.employees), }\DataTypeTok{na.rm =} \OtherTok{TRUE}\NormalTok{)}
-\end{Highlighting}
-\end{Shaded}
-
-Save the data in the processed folder
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\KeywordTok{write.csv}\NormalTok{(harlan.clean, }\StringTok{"./Data/Processed/EIA_MineData_Harlan_Processed.csv"}\NormalTok{)}
-\KeywordTok{write.csv}\NormalTok{(dickenson.clean, }\StringTok{"./Data/Processed/EIA_MineData_Dickenson_Processed.csv"}\NormalTok{)}
-\KeywordTok{write.csv}\NormalTok{(minedata.clean, }\StringTok{"./Data/Processed/EIA_MineData_Combined_Processed.csv"}\NormalTok{)}
-\end{Highlighting}
-\end{Shaded}
+On the other hand, the exploratory graphs indicate that there are strong
+trends in the county-wide data (Figures 2, 4, and 6). Labor hours are
+greater than in Harlan than Dickenson on the whole, but do not seem to
+display a steady trend through the years (Figure 2). What's interesting
+is Harlan appears to have substaintal fluctuations in production through
+the years, decreasing quickly in 2002, while Dickenson steadily declined
+(Figure 6). Employment seems to follow similar trends for both counties,
+but not as drastically (Figure 4). Like the mine level data, both
+counties seem to have a strong correlation for employees with total
+production (Figure 8).
 
 \newpage
 
 \hypertarget{analysis}{%
 \section{Analysis}\label{analysis}}
 
-\hypertarget{question-1-is-the-total-number-of-employees-for-all-mines-in-a-boom-bust-or-a-bust-bust-county-in-the-years-2000-to-2011-a-significant-predictor-of-annual-coal-production-for-all-mines}{%
-\subsection{Question 1: Is the total number of employees for all mines
-in a boom-bust or a bust-bust county in the years 2000 to 2011 a
-significant predictor of annual coal production for all
-mines?}\label{question-1-is-the-total-number-of-employees-for-all-mines-in-a-boom-bust-or-a-bust-bust-county-in-the-years-2000-to-2011-a-significant-predictor-of-annual-coal-production-for-all-mines}}
+\hypertarget{what-is-the-relationship-between-coal-production-and-number-of-employees-in-coal-mines-in-harlan-and-dickenson-counties}{%
+\subsection{What is the relationship between coal production and number
+of employees in coal mines in Harlan and Dickenson
+Counties?}\label{what-is-the-relationship-between-coal-production-and-number-of-employees-in-coal-mines-in-harlan-and-dickenson-counties}}
 
-\begin{verbatim}
-## Scale for 'x' is already present. Adding another scale for 'x', which will
-## replace the existing scale.
-\end{verbatim}
+\hypertarget{how-does-coal-production-differ-between-all-mines-in-harlan-county-compared-to-dickenson-county}{%
+\subsection{How does coal production differ between all mines in Harlan
+County compared to Dickenson
+County?}\label{how-does-coal-production-differ-between-all-mines-in-harlan-county-compared-to-dickenson-county}}
 
 \begin{figure}
 \centering
-\includegraphics{Smith_ENV872_Project_files/figure-latex/unnamed-chunk-7-1.pdf}
+\includegraphics{Smith_ENV872_Project_files/figure-latex/unnamed-chunk-14-1.pdf}
 \caption{\label{fig:figs} Total Annual Coal Production in Harlan and
 Dickenson Counties}
 \end{figure}
 
-\begin{verbatim}
-## Scale for 'x' is already present. Adding another scale for 'x', which will
-## replace the existing scale.
-\end{verbatim}
-
-\begin{verbatim}
-## Warning: Removed 43 rows containing missing values (geom_path).
-\end{verbatim}
+\hypertarget{how-does-the-number-of-employees-in-the-mines-of-harlan-county-compare-to-dickenson-county}{%
+\subsection{How does the number of employees in the mines of Harlan
+County compare to Dickenson
+County?}\label{how-does-the-number-of-employees-in-the-mines-of-harlan-county-compare-to-dickenson-county}}
 
 \begin{figure}
 \centering
-\includegraphics{Smith_ENV872_Project_files/figure-latex/unnamed-chunk-8-1.pdf}
+\includegraphics{Smith_ENV872_Project_files/figure-latex/unnamed-chunk-15-1.pdf}
 \caption{\label{fig:figs} Total Number of Employees in Harlan and
-Dickenson Counties, 2000 to 2011}
+Dickenson County Mines, 2000 to 2011}
 \end{figure}
 
-\begin{verbatim}
-## Warning: Removed 43 rows containing missing values (geom_path).
-\end{verbatim}
+\hypertarget{is-the-total-number-of-employees-for-all-mines-in-a-boom-bust-and-a-bust-bust-county-in-the-years-2000-to-2011-a-significant-predictor-of-annual-coal-production-for-all-mines}{%
+\subsection{Is the total number of employees for all mines in a
+boom-bust and a bust-bust county in the years 2000 to 2011 a significant
+predictor of annual coal production for all
+mines?}\label{is-the-total-number-of-employees-for-all-mines-in-a-boom-bust-and-a-bust-bust-county-in-the-years-2000-to-2011-a-significant-predictor-of-annual-coal-production-for-all-mines}}
 
 \begin{figure}
 \centering
-\includegraphics{Smith_ENV872_Project_files/figure-latex/unnamed-chunk-9-1.pdf}
+\includegraphics{Smith_ENV872_Project_files/figure-latex/unnamed-chunk-16-1.pdf}
 \caption{\label{fig:figs} Annual Coal Production Compared to Total
-Employees in Harlan and Dickenson Counties, 2000 to 2011 (ANOVA; df =
-288, F = 276, p-value \textless{} 0.001)}
+Employees in Harlan and Dickenson Counties, 2000 to 2011}
 \end{figure}
 
-\newpage
+Harlan County, Kentucky produced a much greater amount of coal and
+employed more people than Dickenson County, Virginia throughout the
+early twenty-first century (Figure 9 and Figure 10). This divergence is
+to be expected with Harlan being boom-bust and Dickenson being bust-bust
+for coal production 2000 to 2011.
+
+However, Harlan County experienced a variable production amount from
+year to year, which is consistent with historical coal production in the
+twentieth century (EIA, 2016). Dickenson County, on the other hand,
+experienced a steady decline in coal production since 2000 (Figure 9).
+
+Surprisingly, Dickenson also experienced a small increase in coal
+employment in 2009 even though there is no coal production increase
+during that same time period (Figure 9 and Figure 10). As such, it
+becomes essential to question if mine production is an accurate
+predictor of mine employment. If so, coal production could be correlated
+to migration from an area based on employment.
+
+Although Harlan had more employees and coal production overall than
+Dickenson, coal production significantly impacts the number of employees
+in mining for both counties (Figure 11; ANOVA; Harlan: df = 288, F =
+197.2, p-value \textless{} 0.001; Dickenson: df = 105, F = 276.6,
+p-value \textless{} 0.001).
 
 \newpage
 
 \hypertarget{summary-and-conclusions}{%
 \section{Summary and Conclusions}\label{summary-and-conclusions}}
 
+Although Harlan and Dickenson counties are both ``coal counties'' within
+the scope of this research, Harlan experienced a boom in coal production
+in 2000 but a bust in 2010. Dickenson steadidly decreased in that same
+time period. However, Harlan had variable coal production and
+employment, exhibiting smaller boom-bust cycles within the decade.
+
+Most importantly, both counties' coal production signficantly correlated
+with employment in coal mines. Intuitively, this makes sense, as lower
+production means less money means less available jobs.
+
+Finally, the correlation between production and employment could be
+important for migratory trends in Appalachia. Based on the data in this
+research, their are less emplyment opportunities in coal mine with less
+coal production. As such, residents of Appalachia may leave the region
+in search of jobs as the energy sector slowly transitions from
+coal-fired power plants to forms of cleaner energy.
+
 \newpage
 
 \hypertarget{references}{%
 \section{References}\label{references}}
 
-\textless{}add references here if relevant, otherwise delete this
-section\textgreater{}
+EIA. (2020). \textbf{Annual Survey of Coal Production and Preparation;
+Form EIA-7A} \url{https://www.eia.gov/survey/form/eia_7a/form.pdf}
+
+EIA. (2016). \textbf{Quarterly coal production since the early 1980s}.
+\url{https://www.eia.gov/todayinenergy/detail.php?id=26612}
 
 \end{document}

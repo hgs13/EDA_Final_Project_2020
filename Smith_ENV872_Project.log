@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.12)  23 APR 2020 22:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.12)  24 APR 2020 22:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -509,6 +509,30 @@ LaTeX Warning: Label `fig:figs' multiply defined.
 
 LaTeX Warning: Label `fig:figs' multiply defined.
 
+
+LaTeX Warning: Label `fig:figs' multiply defined.
+
+
+LaTeX Warning: Label `fig:figs' multiply defined.
+
+
+LaTeX Warning: Label `fig:figs' multiply defined.
+
+
+LaTeX Warning: Label `fig:figs' multiply defined.
+
+
+LaTeX Warning: Label `fig:figs' multiply defined.
+
+
+LaTeX Warning: Label `fig:figs' multiply defined.
+
+
+LaTeX Warning: Label `fig:figs' multiply defined.
+
+
+LaTeX Warning: Label `fig:figs' multiply defined.
+
 )
 \openout1 = `Smith_ENV872_Project.aux'.
 
@@ -683,11 +707,11 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 {/usr/local/texlive/2019basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (.
 /Smith_ENV872_Project.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 4.
+(Font)              <12> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 4.
+(Font)              <8> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 4.
+(Font)              <6> on input line 3.
 )
 \tf@toc=\write5
 \openout5 = `Smith_ENV872_Project.toc'.
@@ -702,310 +726,328 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 [4] [5] [6]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-12.
+56.
 (/usr/local/texlive/2019basic/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 213.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 257.
 LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
-254.
+298.
 (/usr/local/texlive/2019basic/texmf-dist/tex/latex/lm/ts1lmtt.fd
 File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Overfull \hbox (92.16989pt too wide) in paragraph at lines 254--254
+Overfull \hbox (92.16989pt too wide) in paragraph at lines 298--298
 []\T1/lmtt/m/n/12 ##  $ year                     : int  2011 2011 2011 2011 201
 1 2011 2011 2011 2011 2011 ...[] 
  []
 
 
-Overfull \hbox (215.63493pt too wide) in paragraph at lines 254--254
+Overfull \hbox (215.63493pt too wide) in paragraph at lines 298--298
 []\T1/lmtt/m/n/12 ##  $ mine.name                : Factor w/ 126 levels "# 1","
 # 2","# 3",..: 34 104 122 46 41 91 47 14 86 39 ...[] 
  []
 
 
-Overfull \hbox (104.5199pt too wide) in paragraph at lines 254--254
+Overfull \hbox (104.5199pt too wide) in paragraph at lines 298--298
 []\T1/lmtt/m/n/12 ##  $ mine.state               : Factor w/ 1 level "Kentucky 
 (East)": 1 1 1 1 1 1 1 1 1 1 ...[] 
  []
 
 
-Overfull \hbox (48.94487pt too wide) in paragraph at lines 254--254
+Overfull \hbox (48.94487pt too wide) in paragraph at lines 298--298
 []\T1/lmtt/m/n/12 ##  $ countystr                : Factor w/ 1 level "Harlan": 
 1 1 1 1 1 1 1 1 1 1 ...[] 
  []
 
 
-Overfull \hbox (123.0449pt too wide) in paragraph at lines 254--254
+Overfull \hbox (123.0449pt too wide) in paragraph at lines 298--298
 []\T1/lmtt/m/n/12 ##  $ mine.basin               : Factor w/ 1 level "Appalachi
 a Central": 1 1 1 1 1 1 1 1 1 1 ...[] 
  []
 
 
-Overfull \hbox (326.813pt too wide) in paragraph at lines 254--254
+Overfull \hbox (326.813pt too wide) in paragraph at lines 298--298
 []\T1/lmtt/m/n/12 ##  $ mine.status              : Factor w/ 6 levels "Active",
 "Active, men not working, not producing",..: 1 1 1 1 1 1 1 1 1 1 ...[] 
  []
 
 
-Overfull \hbox (79.81989pt too wide) in paragraph at lines 254--254
+Overfull \hbox (79.81989pt too wide) in paragraph at lines 298--298
 []\T1/lmtt/m/n/12 ##  $ mine.type                : Factor w/ 1 level "Undergrou
 nd": 1 1 1 1 1 1 1 1 1 1 ...[] 
  []
 
 
-Overfull \hbox (289.76999pt too wide) in paragraph at lines 254--254
+Overfull \hbox (289.76999pt too wide) in paragraph at lines 298--298
 []\T1/lmtt/m/n/12 ##  $ company.type             : Factor w/ 3 levels "Contract
 or","Indepedent Producer Operator",..: 2 2 2 2 2 2 2 2 2 2 ...[] 
  []
 
 
-Overfull \hbox (197.14494pt too wide) in paragraph at lines 254--254
+Overfull \hbox (197.14494pt too wide) in paragraph at lines 298--298
 []\T1/lmtt/m/n/12 ##  $ operation.type           : Factor w/ 2 levels "Mine onl
 y","Preparation Plant": 1 2 2 2 2 2 1 2 1 2 ...[] 
  []
 
 
-Overfull \hbox (215.63493pt too wide) in paragraph at lines 254--254
+Overfull \hbox (215.63493pt too wide) in paragraph at lines 298--298
 []\T1/lmtt/m/n/12 ##  $ operating.company        : Factor w/ 102 levels "A & M 
 Coal Co Inc",..: 54 64 37 37 31 76 54 69 46 54 ...[] 
  []
 
 
-Overfull \hbox (302.09198pt too wide) in paragraph at lines 254--254
+Overfull \hbox (302.09198pt too wide) in paragraph at lines 298--298
 []\T1/lmtt/m/n/12 ##  $ operating.company.address: Factor w/ 92 levels "1160 Ja
 ckson Dr, Paris, TN 38242",..: 33 21 59 59 58 50 33 48 57 33 ...[] 
  []
 
 
-Overfull \hbox (160.09492pt too wide) in paragraph at lines 254--254
+Overfull \hbox (160.09492pt too wide) in paragraph at lines 298--298
 []\T1/lmtt/m/n/12 ##  $ production.stons         : Factor w/ 400 levels "0","1,
 013,140",..: 248 1 1 1 1 1 313 1 81 1 ...[] 
  []
 
 
-Overfull \hbox (252.66394pt too wide) in paragraph at lines 254--254
+Overfull \hbox (252.66394pt too wide) in paragraph at lines 298--298
 []\T1/lmtt/m/n/12 ##  $ labor.hours              : Factor w/ 468 levels "","1,2
 11","1,692",..: 174 243 365 380 302 92 193 298 446 8 ...[] 
  []
 
 
-Overfull \hbox (92.16989pt too wide) in paragraph at lines 279--279
+Overfull \hbox (92.16989pt too wide) in paragraph at lines 323--323
 []\T1/lmtt/m/n/12 ##  $ year                     : int  2011 2011 2011 2011 201
 1 2011 2011 2011 2011 2011 ...[] 
  []
 
 
-Overfull \hbox (178.59192pt too wide) in paragraph at lines 279--279
+Overfull \hbox (178.59192pt too wide) in paragraph at lines 323--323
 []\T1/lmtt/m/n/12 ##  $ mine.name                : Factor w/ 56 levels "#1","#2
 ","#44",..: 37 16 36 32 11 10 17 6 50 55 ...[] 
  []
 
 
-Overfull \hbox (61.29488pt too wide) in paragraph at lines 279--279
+Overfull \hbox (61.29488pt too wide) in paragraph at lines 323--323
 []\T1/lmtt/m/n/12 ##  $ mine.state               : Factor w/ 1 level "Virginia"
 : 1 1 1 1 1 1 1 1 1 1 ...[] 
  []
 
 
-Overfull \hbox (67.46988pt too wide) in paragraph at lines 279--279
+Overfull \hbox (67.46988pt too wide) in paragraph at lines 323--323
 []\T1/lmtt/m/n/12 ##  $ countystr                : Factor w/ 1 level "Dickenson
 ": 1 1 1 1 1 1 1 1 1 1 ...[] 
  []
 
 
-Overfull \hbox (123.0449pt too wide) in paragraph at lines 279--279
+Overfull \hbox (123.0449pt too wide) in paragraph at lines 323--323
 []\T1/lmtt/m/n/12 ##  $ mine.basin               : Factor w/ 1 level "Appalachi
 a Central": 1 1 1 1 1 1 1 1 1 1 ...[] 
  []
 
 
-Overfull \hbox (302.12pt too wide) in paragraph at lines 279--279
+Overfull \hbox (302.12pt too wide) in paragraph at lines 323--323
 []\T1/lmtt/m/n/12 ##  $ mine.status              : Factor w/ 5 levels "Active",
 "Active, men working, not producing",..: 1 1 1 1 1 1 1 1 1 2 ...[] 
  []
 
 
-Overfull \hbox (79.81989pt too wide) in paragraph at lines 279--279
+Overfull \hbox (79.81989pt too wide) in paragraph at lines 323--323
 []\T1/lmtt/m/n/12 ##  $ mine.type                : Factor w/ 1 level "Undergrou
 nd": 1 1 1 1 1 1 1 1 1 1 ...[] 
  []
 
 
-Overfull \hbox (289.76999pt too wide) in paragraph at lines 279--279
+Overfull \hbox (289.76999pt too wide) in paragraph at lines 323--323
 []\T1/lmtt/m/n/12 ##  $ company.type             : Factor w/ 3 levels "Contract
 or","Indepedent Producer Operator",..: 2 2 2 2 2 2 3 3 3 2 ...[] 
  []
 
 
-Overfull \hbox (197.14494pt too wide) in paragraph at lines 279--279
+Overfull \hbox (197.14494pt too wide) in paragraph at lines 323--323
 []\T1/lmtt/m/n/12 ##  $ operation.type           : Factor w/ 2 levels "Mine onl
 y","Preparation Plant": 1 1 1 1 1 1 2 1 1 2 ...[] 
  []
 
 
-Overfull \hbox (271.21696pt too wide) in paragraph at lines 279--279
+Overfull \hbox (271.21696pt too wide) in paragraph at lines 323--323
 []\T1/lmtt/m/n/12 ##  $ operating.company        : Factor w/ 57 levels "Apple J
 acks Coal Company Inc",..: 8 26 13 30 46 46 23 22 22 19 ...[] 
  []
 
 
-Overfull \hbox (308.27399pt too wide) in paragraph at lines 279--279
+Overfull \hbox (308.27399pt too wide) in paragraph at lines 323--323
 []\T1/lmtt/m/n/12 ##  $ operating.company.address: Factor w/ 61 levels "1229 Ho
 mecreek Rd., Big Rock, VA 24202",..: 24 21 24 26 5 5 4 4 8 28 ...[] 
  []
 
-
-Overfull \hbox (227.99194pt too wide) in paragraph at lines 279--279
+[7]
+Overfull \hbox (227.99194pt too wide) in paragraph at lines 323--323
 []\T1/lmtt/m/n/12 ##  $ production.stons         : Factor w/ 163 levels "0","1,
 719","103,817",..: 87 118 74 96 52 121 1 48 27 1 ...[] 
  []
 
-[7]
-Overfull \hbox (246.49594pt too wide) in paragraph at lines 279--279
+
+Overfull \hbox (246.49594pt too wide) in paragraph at lines 323--323
 []\T1/lmtt/m/n/12 ##  $ labor.hours              : Factor w/ 168 levels "","1,6
 89","101,738",..: 97 127 84 82 58 168 158 56 162 32 ...[] 
  []
 
 
-Overfull \hbox (30.41986pt too wide) in paragraph at lines 370--370
+Overfull \hbox (30.41986pt too wide) in paragraph at lines 414--414
 []\T1/lmtt/m/n/12 ##        mine.type                         company.type     
       operation.type[] 
  []
 
 
-Overfull \hbox (11.86684pt too wide) in paragraph at lines 370--370
+Overfull \hbox (11.86684pt too wide) in paragraph at lines 414--414
 []\T1/lmtt/m/n/12 ##  Underground:509   Contractor                  : 92   Mine
  only        :399[] 
  []
 
-
-Overfull \hbox (11.89485pt too wide) in paragraph at lines 370--370
+[8]
+Overfull \hbox (11.89485pt too wide) in paragraph at lines 414--414
 []\T1/lmtt/m/n/12 ##                    Indepedent Producer Operator:324   Prep
 aration Plant:110[] 
  []
 
-[8] [9]
-Overfull \hbox (30.41986pt too wide) in paragraph at lines 427--427
+[9]
+Overfull \hbox (30.41986pt too wide) in paragraph at lines 471--471
 []\T1/lmtt/m/n/12 ##        mine.type                         company.type     
       operation.type[] 
  []
 
 
-Overfull \hbox (11.88084pt too wide) in paragraph at lines 427--427
+Overfull \hbox (11.88084pt too wide) in paragraph at lines 471--471
 []\T1/lmtt/m/n/12 ##  Underground:194   Contractor                  :50    Mine
  only        :162[] 
  []
 
 
-Overfull \hbox (11.88084pt too wide) in paragraph at lines 427--427
+Overfull \hbox (11.88084pt too wide) in paragraph at lines 471--471
 []\T1/lmtt/m/n/12 ##                    Indepedent Producer Operator:66    Prep
 aration Plant: 32[] 
  []
 
 [10]
-Overfull \hbox (11.89485pt too wide) in paragraph at lines 507--507
-[]\T1/lmtt/m/n/12 ## "mine.basin", "mine.status", "mine.type", "company.type", 
-"operation.type",[] 
- []
-
-
-Overfull \hbox (30.41986pt too wide) in paragraph at lines 512--512
-[]\T1/lmtt/m/n/12 ## Warning: Column \TS1/lmtt/m/n/12 `\T1/lmtt/m/n/12 mine.nam
-e\TS1/lmtt/m/n/12 ` \T1/lmtt/m/n/12 joining factors with different levels, coer
-cing to[] 
- []
-
-
-Overfull \hbox (36.59486pt too wide) in paragraph at lines 517--517
-[]\T1/lmtt/m/n/12 ## Warning: Column \TS1/lmtt/m/n/12 `\T1/lmtt/m/n/12 mine.sta
-te\TS1/lmtt/m/n/12 ` \T1/lmtt/m/n/12 joining factors with different levels, coe
-rcing to[] 
- []
-
-
-Overfull \hbox (30.41986pt too wide) in paragraph at lines 522--522
-[]\T1/lmtt/m/n/12 ## Warning: Column \TS1/lmtt/m/n/12 `\T1/lmtt/m/n/12 countyst
-r\TS1/lmtt/m/n/12 ` \T1/lmtt/m/n/12 joining factors with different levels, coer
-cing to[] 
- []
-
-
-Overfull \hbox (5.71985pt too wide) in paragraph at lines 527--527
-[]\T1/lmtt/m/n/12 ## Warning: Column \TS1/lmtt/m/n/12 `\T1/lmtt/m/n/12 operatin
-g.company\TS1/lmtt/m/n/12 ` \T1/lmtt/m/n/12 joining factors with different leve
-ls,[] 
- []
-
-
-Overfull \hbox (5.71985pt too wide) in paragraph at lines 532--532
-[]\T1/lmtt/m/n/12 ## Warning: Column \TS1/lmtt/m/n/12 `\T1/lmtt/m/n/12 operatin
-g.company.address\TS1/lmtt/m/n/12 ` \T1/lmtt/m/n/12 joining factors with differ
-ent[] 
- []
-
-[11] [12]
-Overfull \hbox (5.71985pt too wide) in paragraph at lines 588--588
-[]\T1/lmtt/m/n/12 ## Scale for \TS1/lmtt/m/n/12 '\T1/lmtt/m/n/12 x\TS1/lmtt/m/n
-/12 ' \T1/lmtt/m/n/12 is already present. Adding another scale for \TS1/lmtt/m/
-n/12 '\T1/lmtt/m/n/12 x\TS1/lmtt/m/n/12 '\T1/lmtt/m/n/12 , which will[] 
- []
-
-<"Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-7-1".pdf, id=117, 433
-.62pt x 289.08pt>
+<"Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-6-1".pdf, id=169, 578
+.16pt x 722.7pt>
+File: "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-6-1".pdf Graphic
+ file (type pdf)
+<use "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-6-1".pdf>
+Package pdftex.def Info: "Smith_ENV872_Project_files/figure-latex/""unnamed-chu
+nk-6-1".pdf  used on input line 484.
+(pdftex.def)             Requested size: 469.75385pt x 587.1923pt.
+<"Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-7-1".pdf, id=170, 469
+.755pt x 325.215pt>
 File: "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-7-1".pdf Graphic
  file (type pdf)
 <use "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-7-1".pdf>
 Package pdftex.def Info: "Smith_ENV872_Project_files/figure-latex/""unnamed-chu
-nk-7-1".pdf  used on input line 592.
-(pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
-
-Overfull \hbox (5.71985pt too wide) in paragraph at lines 600--600
-[]\T1/lmtt/m/n/12 ## Scale for \TS1/lmtt/m/n/12 '\T1/lmtt/m/n/12 x\TS1/lmtt/m/n
-/12 ' \T1/lmtt/m/n/12 is already present. Adding another scale for \TS1/lmtt/m/
-n/12 '\T1/lmtt/m/n/12 x\TS1/lmtt/m/n/12 '\T1/lmtt/m/n/12 , which will[] 
- []
-
-<"Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-8-1".pdf, id=118, 433
-.62pt x 289.08pt>
+nk-7-1".pdf  used on input line 491.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<"Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-8-1".pdf, id=171, 578
+.16pt x 722.7pt>
 File: "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-8-1".pdf Graphic
  file (type pdf)
 <use "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-8-1".pdf>
 Package pdftex.def Info: "Smith_ENV872_Project_files/figure-latex/""unnamed-chu
-nk-8-1".pdf  used on input line 608.
-(pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
-<"Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-9-1".pdf, id=119, 433
-.62pt x 289.08pt>
+nk-8-1".pdf  used on input line 498.
+(pdftex.def)             Requested size: 469.75385pt x 587.1923pt.
+<"Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-9-1".pdf, id=172, 469
+.755pt x 325.215pt>
 File: "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-9-1".pdf Graphic
  file (type pdf)
 <use "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-9-1".pdf>
 Package pdftex.def Info: "Smith_ENV872_Project_files/figure-latex/""unnamed-chu
-nk-9-1".pdf  used on input line 619.
+nk-9-1".pdf  used on input line 505.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<"Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-10-1".pdf, id=173, 57
+8.16pt x 722.7pt>
+File: "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-10-1".pdf Graphi
+c file (type pdf)
+<use "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-10-1".pdf>
+Package pdftex.def Info: "Smith_ENV872_Project_files/figure-latex/""unnamed-chu
+nk-10-1".pdf  used on input line 512.
+(pdftex.def)             Requested size: 469.75385pt x 587.1923pt.
+<"Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-11-1".pdf, id=174, 46
+9.755pt x 325.215pt>
+File: "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-11-1".pdf Graphi
+c file (type pdf)
+<use "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-11-1".pdf>
+Package pdftex.def Info: "Smith_ENV872_Project_files/figure-latex/""unnamed-chu
+nk-11-1".pdf  used on input line 519.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<"Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-12-1".pdf, id=175, 57
+8.16pt x 722.7pt>
+File: "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-12-1".pdf Graphi
+c file (type pdf)
+<use "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-12-1".pdf>
+Package pdftex.def Info: "Smith_ENV872_Project_files/figure-latex/""unnamed-chu
+nk-12-1".pdf  used on input line 526.
+(pdftex.def)             Requested size: 469.75385pt x 587.1923pt.
+<"Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-13-1".pdf, id=176, 46
+9.755pt x 325.215pt>
+File: "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-13-1".pdf Graphi
+c file (type pdf)
+<use "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-13-1".pdf>
+Package pdftex.def Info: "Smith_ENV872_Project_files/figure-latex/""unnamed-chu
+nk-13-1".pdf  used on input line 533.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+[11] [12 <./Smith_ENV872_Project_files/figure-latex/unnamed-chunk-6-1.pdf>] [13
+ <./Smith_ENV872_Project_files/figure-latex/unnamed-chunk-7-1.pdf>] [14 <./Smit
+h_ENV872_Project_files/figure-latex/unnamed-chunk-8-1.pdf>] [15 <./Smith_ENV872
+_Project_files/figure-latex/unnamed-chunk-9-1.pdf>] [16 <./Smith_ENV872_Project
+_files/figure-latex/unnamed-chunk-10-1.pdf>] [17 <./Smith_ENV872_Project_files/
+figure-latex/unnamed-chunk-11-1.pdf>] [18 <./Smith_ENV872_Project_files/figure-
+latex/unnamed-chunk-12-1.pdf>] [19 <./Smith_ENV872_Project_files/figure-latex/u
+nnamed-chunk-13-1.pdf>]
+<"Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-14-1".pdf, id=257, 43
+3.62pt x 289.08pt>
+File: "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-14-1".pdf Graphi
+c file (type pdf)
+<use "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-14-1".pdf>
+Package pdftex.def Info: "Smith_ENV872_Project_files/figure-latex/""unnamed-chu
+nk-14-1".pdf  used on input line 577.
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
-[13 <./Smith_ENV872_Project_files/figure-latex/unnamed-chunk-7-1.pdf>] [14 <./S
-mith_ENV872_Project_files/figure-latex/unnamed-chunk-8-1.pdf>] [15 <./Smith_ENV
-872_Project_files/figure-latex/unnamed-chunk-9-1.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 640.
-[16]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 640.
+<"Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-15-1".pdf, id=258, 43
+3.62pt x 289.08pt>
+File: "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-15-1".pdf Graphi
+c file (type pdf)
+<use "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-15-1".pdf>
+Package pdftex.def Info: "Smith_ENV872_Project_files/figure-latex/""unnamed-chu
+nk-15-1".pdf  used on input line 589.
+(pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
+<"Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-16-1".pdf, id=259, 43
+3.62pt x 289.08pt>
+File: "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-16-1".pdf Graphi
+c file (type pdf)
+<use "Smith_ENV872_Project_files/figure-latex/""unnamed-chunk-16-1".pdf>
+Package pdftex.def Info: "Smith_ENV872_Project_files/figure-latex/""unnamed-chu
+nk-16-1".pdf  used on input line 602.
+(pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
+[20 <./Smith_ENV872_Project_files/figure-latex/unnamed-chunk-14-1.pdf>] [21 <./
+Smith_ENV872_Project_files/figure-latex/unnamed-chunk-15-1.pdf>] [22 <./Smith_E
+NV872_Project_files/figure-latex/unnamed-chunk-16-1.pdf>] [23] [24]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 664.
+[25]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 664.
 (./Smith_ENV872_Project.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 640.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 640.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 664.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 664.
 Package rerunfilecheck Info: File `Smith_ENV872_Project.out' has not changed.
-(rerunfilecheck)             Checksum: A407DE294E991A4AFDE8C1A051FE1E83;2065.
+(rerunfilecheck)             Checksum: 62609D6FFE4EF7CBC7253D37DEE9E21E;4530.
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13251 strings out of 493610
- 194809 string characters out of 6159293
- 306045 words of memory out of 5000000
- 17132 multiletter control sequences out of 15000+600000
- 53309 words of font info for 83 fonts, out of 8000000 for 9000
+ 13353 strings out of 493610
+ 199082 string characters out of 6159293
+ 308150 words of memory out of 5000000
+ 17183 multiletter control sequences out of 15000+600000
+ 54128 words of font info for 92 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 39i,6n,42p,1146b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,6n,42p,1086b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019basic/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/
 local/texlive/2019basic/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/tex
 live/2019basic/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/
@@ -1013,10 +1055,10 @@ live/2019basic/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/
 sic/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2019basic/te
 xmf-dist/fonts/type1/public/lm/lmtk10.pfb></usr/local/texlive/2019basic/texmf-d
 ist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Smith_ENV872_Project.pdf (16 pages, 176143 bytes).
+Output written on Smith_ENV872_Project.pdf (25 pages, 310904 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 159 compressed objects within 2 object streams
- 39 named destinations out of 1000 (max. 500000)
- 10320 words of extra memory for PDF output out of 12000 (max. 10000000)
+ 349 PDF objects out of 1000 (max. 8388607)
+ 292 compressed objects within 3 object streams
+ 72 named destinations out of 1000 (max. 500000)
+ 10408 words of extra memory for PDF output out of 12000 (max. 10000000)
 

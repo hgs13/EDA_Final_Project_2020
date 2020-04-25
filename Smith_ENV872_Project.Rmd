@@ -56,15 +56,27 @@ dickenson.raw <- read.csv("./Data/Raw/EIA_MineData_Dickenson_Raw.csv")
 
 # Rationale and Research Questions
 
-This project seeks to analyze preliminary data that may affecr the migration patterns of residents of coal counties in central Appalachia from the years 2000 to 2011. Two "coal counties" serve as a case study for migration in central Appalachia: Harlan County, Kentucky and Dickenson County, Virginia. Harlan County serves as a "Boom-Bust" county, meaning the county experienced a coal production boom in 2000 and a coal production bust in 2010. Dickenson, on the other hand, is a "Bust-Bust" county, where the county experienced a coal production bust in 2000 and did not recover by 2010.
+This project seeks to analyze preliminary data that may affect the migration patterns of residents of coal counties in central Appalachia from the years 2000 to 2011. There is little to no research exploring migration patterns in Appalachia during this time period, especially as it relates to migration. Furthermore, the energy sector is transitioning to greener energy, which further impacts coal production, especially in Appalachia.
 
-An important portion of understanding migration in Appalachia is investigating the mine operations within the coal counties. As such, this project creates and analyzes a visualization of mine production and employee in Harlan and Dickenson counties between the years 2000 and 2011. The data analysis of the coal production and the number of employees in coal mines in each county could be indicative of migration patterns within the central Appalachian region.
+Two "coal counties" serve as a case study for migration in central Appalachia: Harlan County, Kentucky and Dickenson County, Virginia. Harlan County serves as a "Boom-Bust" county, meaning the county experienced a coal production boom in 2000 and a coal production bust in 2010. Dickenson, on the other hand, is a "Bust-Bust" county, where the county experienced a coal production bust in 2000 and did not recover by 2010.
+
+An important portion of understanding migration in Appalachia is investigating the mine operations within the coal counties. As such, this project creates and analyzes a visualization of mine production and employment in Harlan and Dickenson counties between the years 2000 and 2011. The data analysis of the coal production and the number of employees in coal mines in each county could be indicative of migration patterns within the central Appalachian region.
+
+The main questions for this research study are as follows:
+
+1. What is the relationship between coal production and number of employees in coal mines in Harlan and Dickenson Counties?
+
+  a. How does coal production differ between all mines in Harlan County compared to Dickenson County?
+  
+  b. How does the number of employees in the mines of Harlan County compare to Dickenson County?
+  
+  c. Is the total number of employees for all mines in a boom-bust and a bust-bust county in the years 2000 to 2011 a significant predictor of annual coal production for all mines?
 
 \newpage
 
 # Dataset Information
 
-##Data Origin Location
+## Data Origin Location
 
 The data in this repository is coal mine data compiled by the Coal and America Bass Connections team at Duke University from the Energy Information Administration (EIA) online database throughout the fall of 2019. The data in this repository is coal mine data compiled by the Coal and America Bass Connections team at Duke University from the Energy Information Administration (EIA) online database throughout the fall of 2019. 
 
@@ -72,14 +84,17 @@ The data in this repository is coal mine data compiled by the Coal and America B
 
 All coal mining companies that owned a mining operation which produced 25,000 or more short tons of coal during the reporting year must submit form EIA-7A, except for anthracite mines. All anthracite mines that produced 10,000 or more short tons during the reporting year must submit form EIA-7A. Standalone facilities (e.g., preparation plant/tipple/loading dock/train loadout) that worked 5,000 or more hours must submit the EIA-7A. Submit a separate form EIA-7A for each mining operation and standalone facility that meets the reporting criteria.
 
-The U.S. Energy Information Administration’s (EIA) Form EIA-7A, Annual Survey of Coal Production and Preparation, collects coal
-production data from U.S. coal mining companies. This includes information on the type and status of coal operations, characteristics of coalbeds mined, recoverable reserves, productive capacity and the disposition of coal mined which provides Congress with basic statistics concerning coal supply. These data appear in the Annual Coal Report, the Quarterly Coal Report, the Monthly Energy Review, and the Annual Energy Review. In addition, the EIA uses the data for coal supply analyses and in short-term modeling efforts, which produce forecasts of coal supply and prices requested by Congress. The forecast data also appear in the Short-Term Energy Outlook and the Annual Energy Outlook."
+The U.S. Energy Information Administration’s (EIA) Form EIA-7A, Annual Survey of Coal Production and Preparation, collects coal production data from U.S. coal mining companies. This includes information on the type and status of coal operations, characteristics of coalbeds mined, recoverable reserves, productive capacity and the disposition of coal mined which provides Congress with basic statistics concerning coal supply. These data appear in the Annual Coal Report, the Quarterly Coal Report, the Monthly Energy Review, and the Annual Energy Review. In addition, the EIA uses the data for coal supply analyses and in short-term modeling efforts, which produce forecasts of coal supply and prices requested by Congress. The forecast data also appear in the Short-Term Energy Outlook and the Annual Energy Outlook." (EIA, Form EIA-7A)
 
 Therefore, the data used in this project should be timely and accurate. Furthermore, coal production during the decade this project explores was extremely variable. As such, there should be no exclusion of outliers in this report.
 
+## Data Wrangling Methods
+
+For this project, the data was imported as two separate .csv files for each county of interest (Harlan, Kentucky and Dickenson, Virginia). From there, each column was coerced into the appropriate vector format. The two data frames were then joined into one data frame to create ease of access. Then, irrelevant columns were removed so that only the year, mine name, mine state, mine county, mine status, operation type, operating company, average employees, and labor hours were included. After this, only active mines were selected for, as inactive mines would skew the data. After grouping the remaining data by year and county, the total production, total employed, mean production, and mean empoyment were found for each county by year.
+
 ## Data Exploration
 
-Data exploration of the Harlan and Dickenson County raw data files.
+Data exploration of the Harlan and Dickenson County raw data files
 ```{r}
 dim(harlan.raw)
 dim(dickenson.raw)
@@ -91,8 +106,7 @@ summary(harlan.raw)
 summary(dickenson.raw)
 ```
 
-Formatting Relevant Columns in Harlan and Dickenson County Raw Datasets
-```{r}
+```{r, include=FALSE}
 harlan.raw$year <- as.numeric(harlan.raw$year)
 harlan.raw$ARC <- as.logical(harlan.raw$ARC)
 harlan.raw$mine.status <- as.character(harlan.raw$mine.status)
@@ -115,57 +129,11 @@ dickenson.raw$labor.hours <- as.numeric(dickenson.raw$labor.hours)
 
 # Exploratory Analysis 
 
-## Visual Data Exploration of Harlan and Dickenson raw data
-```{r, fig.height = 4, fig.width = 6, echo = FALSE, fig.cap="\\label{fig:figs} Total Annual Coal Production in Harlan and Dickenson Counties"}
-exploratory.laborhours.mine <- ggplot(minedata.clean, aes(x = year, y = labor.hours, color = mine.name)) +
-  geom_point() +
-  labs(x = "Year", y = "Labor Hours", color = "Mine") +
-  xlim(2000, 2011)
-print(exploratory.laborhours)
-
-exploratory.laborhours.county <- ggplot(minedata.clean, aes(x = year, y = labor.hours, color = countystr)) +
-  geom_point() +
-  labs(x = "Year", y = "Labor Hours", color = "County") +
-  xlim(2000, 2011)
-print(exploratory.laborhours.county)
-```
-
-```{r, fig.height = 4, fig.width = 6, echo = FALSE, fig.cap="\\label{fig:figs} Total Annual Coal Production in Harlan and Dickenson Counties"}
-exploratory.employment.mine <- ggplot(minedata.clean, aes(x = year, y = total.employee, color = mine.name)) +
-  geom_point() +
-  labs(x = "Year", y = "Total Employment", color = "Mine") +
-  xlim(2000, 2011)
-print(exploratory.employment.mine)
-
-exploratory.employment.county <- ggplot(minedata.clean, aes(x = year, y = total.employee, color = countystr)) +
-  geom_point() +
-  labs(x = "Year", y = "Total Employment", color = "County") +
-  xlim(2000, 2011)
-print(exploratory.employment.county)
-```
-
-```{r, fig.height = 4, fig.width = 6, echo = FALSE, fig.cap="\\label{fig:figs} Total Annual Coal Production in Harlan and Dickenson Counties"}
-exploratory.production.mine <- ggplot(minedata.clean, aes(x = year, y = total.production, color = mine.name)) +
-  geom_point() +
-  labs(x = "Year", y = "Total Production (short tons)", color = "Mine") +
-  xlim(2000, 2011)
-print(exploratory.production.mine)
-
-exploratory.production.county <- ggplot(minedata.clean, aes(x = year, y = total.production, color = countystr)) +
-  geom_point() +
-  labs(x = "Year", y = "Total Production (short tons)", color = "County") +
-  xlim(2000, 2011)
-print(exploratory.production.county)
-```
-                     
-##Data Wrangling
-Joining Harlan and Dickenson raw data together
-```{r}
+```{r, include = FALSE, message = FALSE, warning = FALSE}
 minedata <- full_join(harlan.raw, dickenson.raw)
 ```
 
-Filtering for data relevant to research questions
-```{r}
+```{r, include=FALSE}
 harlan.clean <- harlan.raw %>%
   select(year:countystr, mine.status, operation.type, operating.company,
          production.stons:labor.hours) %>%
@@ -191,19 +159,87 @@ minedata.clean <- minedata %>%
          mean.employee = mean(average.employees), na.rm = TRUE)
 ```
 
-Save the data in the processed folder
-```{r}
+```{r, include=FALSE}
 write.csv(harlan.clean, "./Data/Processed/EIA_MineData_Harlan_Processed.csv")
 write.csv(dickenson.clean, "./Data/Processed/EIA_MineData_Dickenson_Processed.csv")
 write.csv(minedata.clean, "./Data/Processed/EIA_MineData_Combined_Processed.csv")
 ```
 
+## Visual Data Exploration of Harlan and Dickenson Data
+```{r, fig.height = 10, fig.width = 8, echo = FALSE, message = FALSE, warning = FALSE,fig.cap="\\label{fig:figs} Total Annual Labor Hours for Mining in Harlan and Dickenson Counties by Mine"}
+exploratory.laborhours.mine <- ggplot(minedata.clean, aes(x = year, y = labor.hours, color = mine.name)) +
+  geom_point() +
+  labs(x = "Year", y = "Labor Hours", color = "Mine") +
+  xlim(2000, 2011)
+print(exploratory.laborhours.mine)
+```
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE,fig.cap="\\label{fig:figs} Total Annual Labor Hours for Mining in Harlan and Dickenson Counties by County"}
+exploratory.laborhours.county <- ggplot(minedata.clean, aes(x = year, y = labor.hours, color = countystr)) +
+  geom_point() +
+  labs(x = "Year", y = "Labor Hours", color = "County") +
+  xlim(2000, 2011)
+print(exploratory.laborhours.county)
+```
+
+```{r, fig.height = 10, fig.width = 8, echo = FALSE, message = FALSE, warning = FALSE,fig.cap="\\label{fig:figs} Total Annual Coal Employment in Harlan and Dickenson Counties by Mine"}
+exploratory.employment.mine <- ggplot(minedata.clean, aes(x = year, y = total.employee, color = mine.name)) +
+  geom_point() +
+  labs(x = "Year", y = "Total Employment", color = "Mine") +
+  xlim(2000, 2011)
+print(exploratory.employment.mine)
+```
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE,fig.cap="\\label{fig:figs} Total Annual Coal Employment in Harlan and Dickenson Counties by County"}
+exploratory.employment.county <- ggplot(minedata.clean, aes(x = year, y = total.employee, color = countystr)) +
+  geom_point() +
+  labs(x = "Year", y = "Total Employment", color = "County") +
+  xlim(2000, 2011)
+print(exploratory.employment.county)
+```
+
+```{r, fig.height = 10, fig.width = 8, echo = FALSE, message = FALSE, warning = FALSE, fig.cap="\\label{fig:figs} Total Annual Coal Production in Harlan and Dickenson Counties by Mine"}
+exploratory.production.mine <- ggplot(minedata.clean, aes(x = year, y = total.production, color = mine.name)) +
+  geom_point() +
+  labs(x = "Year", y = "Total Production (short tons)", color = "Mine") +
+  xlim(2000, 2011)
+print(exploratory.production.mine)
+```
+
+``````{r, echo = FALSE, message = FALSE, warning = FALSE, fig.cap="\\label{fig:figs} Total Annual Coal Production in Harlan and Dickenson Counties by County"}
+exploratory.production.county <- ggplot(minedata.clean, aes(x = year, y = total.production, color = countystr)) +
+  geom_point() +
+  labs(x = "Year", y = "Total Production (short tons)", color = "County") +
+  xlim(2000, 2011)
+print(exploratory.production.county)
+```
+
+```{r, fig.height = 10, fig.width = 8, echo = FALSE, message = FALSE, warning = FALSE, fig.cap="\\label{fig:figs} Total Annual Coal Production versus Total Employment in Harlan and Dickenson Counties by Mine"}
+exploratory.production.mine <- ggplot(minedata.clean, aes(x = total.employee, y = total.production, color = mine.name)) +
+  geom_point() +
+  labs(x = "Employees", y = "Total Production (short tons)", color = "Mine")
+print(exploratory.production.mine)
+```
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, fig.cap="\\label{fig:figs} Total Annual Coal Production versus Total Employment in Harlan and Dickenson Counties by County"}
+exploratory.production.county <- ggplot(minedata.clean, aes(x = total.employee, y = total.production, color = countystr)) +
+  geom_point() +
+  labs(x = "Employees", y = "Total Production (short tons)", color = "County")
+print(exploratory.production.county)
+```                     
+
+The relationship of mines to labor hours, employment, and production across the coal sector from 2000 to 2011 does not seem to be a consistent trend, nor is it easy to visualize (Figures 1, 3, and 5). There are too many mines to determine any sort of relationship; furthermore, whether a mine is from a boom-bust or bust-bust county is indeterminable in these visualizations (Figures 1, 3., and 5). However, mine data for employees related to production shows the most promise for a significant correlation at the mine level; however, since this project focuses on coal counties, this correlation is not especially relevant to the research question (Figure 7).
+
+On the other hand, the exploratory graphs indicate that there are strong trends in the county-wide data (Figures 2, 4, and 6). Labor hours are greater than in Harlan than Dickenson on the whole, but do not seem to display a steady trend through the years (Figure 2). What's interesting is Harlan appears to have substaintal fluctuations in production through the years, decreasing quickly in 2002, while Dickenson steadily declined (Figure 6). Employment seems to follow similar trends for both counties, but not as drastically (Figure 4). Like the mine level data, both counties seem to have a strong correlation for employees with total production (Figure 8).
+
 \newpage
 
 # Analysis
 
-## Question 1: Is the total number of employees for all mines in a boom-bust or a bust-bust county in the years 2000 to 2011 a significant predictor of annual coal production for all mines?
-```{r, fig.height = 4, fig.width = 6, echo = FALSE, fig.cap="\\label{fig:figs} Total Annual Coal Production in Harlan and Dickenson Counties"}
+## What is the relationship between coal production and number of employees in coal mines in Harlan and Dickenson Counties?
+
+## How does coal production differ between all mines in Harlan County compared to Dickenson County?
+```{r, fig.height = 4, fig.width = 6, echo = FALSE, message = FALSE, warning = FALSE, fig.cap="\\label{fig:figs} Total Annual Coal Production in Harlan and Dickenson Counties"}
 ton <- ggplot(minedata.clean, aes(x = year, y = total.production, color =
                                               countystr)) +
   geom_line() +
@@ -214,7 +250,9 @@ ton <- ggplot(minedata.clean, aes(x = year, y = total.production, color =
 print(ton)
 ggsave("./Output/AnnualProudction.jpg", ton, height = 4, width = 6, dpi = 300)
 ```
-```{r, fig.height = 4, fig.width = 6, echo = FALSE, fig.cap="\\label{fig:figs} Total Number of Employees in Harlan and Dickenson County Mines, 2000 to 2011"}
+
+## How does the number of employees in the mines of Harlan County compare to Dickenson County?
+```{r, fig.height = 4, fig.width = 6, echo = FALSE, message = FALSE, warning = FALSE, fig.cap="\\label{fig:figs} Total Number of Employees in Harlan and Dickenson County Mines, 2000 to 2011"}
 employee <- ggplot(minedata.clean, aes(x = year, y = total.employee, color = countystr)) +
   geom_line() +
   labs(x = "Year", y = "Total Employed", color = "County") +
@@ -225,7 +263,8 @@ print(employee)
 ggsave("./Output/AnnualEmployment.jpg", employee, height = 4, width = 6, dpi = 300)
 ```
 
-```{r, fig.height = 4, fig.width = 6, echo = FALSE, message = FALSE, warning = FALSE, fig.cap="\\label{fig:figs} Annual Coal Production Compared to Total Employees in Harlan and Dickenson Counties, 2000 to 2011 (ANOVA; Harlan: df = 288, F = 197.2, p-value < 0.001; Dickenson: df = 105, F = 276.6, p-value < 0.001)"}
+## Is the total number of employees for all mines in a boom-bust and a bust-bust county in the years 2000 to 2011 a significant predictor of annual coal production for all mines?
+```{r, fig.height = 4, fig.width = 6, echo = FALSE, message = FALSE, warning = FALSE, fig.cap="\\label{fig:figs} Annual Coal Production Compared to Total Employees in Harlan and Dickenson Counties, 2000 to 2011"}
 production.employed.plot <- ggplot(minedata.clean, aes(x = total.employee, y = total.production, color = countystr)) +
   geom_point() +
   labs(x = "Employees", y = "Annual Coal Production (short tons)", color = "County") +
@@ -240,18 +279,30 @@ summary(harlan.anova)
 dickenson.anova <- aov(data = dickenson.clean, total.production ~ total.employee)
 summary(dickenson.anova)
 ```
-Harlan County, Kentucky produced a much greater amount of coal than Dickenson County, Virginia throughout the early twenty-first century (Figure 1). This divergence is to be expected with Harlan being boom-bust and Dickenson being bust-bust for coal production 2000 to 2011. However, Harlan County experienced a variable production amount from year to year, which is consistent with historical coal production in the twentieth century (EIA, 2016). Dickenson County, on the other hand, experienced a steady decline in coal production since 2000 (Figure 1). 
 
-Surprisingly, Dickenson also experienced a small increase in coal employment in 2009 even though there is no coal production increase during that same time period (Figure 1 and Figure 2). As such, it becomes essential to question if mine production is an accurate predictor of mine employment. If so, coal production could be correlated to migration from an area based on employment. 
+Harlan County, Kentucky produced a much greater amount of coal and employed more people than Dickenson County, Virginia throughout the early twenty-first century (Figure 9 and Figure 10). This divergence is to be expected with Harlan being boom-bust and Dickenson being bust-bust for coal production 2000 to 2011. 
 
-Although Harlan had more employees and coal production overall than Dickenson, coal production significantly impacts the number of employees in mining for both counties (ANOVA; Harlan: df = 288, F = 197.2, p-value < 0.001; Dickenson: df = 105, F = 276.6, p-value < 0.001)
+However, Harlan County experienced a variable production amount from year to year, which is consistent with historical coal production in the twentieth century (EIA, 2016). Dickenson County, on the other hand, experienced a steady decline in coal production since 2000 (Figure 9). 
+
+Surprisingly, Dickenson also experienced a small increase in coal employment in 2009 even though there is no coal production increase during that same time period (Figure 9 and Figure 10). As such, it becomes essential to question if mine production is an accurate predictor of mine employment. If so, coal production could be correlated to migration from an area based on employment. 
+
+Although Harlan had more employees and coal production overall than Dickenson, coal production significantly impacts the number of employees in mining for both counties (Figure 11; ANOVA; Harlan: df = 288, F = 197.2, p-value < 0.001; Dickenson: df = 105, F = 276.6, p-value < 0.001). 
 
 \newpage
 
 # Summary and Conclusions
 
+Although Harlan and Dickenson counties are both "coal counties" within the scope of this research, Harlan experienced a boom in coal production in 2000 but a bust in 2010. Dickenson steadidly decreased in that same time period. However, Harlan had variable coal production and employment, exhibiting smaller boom-bust cycles within the decade.
+
+Most importantly, both counties' coal production signficantly correlated with employment in coal mines. Intuitively, this makes sense, as lower production means less money means less available jobs. 
+
+Finally, the correlation between production and employment could be important for migratory trends in Appalachia. Based on the data in this research, their are less emplyment opportunities in coal mine with less coal production. As such, residents of Appalachia may leave the region in search of jobs as the energy sector slowly transitions from coal-fired power plants to forms of cleaner energy.
 
 \newpage
 
 # References
+EIA. (2020). **Annual Survey of Coal Production and Preparation; Form EIA-7A**
+https://www.eia.gov/survey/form/eia_7a/form.pdf
+
+
 EIA. (2016). **Quarterly coal production since the early 1980s**. https://www.eia.gov/todayinenergy/detail.php?id=26612
